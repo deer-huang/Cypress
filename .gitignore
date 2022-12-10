@@ -1,7 +1,6 @@
 *.YQ21900
 *.log
 *.cycdx
-*.cydwr
 *.cyfit
 *.rpt
 /Design01.cydsn/codegentemp/*
