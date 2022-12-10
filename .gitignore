@@ -1,0 +1,12 @@
+*.YQ21900
+*.log
+*.cycdx
+*.cydwr
+*.cyfit
+*.rpt
+/Design01.cydsn/codegentemp/*
+!/Design01.cydsn/codegentemp/*.h
+!/Design01.cydsn/codegentemp/*.c
+
+/.deps/
+Debug/
