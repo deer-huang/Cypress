@@ -176,17 +176,27 @@ static void ClockSetup(void)
 	CySysClkWriteImoFreq(24u);
 
 	/* Setup phase aligned clocks */
-	CY_SET_REG32((void *)CYREG_PERI_DIV_16_CTL0, 0x00000B00u);
+	CY_SET_REG32((void *)CYREG_PERI_DIV_16_CTL2, 0x00000B00u);
+	CY_SET_REG32((void *)CYREG_PERI_DIV_CMD, 0x8000FF42u);
+	CY_SET_REG32((void *)CYREG_PERI_DIV_16_CTL0, 0x0000FE00u);
 	CY_SET_REG32((void *)CYREG_PERI_DIV_CMD, 0x8000FF40u);
+	CY_SET_REG32((void *)CYREG_PERI_DIV_16_CTL1, 0x00000200u);
+	CY_SET_REG32((void *)CYREG_PERI_DIV_CMD, 0x8000FF41u);
 
 	/* CYDEV_CLK_SELECT Starting address: CYDEV_CLK_SELECT */
 	CY_SET_REG32((void *)(CYREG_CLK_SELECT), 0x00000000u);
 
 	/* CYDEV_PERI_PCLK_CTL9 Starting address: CYDEV_PERI_PCLK_CTL9 */
-	CY_SET_REG32((void *)(CYREG_PERI_PCLK_CTL9), 0x00000040u);
+	CY_SET_REG32((void *)(CYREG_PERI_PCLK_CTL9), 0x00000042u);
 
 	/* CYDEV_PERI_PCLK_CTL8 Starting address: CYDEV_PERI_PCLK_CTL8 */
-	CY_SET_REG32((void *)(CYREG_PERI_PCLK_CTL8), 0x00000040u);
+	CY_SET_REG32((void *)(CYREG_PERI_PCLK_CTL8), 0x00000042u);
+
+	/* CYDEV_PERI_PCLK_CTL5 Starting address: CYDEV_PERI_PCLK_CTL5 */
+	CY_SET_REG32((void *)(CYREG_PERI_PCLK_CTL5), 0x00000040u);
+
+	/* CYDEV_PERI_PCLK_CTL0 Starting address: CYDEV_PERI_PCLK_CTL0 */
+	CY_SET_REG32((void *)(CYREG_PERI_PCLK_CTL0), 0x00000041u);
 
 	(void)CyIntSetVector(13u, &CySysTimerIsr);
 	CyIntEnable(13u);
@@ -218,8 +228,52 @@ static void ClockSetup(void)
 static void AnalogSetDefault(void);
 static void AnalogSetDefault(void)
 {
+	CY_SET_XTND_REG32((void CYFAR *)CYREG_CSD_SW_BYP_SEL, 0x00001000u);
+	CY_SET_XTND_REG32((void CYFAR *)CYREG_CSD_SW_DSI_SEL, 0x00000011u);
 	CY_SET_XTND_REG32((void CYFAR *)CYREG_CTBM0_DFT_CTRL, 0x00000003u);
 	CY_SET_XTND_REG32((void CYFAR *)CYREG_PASS_DSAB_DSAB_CTRL, 0x00000020u);
+	SetAnalogRoutingPumps(1);
+}
+
+
+/*******************************************************************************
+* Function Name: SetAnalogRoutingPumps
+********************************************************************************
+*
+* Summary:
+* Enables or disables the analog pumps feeding analog routing switches.
+* Intended to be called at startup, based on the Vdda system configuration;
+* may be called during operation when the user informs us that the Vdda voltage crossed the pump threshold.
+*
+* Parameters:
+*  enabled - 1 to enable the pumps, 0 to disable the pumps
+*
+* Return:
+*  void
+*
+*******************************************************************************/
+void SetAnalogRoutingPumps(uint8 enabled)
+{
+	uint32 regValue = CY_GET_XTND_REG32((void *)(CYREG_SAR_PUMP_CTRL));
+	if (enabled != 0u)
+	{
+		regValue |= 0x80000000u;
+	}
+	else
+	{
+		regValue &= ~0x80000000u;
+	}
+	CY_SET_XTND_REG32((void *)(CYREG_SAR_PUMP_CTRL), regValue);
+	regValue = CY_GET_XTND_REG32((void *)(CYREG_CLK_SELECT));
+	if (enabled != 0u)
+	{
+		regValue |= 0x00000020u;
+	}
+	else
+	{
+		regValue &= ~0x00000020u;
+	}
+	CY_SET_XTND_REG32((void *)(CYREG_CLK_SELECT), regValue);
 }
 
 
@@ -249,18 +303,31 @@ void cyfitter_cfg(void)
 
 	{
 		/* HSIOM Starting address: CYDEV_HSIOM_BASE */
-		CY_SET_REG32((void *)(CYREG_HSIOM_PORT_SEL3), 0x8080EE00u);
+		CY_SET_REG32((void *)(CYREG_HSIOM_PORT_SEL1), 0x000000EEu);
+		CY_SET_REG32((void *)(CYREG_HSIOM_PORT_SEL3), 0x8080EE60u);
+		CY_SET_REG32((void *)(CYREG_HSIOM_PORT_SEL7), 0x00000006u);
 
 	}
 
 	/* Perform second pass device configuration. These items must be configured in specific order after the regular configuration is done. */
+	/* IOPINS0_1 Starting address: CYDEV_GPIO_PRT1_BASE */
+	CY_SET_REG32((void *)(CYDEV_GPIO_PRT1_BASE), 0x00000003u);
+	CY_SET_REG32((void *)(CYREG_GPIO_PRT1_PC), 0x00000024u);
+
 	/* IOPINS0_3 Starting address: CYDEV_GPIO_PRT3_BASE */
 	CY_SET_REG32((void *)(CYDEV_GPIO_PRT3_BASE), 0x00000010u);
 	CY_SET_REG32((void *)(CYREG_GPIO_PRT3_PC), 0x00006D80u);
+	CY_SET_REG32((void *)(CYREG_GPIO_PRT3_PC2), 0x00000002u);
+
+	/* IOPINS0_4 Starting address: CYDEV_GPIO_PRT4_BASE */
+	CY_SET_REG32((void *)(CYREG_GPIO_PRT4_PC2), 0x0000000Cu);
 
 	/* IOPINS0_5 Starting address: CYDEV_GPIO_PRT5_BASE */
 	CY_SET_REG32((void *)(CYDEV_GPIO_PRT5_BASE), 0x00000080u);
 	CY_SET_REG32((void *)(CYREG_GPIO_PRT5_PC), 0x00C00000u);
+
+	/* IOPINS0_7 Starting address: CYDEV_GPIO_PRT7_BASE */
+	CY_SET_REG32((void *)(CYREG_GPIO_PRT7_PC2), 0x00000001u);
 
 
 	/* Setup clocks based on selections from Clock DWR */
