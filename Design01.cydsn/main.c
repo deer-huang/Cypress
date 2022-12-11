@@ -18,6 +18,10 @@ int main(void)
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
     Pin_13_Write(0x00);
     
+    PWM_1_Start();
+    PWM_2_Start();
+    
+    SmartIO_1_Start();
     for(;;)
     {
         /* Place your application code here. */
