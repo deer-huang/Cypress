@@ -20,6 +20,8 @@
 #include "cydisabledsheets.h"
 #include "Pin_13.h"
 #include "Pin_13_aliases.h"
+#include "PWM_1.h"
+#include "Clock_1.h"
 #include "CyFlash.h"
 #include "CyLib.h"
 #include "cyPm.h"
