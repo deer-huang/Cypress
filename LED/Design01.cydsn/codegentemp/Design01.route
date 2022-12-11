@@ -1,0 +1,18 @@
+net Net_13
+	term   ":m0s8tcpwmcell_2.line_compl"
+	switch ":m0s8tcpwmcell_2.line_compl==>:ioport3:hsiom_out5.fixed_ACT_0"
+	switch ":ioport3:hsiom_out5.hsiom5_out==>:ioport3:smartio.data5_i"
+	term   ":ioport3:smartio.data5_i"
+end Net_13
+net Net_92
+	term   ":m0s8tcpwmcell_3.line_compl"
+	switch ":m0s8tcpwmcell_3.line_compl==>:ioport3:hsiom_out7.fixed_ACT_0"
+	switch ":ioport3:hsiom_out7.hsiom7_out==>:ioport3:smartio.data7_i"
+	term   ":ioport3:smartio.data7_i"
+end Net_92
+net Net_99
+	term   ":ioport3:smartio.gpio4_o"
+	switch ":ioport3:smartio.gpio4_o==>:ioport3:smartio_mux_in4.smartio_out"
+	switch ":ioport3:smartio_mux_in4.smartio_mux_in==>:ioport3:pin4.pin_input"
+	term   ":ioport3:pin4.pin_input"
+end Net_99
