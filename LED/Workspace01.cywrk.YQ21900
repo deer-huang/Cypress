@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Workspace01</v>
+<v>Workspace01\Design01</v>
+<v>Workspace01\Design01\TopDesign</v>
+<v>Workspace01\Design01\Design01.cydwr</v>
+<v>Workspace01\Design01\Design01.cydwr\Pins</v>
+<v>Workspace01\Design01\Design01.cydwr\Analog</v>
+<v>Workspace01\Design01\Design01.cydwr\Clocks</v>
+<v>Workspace01\Design01\Design01.cydwr\Interrupts</v>
+<v>Workspace01\Design01\Design01.cydwr\System</v>
+<v>Workspace01\Design01\Design01.cydwr\Directives</v>
+<v>Workspace01\Design01\Design01.cydwr\Flash Security</v>
+<v>Workspace01\Design01\Header Files</v>
+<v>Workspace01\Design01\Header Files\cyapicallbacks.h</v>
+<v>Workspace01\Design01\Source Files</v>
+<v>Workspace01\Design01\Source Files\main.c</v>
+<v>Workspace01\Design01\Generated_Source</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Workspace01</v>
+<v>Workspace01\Design01</v>
+<v>Workspace01\Design01\TopDesign</v>
+<v>Workspace01\Design01\Design01.cydwr</v>
+<v>Workspace01\Design01\Design01.cydwr\Pins</v>
+<v>Workspace01\Design01\Design01.cydwr\Analog</v>
+<v>Workspace01\Design01\Design01.cydwr\Clocks</v>
+<v>Workspace01\Design01\Design01.cydwr\Interrupts</v>
+<v>Workspace01\Design01\Design01.cydwr\System</v>
+<v>Workspace01\Design01\Design01.cydwr\Directives</v>
+<v>Workspace01\Design01\Design01.cydwr\Flash Security</v>
+<v>Workspace01\Design01\Header Files</v>
+<v>Workspace01\Design01\Header Files\cyapicallbacks.h</v>
+<v>Workspace01\Design01\Source Files</v>
+<v>Workspace01\Design01\Source Files\main.c</v>
+<v>Workspace01\Design01\Generated_Source</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\Clock_1</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\cy_boot</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\cy_dmac</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\cy_lfclk</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\Em_EEPROM_Dynamic</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\LED_1</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\Pin_13</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\PWM_1</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\PWM_2</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\SmartIO_1</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\cycodeshareexport.ld</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\cycodeshareimport.ld</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\cycodeshareimport.scat</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\cydevice_trm.h</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\cydevicegnu_trm.inc</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\cydeviceiar_trm.inc</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\cydevicerv_trm.inc</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\cydisabledsheets.h</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Workspace01</v>
+<v>Workspace01\Design01</v>
+<v>Workspace01\Design01\TopDesign</v>
+<v>Workspace01\Design01\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Workspace01</v>
+<v>Workspace01\Design01</v>
+<v>Workspace01\Design01\TopDesign</v>
+<v>Workspace01\Design01\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Workspace01</v>
+<v>Workspace01\Design01</v>
+<v>Workspace01\Design01\Design01.gpdsc</v>
+<v>Workspace01\Design01\Design01.rpt</v>
+<v>Workspace01\Design01\Design01_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Workspace01</v>
+<v>Workspace01\Design01</v>
+<v>Workspace01\Design01\Design01.rpt</v>
+<v>Workspace01\Design01\Design01_timing.html</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>Workspace01</v>
+<v>Workspace01\Design01</v>
+<v>Workspace01\Design01\PSoC 4 Architecture TRM</v>
+<v>Workspace01\Design01\System Reference Guides</v>
+<v>Workspace01\Design01\System Reference Guides\cy_boot_v6_0</v>
+<v>Workspace01\Design01\System Reference Guides\cy_dmac_v1_10</v>
+<v>Workspace01\Design01\System Reference Guides\cy_lfclk_v1_20</v>
+<v>Workspace01\Design01\cy_clock_v2_20.pdf</v>
+<v>Workspace01\Design01\cy_pins_v2_20</v>
+<v>Workspace01\Design01\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Workspace01\Design01\LED_v1_0.pdf</v>
+<v>Workspace01\Design01\Power_v1_0.pdf</v>
+<v>Workspace01\Design01\Resistor_v1_0.pdf</v>
+<v>Workspace01\Design01\SmartIO_v1_10.pdf</v>
+<v>Workspace01\Design01\TCPWM_P4_v2_10</v>
+<v>Workspace01\Design01\TCPWM_P4_v2_10\TCPWM_P4_v2_10.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>Workspace01</v>
+<v>Workspace01\Design01</v>
+<v>Workspace01\Design01\PSoC 4 Architecture TRM</v>
+<v>Workspace01\Design01\System Reference Guides</v>
+<v>Workspace01\Design01\System Reference Guides\cy_boot_v6_0</v>
+<v>Workspace01\Design01\System Reference Guides\cy_dmac_v1_10</v>
+<v>Workspace01\Design01\System Reference Guides\cy_lfclk_v1_20</v>
+<v>Workspace01\Design01\cy_clock_v2_20.pdf</v>
+<v>Workspace01\Design01\cy_pins_v2_20</v>
+<v>Workspace01\Design01\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Workspace01\Design01\LED_v1_0.pdf</v>
+<v>Workspace01\Design01\Power_v1_0.pdf</v>
+<v>Workspace01\Design01\Resistor_v1_0.pdf</v>
+<v>Workspace01\Design01\SmartIO_v1_10.pdf</v>
+<v>Workspace01\Design01\TCPWM_P4_v2_10</v>
+<v>Workspace01\Design01\TCPWM_P4_v2_10\TCPWM_P4_v2_10.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs />
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1171, 479" SelectedTabbedMdiWindow="ec1777ab-da4a-4f0a-9506-04ee8cbc09f6"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="ec1777ab-da4a-4f0a-9506-04ee8cbc09f6" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>

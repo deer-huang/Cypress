@@ -1,0 +1,7 @@
+D:\Learn\Cypress\Light\Workspace01\LED\Design01.cydsn\Design01.cyprj|de698264-2960-4ef6-b69d-2a6f41c8a6d4
+E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|a0cf0f23-18e4-4cf8-9f76-bd7c8569ea1c
+C:\Users\yq21900\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|e8f598ab-53e0-47e8-8746-00652844a05a
+C:\Users\yq21900\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|df4d70f7-91d8-4b19-9f26-6fe97c8394f3
+E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|830063e6-ed99-459f-88fc-45e519b89cff
+E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|805d9336-dc2a-44fe-a0b1-136b6a0d7311
+E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|764e5140-7ce0-4b85-afa9-e39bac4c7a0d
