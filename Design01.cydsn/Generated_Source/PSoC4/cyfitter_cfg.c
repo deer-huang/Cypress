@@ -182,8 +182,11 @@ static void ClockSetup(void)
 	/* CYDEV_CLK_SELECT Starting address: CYDEV_CLK_SELECT */
 	CY_SET_REG32((void *)(CYREG_CLK_SELECT), 0x00000000u);
 
-	/* CYDEV_PERI_PCLK_CTL6 Starting address: CYDEV_PERI_PCLK_CTL6 */
-	CY_SET_REG32((void *)(CYREG_PERI_PCLK_CTL6), 0x00000040u);
+	/* CYDEV_PERI_PCLK_CTL9 Starting address: CYDEV_PERI_PCLK_CTL9 */
+	CY_SET_REG32((void *)(CYREG_PERI_PCLK_CTL9), 0x00000040u);
+
+	/* CYDEV_PERI_PCLK_CTL8 Starting address: CYDEV_PERI_PCLK_CTL8 */
+	CY_SET_REG32((void *)(CYREG_PERI_PCLK_CTL8), 0x00000040u);
 
 	(void)CyIntSetVector(13u, &CySysTimerIsr);
 	CyIntEnable(13u);
@@ -246,13 +249,14 @@ void cyfitter_cfg(void)
 
 	{
 		/* HSIOM Starting address: CYDEV_HSIOM_BASE */
-		CY_SET_REG32((void *)(CYREG_HSIOM_PORT_SEL3), 0x0000EE00u);
+		CY_SET_REG32((void *)(CYREG_HSIOM_PORT_SEL3), 0x8080EE00u);
 
 	}
 
 	/* Perform second pass device configuration. These items must be configured in specific order after the regular configuration is done. */
 	/* IOPINS0_3 Starting address: CYDEV_GPIO_PRT3_BASE */
-	CY_SET_REG32((void *)(CYREG_GPIO_PRT3_PC), 0x00000D80u);
+	CY_SET_REG32((void *)(CYDEV_GPIO_PRT3_BASE), 0x00000010u);
+	CY_SET_REG32((void *)(CYREG_GPIO_PRT3_PC), 0x00006D80u);
 
 	/* IOPINS0_5 Starting address: CYDEV_GPIO_PRT5_BASE */
 	CY_SET_REG32((void *)(CYDEV_GPIO_PRT5_BASE), 0x00000080u);
