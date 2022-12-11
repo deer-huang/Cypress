@@ -1,5 +1,5 @@
 -- Project:   Design01
--- Generated: 12/11/2022 15:24:28
+-- Generated: 12/11/2022 15:39:18
 -- PSoC Creator  4.4
 
 ENTITY Design01 IS
@@ -104,10 +104,12 @@ ARCHITECTURE __DEFAULT__ OF Design01 IS
     ATTRIBUTE Location OF ClockGenBlock : LABEL IS "F(CLK_GEN,0)";
     ATTRIBUTE Location OF Pin_13(0) : LABEL IS "P5[7]";
     ATTRIBUTE Location OF LED_1(0) : LABEL IS "P3[4]";
-    ATTRIBUTE Location OF \CapSense_1:Rx(0)\ : LABEL IS "P3[1]";
+    ATTRIBUTE Location OF \CapSense_1:Rx(0)\ : LABEL IS "P4[4]";
     ATTRIBUTE Location OF \CapSense_1:CintA(0)\ : LABEL IS "P4[2]";
     ATTRIBUTE Location OF \CapSense_1:CintB(0)\ : LABEL IS "P4[3]";
-    ATTRIBUTE Location OF \CapSense_1:Tx(0)\ : LABEL IS "P7[0]";
+    ATTRIBUTE Location OF \CapSense_1:Tx(0)\ : LABEL IS "P0[2]";
+    ATTRIBUTE Location OF \EZI2C_1:sda(0)\ : LABEL IS "P3[1]";
+    ATTRIBUTE Location OF \EZI2C_1:scl(0)\ : LABEL IS "P3[0]";
     ATTRIBUTE Location OF \SmartIO_1:cy_m0s8_prgio\ : LABEL IS "F(SmartIO,3)";
     ATTRIBUTE Location OF \CapSense_1:CSD\ : LABEL IS "F(CSD,0)";
     ATTRIBUTE Location OF \CapSense_1:IDACMod\ : LABEL IS "F(CSIDAC7,0)";

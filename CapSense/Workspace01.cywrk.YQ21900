@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Workspace01\Design01\TopDesign">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Workspace01\Design01\Generated_Source\PSoC4\CapSense_1\CapSense_1_Control.h">
 <ExpandedNodeIds>
 <v>Workspace01</v>
 <v>Workspace01\Design01</v>
@@ -32,6 +32,7 @@
 <v>Workspace01\Design01\Source Files\main.c</v>
 <v>Workspace01\Design01\Generated_Source</v>
 <v>Workspace01\Design01\Generated_Source\PSoC4</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\CapSense_1</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>Workspace01</v>
@@ -52,6 +53,23 @@
 <v>Workspace01\Design01\Generated_Source</v>
 <v>Workspace01\Design01\Generated_Source\PSoC4</v>
 <v>Workspace01\Design01\Generated_Source\PSoC4\CapSense_1</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\CapSense_1\CapSense_1.h</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\CapSense_1\CapSense_1_Configuration.h</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\CapSense_1\CapSense_1_Control.c</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\CapSense_1\CapSense_1_Control.h</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\CapSense_1\CapSense_1_Filter.c</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\CapSense_1\CapSense_1_Filter.h</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\CapSense_1\CapSense_1_Processing.c</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\CapSense_1\CapSense_1_Processing.h</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\CapSense_1\CapSense_1_RegisterMap.h</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\CapSense_1\CapSense_1_Sensing.c</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\CapSense_1\CapSense_1_Sensing.h</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\CapSense_1\CapSense_1_SensingCSX_LL.c</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\CapSense_1\CapSense_1_SensingCSX_LL.h</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\CapSense_1\CapSense_1_Structure.c</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\CapSense_1\CapSense_1_Structure.h</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\CapSense_1\CapSense_1_Tuner.c</v>
+<v>Workspace01\Design01\Generated_Source\PSoC4\CapSense_1\CapSense_1_Tuner.h</v>
 <v>Workspace01\Design01\Generated_Source\PSoC4\CapSense_1_ISR</v>
 <v>Workspace01\Design01\Generated_Source\PSoC4\Clock_1</v>
 <v>Workspace01\Design01\Generated_Source\PSoC4\cy_boot</v>
@@ -64,23 +82,6 @@
 <v>Workspace01\Design01\Generated_Source\PSoC4\EZI2C_1_scl</v>
 <v>Workspace01\Design01\Generated_Source\PSoC4\EZI2C_1_sda</v>
 <v>Workspace01\Design01\Generated_Source\PSoC4\LED_1</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\Pin_13</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\PWM_1</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\PWM_2</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\SmartIO_1</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\cycodeshareexport.ld</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\cycodeshareimport.ld</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\cycodeshareimport.scat</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\cydevice_trm.h</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\cydevicegnu_trm.inc</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\cydeviceiar_trm.inc</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\cydevicerv_trm.inc</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\cydisabledsheets.h</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\cyfitter.h</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\cyfitter_cfg.c</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\cyfitter_cfg.h</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\cyfittergnu.inc</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\cyfitteriar.inc</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -157,51 +158,6 @@
 <VisibleNodeIds>
 <v>Workspace01</v>
 <v>Workspace01\Design01</v>
-<v>Workspace01\Design01\CortexM0p</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_1_Control.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_1_Filter.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_1_ISR.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_1_Processing.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_1_Sensing.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_1_SensingCSX_LL.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_1_Structure.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_1_Tuner.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\Cm0plusStart.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\CyDMA.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_1.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_1_BOOT.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_1_EZI2C.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_1_EZI2C_BOOT.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_1_EZI2C_INT.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_1_PM.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_1_SCB_IRQ.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_1_SCBCLK.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_1_scl.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_1_scl_PM.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_1_sda.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_1_sda_PM.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\LED_1.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\LED_1_PM.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\main.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\Pin_13.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\Pin_13_PM.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\PWM_1.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\PWM_1_PM.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\PWM_2.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\PWM_2_PM.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>

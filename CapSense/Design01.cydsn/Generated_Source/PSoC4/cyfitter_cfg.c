@@ -195,8 +195,8 @@ static void ClockSetup(void)
 	/* CYDEV_PERI_PCLK_CTL5 Starting address: CYDEV_PERI_PCLK_CTL5 */
 	CY_SET_REG32((void *)(CYREG_PERI_PCLK_CTL5), 0x00000040u);
 
-	/* CYDEV_PERI_PCLK_CTL0 Starting address: CYDEV_PERI_PCLK_CTL0 */
-	CY_SET_REG32((void *)(CYREG_PERI_PCLK_CTL0), 0x00000041u);
+	/* CYDEV_PERI_PCLK_CTL1 Starting address: CYDEV_PERI_PCLK_CTL1 */
+	CY_SET_REG32((void *)(CYREG_PERI_PCLK_CTL1), 0x00000041u);
 
 	(void)CyIntSetVector(13u, &CySysTimerIsr);
 	CyIntEnable(13u);
@@ -303,31 +303,26 @@ void cyfitter_cfg(void)
 
 	{
 		/* HSIOM Starting address: CYDEV_HSIOM_BASE */
-		CY_SET_REG32((void *)(CYREG_HSIOM_PORT_SEL1), 0x000000EEu);
-		CY_SET_REG32((void *)(CYREG_HSIOM_PORT_SEL3), 0x8080EE60u);
-		CY_SET_REG32((void *)(CYREG_HSIOM_PORT_SEL7), 0x00000006u);
+		CY_SET_REG32((void *)(CYDEV_HSIOM_BASE), 0x00000600u);
+		CY_SET_REG32((void *)(CYREG_HSIOM_PORT_SEL3), 0x8080EEEEu);
+		CY_SET_REG32((void *)(CYREG_HSIOM_PORT_SEL4), 0x00060000u);
 
 	}
 
 	/* Perform second pass device configuration. These items must be configured in specific order after the regular configuration is done. */
-	/* IOPINS0_1 Starting address: CYDEV_GPIO_PRT1_BASE */
-	CY_SET_REG32((void *)(CYDEV_GPIO_PRT1_BASE), 0x00000003u);
-	CY_SET_REG32((void *)(CYREG_GPIO_PRT1_PC), 0x00000024u);
+	/* IOPINS0_0 Starting address: CYDEV_GPIO_PRT0_BASE */
+	CY_SET_REG32((void *)(CYREG_GPIO_PRT0_PC2), 0x00000004u);
 
 	/* IOPINS0_3 Starting address: CYDEV_GPIO_PRT3_BASE */
-	CY_SET_REG32((void *)(CYDEV_GPIO_PRT3_BASE), 0x00000010u);
-	CY_SET_REG32((void *)(CYREG_GPIO_PRT3_PC), 0x00006D80u);
-	CY_SET_REG32((void *)(CYREG_GPIO_PRT3_PC2), 0x00000002u);
+	CY_SET_REG32((void *)(CYDEV_GPIO_PRT3_BASE), 0x00000013u);
+	CY_SET_REG32((void *)(CYREG_GPIO_PRT3_PC), 0x00006DA4u);
 
 	/* IOPINS0_4 Starting address: CYDEV_GPIO_PRT4_BASE */
-	CY_SET_REG32((void *)(CYREG_GPIO_PRT4_PC2), 0x0000000Cu);
+	CY_SET_REG32((void *)(CYREG_GPIO_PRT4_PC2), 0x0000001Cu);
 
 	/* IOPINS0_5 Starting address: CYDEV_GPIO_PRT5_BASE */
 	CY_SET_REG32((void *)(CYDEV_GPIO_PRT5_BASE), 0x00000080u);
 	CY_SET_REG32((void *)(CYREG_GPIO_PRT5_PC), 0x00C00000u);
-
-	/* IOPINS0_7 Starting address: CYDEV_GPIO_PRT7_BASE */
-	CY_SET_REG32((void *)(CYREG_GPIO_PRT7_PC2), 0x00000001u);
 
 
 	/* Setup clocks based on selections from Clock DWR */
