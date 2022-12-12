@@ -212,6 +212,13 @@ typedef struct
     CapSense_1_LOW_BSLN_RST_TYPE lowBslnRst;
 
     /**
+     *  Sets the current of the modulation IDAC for the widgets. 
+     *  For the CSD Touchpad and Matrix Button widgets, sets 
+     *  the current of the modulation IDAC for the column sensors.
+     */
+    uint8  idacMod [CapSense_1_NUM_SCAN_FREQS];
+
+    /**
      *  The index of the IDAC gain in the IDAC gain table structure for the widgets.
      */
     uint8  idacGainIndex;
@@ -228,6 +235,17 @@ typedef struct
      *  Register for internal use
      */
     uint8  snsClkSource;
+
+    /**
+     *  Widget Finger capacitance parameter. Available only if the 
+     *  SmartSense is enabled. Not used for the CSX/ISX Widgets.
+     */
+    uint16 fingerCap;
+
+    /**
+     *  The 75% of signal per user-defined finger capacitance
+     */
+    uint16 sigPFC;
 } CapSense_1_RAM_WD_BASE_STRUCT;
 
 /***************************************************************************//**
@@ -275,6 +293,13 @@ typedef struct
     CapSense_1_LOW_BSLN_RST_TYPE lowBslnRst;
 
     /**
+     *  Sets the current of the modulation IDAC for the widgets. 
+     *  For the CSD Touchpad and Matrix Button widgets, sets 
+     *  the current of the modulation IDAC for the column sensors.
+     */
+    uint8  idacMod [CapSense_1_NUM_SCAN_FREQS];
+
+    /**
      *  The index of the IDAC gain in the IDAC gain table structure for the widgets.
      */
     uint8  idacGainIndex;
@@ -291,7 +316,104 @@ typedef struct
      *  Register for internal use
      */
     uint8  snsClkSource;
+
+    /**
+     *  Widget Finger capacitance parameter. Available only if the 
+     *  SmartSense is enabled. Not used for the CSX/ISX Widgets.
+     */
+    uint16 fingerCap;
+
+    /**
+     *  The 75% of signal per user-defined finger capacitance
+     */
+    uint16 sigPFC;
 } CapSense_1_RAM_WD_BUTTON_STRUCT;
+
+/***************************************************************************//**
+* \brief Declares RAM parameters for the Slider
+*******************************************************************************/
+typedef struct
+{
+    /**
+     *  Provides scan resolution or number of sub-conversions.
+     */
+    uint16 resolution;
+
+    /**
+     *  Widget Finger Threshold.
+     */
+    CapSense_1_THRESHOLD_TYPE fingerTh;
+
+    /**
+     *  Widget Noise Threshold.
+     */
+    uint8  noiseTh;
+
+    /**
+     *  Widget Negative Noise Threshold.
+     */
+    uint8  nNoiseTh;
+
+    /**
+     *  Widget Hysteresis for the signal crossing finger or touch/proximity 
+     *  threshold.
+     */
+    uint8  hysteresis;
+
+    /**
+     *  Widget Debounce for the signal above the finger or touch/proximity 
+     *  threshold. OFF to ON.
+     */
+    uint8  onDebounce;
+
+    /**
+     *  The widget low baseline reset count. Specifies the number of 
+     *  samples the sensor has to be below the Negative Noise 
+     *  Threshold to trigger a baseline reset.
+     */
+    CapSense_1_LOW_BSLN_RST_TYPE lowBslnRst;
+
+    /**
+     *  Sets the current of the modulation IDAC for the widgets. 
+     *  For the CSD Touchpad and Matrix Button widgets, sets 
+     *  the current of the modulation IDAC for the column sensors.
+     */
+    uint8  idacMod [CapSense_1_NUM_SCAN_FREQS];
+
+    /**
+     *  The index of the IDAC gain in the IDAC gain table structure for the widgets.
+     */
+    uint8  idacGainIndex;
+
+    /**
+     *  Specifies the sense clock divider. Present only if individual 
+     *  clock dividers are enabled. Specifies the sense clock divider 
+     *  for the Column sensors for the Matrix Buttons and Touchpad 
+     *  widgets. Sets Tx clock divider for CSX Widgets.
+     */
+    uint16 snsClk;
+
+    /**
+     *  Register for internal use
+     */
+    uint8  snsClkSource;
+
+    /**
+     *  Widget Finger capacitance parameter. Available only if the 
+     *  SmartSense is enabled. Not used for the CSX/ISX Widgets.
+     */
+    uint16 fingerCap;
+
+    /**
+     *  The 75% of signal per user-defined finger capacitance
+     */
+    uint16 sigPFC;
+
+    /**
+     *  Reports the widget position.
+     */
+    uint16 position [CapSense_1_NUM_CENTROIDS];
+} CapSense_1_RAM_WD_SLIDER_STRUCT;
 
 
 /***************************************************************************//**
@@ -303,6 +425,11 @@ typedef struct
      *  BTN2 widget RAM structure
      */
     CapSense_1_RAM_WD_BUTTON_STRUCT btn2;
+
+    /**
+     *  SLD widget RAM structure
+     */
+    CapSense_1_RAM_WD_SLIDER_STRUCT sld;
 } CapSense_1_RAM_WD_LIST_STRUCT;
 
 
@@ -353,6 +480,11 @@ typedef struct
      *  BTN2 sensors RAM structures array
      */
     CapSense_1_RAM_SNS_STRUCT btn2 [CapSense_1_BTN2_NUM_SENSORS];
+
+    /**
+     *  SLD sensors RAM structures array
+     */
+    CapSense_1_RAM_SNS_STRUCT sld  [CapSense_1_SLD_NUM_SENSORS];
 } CapSense_1_RAM_SNS_LIST_STRUCT;
 
 
@@ -430,6 +562,11 @@ typedef struct
     uint16 csd0Config;
 
     /**
+     *  The modulator clock divider for the CSD widgets.
+     */
+    uint8  modCsdClk;
+
+    /**
      *  The modulator clock divider for the CSX widgets.
      */
     uint8  modCsxClk;
@@ -463,6 +600,11 @@ typedef struct
      *  The sensor raw counts.
      */
     uint16 snrTestRawCount [CapSense_1_NUM_SCAN_FREQS];
+
+    /**
+     *  The inactive sensor connection state for the CSD sensors.
+     */
+    uint8  scanCsdISC;
 
     /**
      *  The inactive sensor connection state for the CSX sensors.
@@ -633,6 +775,12 @@ typedef struct
     uint8  wdgtType;
 
     /**
+     *  Specifies the widget sensing method that could be either 
+     *  WD_CSD_SENSE_METHOD or WD_CSX_SENSE_METHOD
+     */
+    uint8  senseMethod;
+
+    /**
      *  For CSD Button and Proximity Widgets, the number of sensors. 
      *  For CSD Slider Widget, the number of segments. 
      *  For CSD Touchpad and Matrix Button, the number of the 
@@ -649,6 +797,33 @@ typedef struct
      *  number of the Tx electrodes.
      */
     uint8  numRows;
+
+    /**
+     *  Sliders: The Linear/Angular resolution. Touchpad: The X-Axis resolution.
+     */
+    uint16 xResolution;
+
+    /**
+     *  The pre-calculated X resolution centroid multiplier used for 
+     *  the X-axis position calculation. Calculated as follows: 
+     *  RADIAL: (WD_X_RESOLUTION * 256) / WD_NUM_COLS; 
+     *  LINEAR and TOUCHPAD: (WD_X_RESOLUTION * 256) / (WD_NUM_COLS - CONFIG); 
+     *  where CONFIG is 0 or 1 depends on CentroidMultiplerMethod parameter
+     */
+    uint32 xCentroidMultiplier;
+
+    /**
+     *  The pointer to the array with the sensor noise envelope data. 
+     *  Set to the valid value only for the CSD widgets. For the CSX 
+     *  widgets this pointer is set to NULL. The pointed array is not 
+     *  part of the data structure.
+     */
+    SMARTSENSE_CSD_NOISE_ENVELOPE_STRUCT * ptr2NoiseEnvlp;
+
+    /**
+     *  The position IIR filter coefficient.
+     */
+    uint8  iirFilterCoeff;
 } CapSense_1_FLASH_WD_STRUCT;
 
 

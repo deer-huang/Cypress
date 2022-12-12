@@ -121,7 +121,7 @@
 /*******************************************************************************
 * Enabled Scan Methods
 *******************************************************************************/
-#define CapSense_1_CSD_EN                             (0u)
+#define CapSense_1_CSD_EN                             (1u)
 #define CapSense_1_CSX_EN                             (1u)
 #define CapSense_1_ISX_EN                             (0u)
 #define CapSense_1_CSD_CSX_EN                         (CapSense_1_CSD_EN && CapSense_1_CSX_EN)
@@ -141,9 +141,9 @@
 /*******************************************************************************
 * Definitions for number of widgets and sensors
 *******************************************************************************/
-#define CapSense_1_TOTAL_WIDGETS                      (1u)
-#define CapSense_1_TOTAL_CSD_WIDGETS                  (0u)
-#define CapSense_1_TOTAL_CSD_SENSORS                  (0u)
+#define CapSense_1_TOTAL_WIDGETS                      (2u)
+#define CapSense_1_TOTAL_CSD_WIDGETS                  (1u)
+#define CapSense_1_TOTAL_CSD_SENSORS                  (6u)
 #define CapSense_1_TOTAL_CSX_WIDGETS                  (1u)
 #define CapSense_1_TOTAL_ISX_WIDGETS                  (0u)
 #define CapSense_1_TOTAL_CSX_NODES                    (1u)
@@ -159,12 +159,13 @@
 /*******************************************************************************
 * Total number of scan slots (used only when dual-channel scan is enabled)
 *******************************************************************************/
-#define CapSense_1_TOTAL_SCAN_SLOTS         (2u)
+#define CapSense_1_TOTAL_SCAN_SLOTS         (8u)
 
 /*******************************************************************************
 * Defines widget IDs
 *******************************************************************************/
 #define CapSense_1_BTN2_WDGT_ID                 (0u)
+#define CapSense_1_SLD_WDGT_ID                  (1u)
 
 /*******************************************************************************
 * Defines sensor IDs
@@ -180,13 +181,21 @@
 #define CapSense_1_BTN2_RX0_ID                  (0u)
 #define CapSense_1_BTN2_TX0_ID                  (1u)
 
+/* SLD sensor names */
+#define CapSense_1_SLD_SNS0_ID                  (0u)
+#define CapSense_1_SLD_SNS1_ID                  (1u)
+#define CapSense_1_SLD_SNS2_ID                  (2u)
+#define CapSense_1_SLD_SNS3_ID                  (3u)
+#define CapSense_1_SLD_SNS4_ID                  (4u)
+#define CapSense_1_SLD_SNS5_ID                  (5u)
+
 
 
 /*******************************************************************************
 * Enabled widget types
 *******************************************************************************/
 #define CapSense_1_BUTTON_WIDGET_EN         (1u)
-#define CapSense_1_SLIDER_WIDGET_EN         (0u)
+#define CapSense_1_SLIDER_WIDGET_EN         (1u)
 #define CapSense_1_MATRIX_WIDGET_EN         (0u)
 #define CapSense_1_PROXIMITY_WIDGET_EN      (0u)
 #define CapSense_1_TOUCHPAD_WIDGET_EN       (0u)
@@ -201,12 +210,12 @@
 /*******************************************************************************
 * Centroid APIs
 *******************************************************************************/
-#define CapSense_1_CENTROID_EN              (0u)
+#define CapSense_1_CENTROID_EN              (1u)
 #define CapSense_1_TOTAL_DIPLEXED_SLIDERS   (0u)
-#define CapSense_1_TOTAL_LINEAR_SLIDERS     (0u)
+#define CapSense_1_TOTAL_LINEAR_SLIDERS     (1u)
 #define CapSense_1_TOTAL_RADIAL_SLIDERS     (0u)
 #define CapSense_1_TOTAL_TOUCHPADS          (0u)
-#define CapSense_1_MAX_CENTROID_LENGTH      (0u)
+#define CapSense_1_MAX_CENTROID_LENGTH      (6u)
 #define CapSense_1_SLIDER_MULT_METHOD       (0u)
 #define CapSense_1_TOUCHPAD_MULT_METHOD     (0u)
 
@@ -226,20 +235,20 @@
 /*******************************************************************************
 * Max number of sensors used among all the widgets
 *******************************************************************************/
-#define CapSense_1_MAX_SENSORS_PER_WIDGET   (1u)
+#define CapSense_1_MAX_SENSORS_PER_WIDGET   (6u)
 #define CapSense_1_MAX_SENSORS_PER_5X5_TOUCHPAD (1u)
 
 /*******************************************************************************
 * Total number of all used electrodes (NOT unique)
 *******************************************************************************/
-#define CapSense_1_TOTAL_ELECTRODES         (2u)
+#define CapSense_1_TOTAL_ELECTRODES         (8u)
 /* Obsolete */
 #define CapSense_1_TOTAL_SENSOR_IOS         CapSense_1_TOTAL_ELECTRODES
 
 /*******************************************************************************
 * Total number of used physical IOs (unique)
 *******************************************************************************/
-#define CapSense_1_TOTAL_IO_CNT             (2u)
+#define CapSense_1_TOTAL_IO_CNT             (8u)
 
 /*******************************************************************************
 * Array length for widget status registers
@@ -257,7 +266,7 @@
 #define CapSense_1_CSD_SS_HWTH_EN     (CapSense_1_CSD_SS_HW_EN | \
                                              CapSense_1_CSD_SS_TH_EN)
 
-#define CapSense_1_CSD_AUTOTUNE       CapSense_1_CSD_SS_DIS
+#define CapSense_1_CSD_AUTOTUNE       CapSense_1_CSD_SS_HWTH_EN
 
 
 /*******************************************************************************
@@ -535,7 +544,7 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
 *******************************************************************************/
 
 /* CSD scan method settings */
-#define CapSense_1_CSD_IDAC_AUTOCAL_EN          (0u)
+#define CapSense_1_CSD_IDAC_AUTOCAL_EN          (1u)
 #define CapSense_1_CSD_IDAC_GAIN                (CapSense_1_IDAC_GAIN_HIGH)
 #define CapSense_1_CSD_SHIELD_EN                (0u)
 #define CapSense_1_CSD_SHIELD_TANK_EN           (0u)
@@ -547,7 +556,7 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
 #define CapSense_1_CSD_SNS_CLK_SOURCE           (CapSense_1_CLK_SOURCE_PRSAUTO)
 #define CapSense_1_CSD_SNS_CLK_DIVIDER          (8u)
 #define CapSense_1_CSD_INACTIVE_SNS_CONNECTION  (CapSense_1_SNS_CONNECTION_GROUND)
-#define CapSense_1_CSD_IDAC_COMP_EN             (0u)
+#define CapSense_1_CSD_IDAC_COMP_EN             (1u)
 #define CapSense_1_CSD_IDAC_CONFIG              (CapSense_1_IDAC_SOURCING)
 #define CapSense_1_CSD_RAWCOUNT_CAL_LEVEL       (85u)
 #define CapSense_1_CSD_DUALIDAC_LEVEL           (50u)
@@ -655,7 +664,7 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
                                        || (0u != CapSense_1_ISX_IDAC_AUTOCAL_EN)) \
                                        || (0u != CapSense_1_CSD_IDAC_AUTOCAL_EN))
 /* RAM Global Parameters Definitions */
-#define CapSense_1_CONFIG_ID                    (0xE7D0u)
+#define CapSense_1_CONFIG_ID                    (0x1232u)
 #define CapSense_1_DEVICE_ID                    (0x0900u)
 #define CapSense_1_HW_CLOCK                     (0x0BB8u)
 #define CapSense_1_CSD0_CONFIG                  (0x0008u)
@@ -670,18 +679,55 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
 * BTN2 initialization values for RAM data structure
 *******************************************************************************/
 #define CapSense_1_BTN2_RESOLUTION              (100u)
-#define CapSense_1_BTN2_FINGER_TH               (100u)
+#define CapSense_1_BTN2_FINGER_TH               (500u)
 #define CapSense_1_BTN2_NOISE_TH                (40u)
 #define CapSense_1_BTN2_NNOISE_TH               (40u)
 #define CapSense_1_BTN2_HYSTERESIS              (10u)
 #define CapSense_1_BTN2_ON_DEBOUNCE             (3u)
 #define CapSense_1_BTN2_LOW_BSLN_RST            (30u)
+#define CapSense_1_BTN2_IDAC_MOD0               (32u)
 #define CapSense_1_BTN2_IDAC_GAIN_INDEX         (2u)
 #define CapSense_1_BTN2_SNS_CLK                 (80u)
 #define CapSense_1_BTN2_SNS_CLK_SOURCE          (0u)
+#define CapSense_1_BTN2_FINGER_CAP              (160u)
+#define CapSense_1_BTN2_SIGPFC                  (0u)
+
+/*******************************************************************************
+* SLD initialization values for FLASH data structure
+*******************************************************************************/
+#define CapSense_1_SLD_STATIC_CONFIG            (10241u)
+#define CapSense_1_SLD_NUM_SENSORS              (6u)
+#define CapSense_1_SLD_X_RESOLUTION             (100u)
+#define CapSense_1_SLD_X_CENT_MULT              ((CapSense_1_SLD_X_RESOLUTION * 256u) / \
+                                                 (CapSense_1_SLD_NUM_SENSORS - 1u))
+#define CapSense_1_SLD_IIR_FILTER_COEFF         (128u)
+
+/*******************************************************************************
+* SLD initialization values for RAM data structure
+*******************************************************************************/
+#define CapSense_1_SLD_RESOLUTION               (CapSense_1_RES11BIT)
+#define CapSense_1_SLD_FINGER_TH                (100u)
+#define CapSense_1_SLD_NOISE_TH                 (40u)
+#define CapSense_1_SLD_NNOISE_TH                (40u)
+#define CapSense_1_SLD_HYSTERESIS               (10u)
+#define CapSense_1_SLD_ON_DEBOUNCE              (3u)
+#define CapSense_1_SLD_LOW_BSLN_RST             (30u)
+#define CapSense_1_SLD_IDAC_MOD0                (32u)
+#define CapSense_1_SLD_IDAC_GAIN_INDEX          (5u)
+#define CapSense_1_SLD_SNS_CLK                  (4u)
+#define CapSense_1_SLD_SNS_CLK_SOURCE           (0u)
+#define CapSense_1_SLD_FINGER_CAP               (160u)
+#define CapSense_1_SLD_SIGPFC                   (0u)
+#define CapSense_1_SLD_POSITION                 (0xFFFFu)
 
 /* RAM Sensor Parameters Definitions */
 #define CapSense_1_BTN2_RX0_IDAC_COMP0          (32u)
+#define CapSense_1_SLD_SNS0_IDAC_COMP0          (32u)
+#define CapSense_1_SLD_SNS1_IDAC_COMP0          (32u)
+#define CapSense_1_SLD_SNS2_IDAC_COMP0          (32u)
+#define CapSense_1_SLD_SNS3_IDAC_COMP0          (32u)
+#define CapSense_1_SLD_SNS4_IDAC_COMP0          (32u)
+#define CapSense_1_SLD_SNS5_IDAC_COMP0          (32u)
 
 
 

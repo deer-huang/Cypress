@@ -45,9 +45,15 @@
   <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\CapSense_1_Structure.h" value="HEADER;;;;;CapSense_1" />
   <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\CapSense_1_Tuner.h" value="HEADER;;;;;CapSense_1" />
   <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\CapSense_1_Configuration.h" value="HEADER;;;;;CapSense_1" />
+  <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\CapSense_1_INT.c" value="SOURCE_C;CortexM0p;;;;CapSense_1" />
+  <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\CapSense_1_SensingCSD_LL.c" value="SOURCE_C;CortexM0p;;;;CapSense_1" />
+  <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\CapSense_1_SensingCSD_LL.h" value="HEADER;;;;;CapSense_1" />
   <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\CapSense_1_SensingCSX_LL.h" value="HEADER;;;;;CapSense_1" />
   <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\CapSense_1_SensingCSX_LL.c" value="SOURCE_C;CortexM0p;;;;CapSense_1" />
   <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\CapSense_1_RegisterMap.h" value="HEADER;;;;;CapSense_1" />
+  <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\CapSense_1_Centroid_LL.c" value="SOURCE_C;CortexM0p;;;;CapSense_1" />
+  <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\CapSense_1_Centroid_LL.h" value="HEADER;;;;;CapSense_1" />
+  <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\CapSense_1_SmartSense_LL.h" value="HEADER;;;;;CapSense_1" />
   <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\EZI2C_1.c" value="SOURCE_C;CortexM0p;;;;EZI2C_1" />
   <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\EZI2C_1.h" value="HEADER;;;;;EZI2C_1" />
   <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\EZI2C_1_PM.c" value="SOURCE_C;CortexM0p;;;;EZI2C_1" />
