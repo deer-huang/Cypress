@@ -66,6 +66,30 @@
   <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\EZI2C_1_EZI2C_PVT.h" value="HEADER;;;;;EZI2C_1" />
   <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\EZI2C_1_EZI2C_BOOT.c" value="SOURCE_C;CortexM0p;;;;EZI2C_1" />
   <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\EZI2C_1_BOOT.h" value="HEADER;;;;;EZI2C_1" />
+  <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\Pin_10.c" value="SOURCE_C;CortexM0p;;;;Pin_10" />
+  <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\Pin_10.h" value="HEADER;;;;;Pin_10" />
+  <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\Pin_10_aliases.h" value="HEADER;;;;;Pin_10" />
+  <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\Pin_10_PM.c" value="SOURCE_C;CortexM0p;;;;Pin_10" />
+  <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\Pin_9.c" value="SOURCE_C;CortexM0p;;;;Pin_9" />
+  <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\Pin_9.h" value="HEADER;;;;;Pin_9" />
+  <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\Pin_9_aliases.h" value="HEADER;;;;;Pin_9" />
+  <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\Pin_9_PM.c" value="SOURCE_C;CortexM0p;;;;Pin_9" />
+  <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\Pin_8.c" value="SOURCE_C;CortexM0p;;;;Pin_8" />
+  <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\Pin_8.h" value="HEADER;;;;;Pin_8" />
+  <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\Pin_8_aliases.h" value="HEADER;;;;;Pin_8" />
+  <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\Pin_8_PM.c" value="SOURCE_C;CortexM0p;;;;Pin_8" />
+  <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\Pin_7.c" value="SOURCE_C;CortexM0p;;;;Pin_7" />
+  <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\Pin_7.h" value="HEADER;;;;;Pin_7" />
+  <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\Pin_7_aliases.h" value="HEADER;;;;;Pin_7" />
+  <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\Pin_7_PM.c" value="SOURCE_C;CortexM0p;;;;Pin_7" />
+  <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\Pin_6.c" value="SOURCE_C;CortexM0p;;;;Pin_6" />
+  <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\Pin_6.h" value="HEADER;;;;;Pin_6" />
+  <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\Pin_6_aliases.h" value="HEADER;;;;;Pin_6" />
+  <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\Pin_6_PM.c" value="SOURCE_C;CortexM0p;;;;Pin_6" />
+  <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\Pin_5.c" value="SOURCE_C;CortexM0p;;;;Pin_5" />
+  <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\Pin_5.h" value="HEADER;;;;;Pin_5" />
+  <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\Pin_5_aliases.h" value="HEADER;;;;;Pin_5" />
+  <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\Pin_5_PM.c" value="SOURCE_C;CortexM0p;;;;Pin_5" />
   <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\CapSense_1_ISR.c" value="SOURCE_C;CortexM0p;;;;CapSense_1_ISR" />
   <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\CapSense_1_ISR.h" value="HEADER;;;;;CapSense_1_ISR" />
   <file name="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\codegentemp\EZI2C_1_SCBCLK.c" value="SOURCE_C;CortexM0p;;;;EZI2C_1_SCBCLK" />

@@ -98,14 +98,9 @@ int main(void)
                 
                 /* Process data on all the enabled widgets */
                 CapSense_1_ProcessAllWidgets();
-                if(CapSense_1_IsWidgetActive(CapSense_1_BTN2_WDGT_ID) || CapSense_1_IsWidgetActive(CapSense_1_SLD_WDGT_ID))
-                {
-                    Pin_13_Write(LED_ON);
-                }
-                else
-                {
-                    Pin_13_Write(LED_OFF);
-                }
+                Pin_13_Write(CapSense_1_IsWidgetActive(CapSense_1_BTN2_WDGT_ID)?LED_ON:LED_OFF);
+                Pin_5_Write(CapSense_1_IsWidgetActive(CapSense_1_SLD_WDGT_ID)?LED_ON:LED_OFF);
+                
                 /* Controls LEDs Status based on the result of Widget processing. */
              
                 /* Set the device state to SENSOR_SCAN */
