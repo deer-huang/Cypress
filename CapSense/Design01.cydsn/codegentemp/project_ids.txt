@@ -1,7 +1,7 @@
-D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\Design01.cyprj|95022cbb-68b4-4398-afd2-d998c3054b74
-E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|01f3af98-029e-40aa-b0af-98622024ebcc
-C:\Users\yq21900\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|dc68a5ad-2b67-483c-84a1-5f478b9e91d1
-C:\Users\yq21900\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|588e00ce-97ba-4e20-a1c2-de0606ebdff5
-E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|a8b686a0-883e-4d90-8968-0a2776523f65
-E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|c58ea095-18d9-48d2-8b3f-8fd9a76aff29
-E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|cabc3353-58a5-4a7b-96f5-c03b2045c664
+D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\Design01.cyprj|7de09a84-2d3c-41d2-be1e-d2de143cbdb5
+E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|464d9427-d10f-4eae-b9e2-c97c8c1e751c
+C:\Users\yq21900\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|dba68d91-84a9-4635-ba41-9f7f57a6e227
+C:\Users\yq21900\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|d3d39e31-47bb-4cb4-bdd9-31926cd75697
+E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|6f8ffc85-56b0-4bf7-958e-8bec3a0a40d4
+E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|397b706c-47b1-40a7-9267-2f83157b62fc
+E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|f52def40-8cc1-4264-a1a8-9f3ee35bcb2a
