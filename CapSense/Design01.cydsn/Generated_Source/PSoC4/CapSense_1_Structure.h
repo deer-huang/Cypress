@@ -249,7 +249,7 @@ typedef struct
 } CapSense_1_RAM_WD_BASE_STRUCT;
 
 /***************************************************************************//**
-* \brief Declares RAM parameters for the CSX Button
+* \brief Declares RAM parameters for the CSD Button
 *******************************************************************************/
 typedef struct
 {
@@ -567,11 +567,6 @@ typedef struct
     uint8  modCsdClk;
 
     /**
-     *  The modulator clock divider for the CSX widgets.
-     */
-    uint8  modCsxClk;
-
-    /**
      *  RAM Widget Objects.
      */
     CapSense_1_RAM_WD_LIST_STRUCT wdgtList;
@@ -605,11 +600,6 @@ typedef struct
      *  The inactive sensor connection state for the CSD sensors.
      */
     uint8  scanCsdISC;
-
-    /**
-     *  The inactive sensor connection state for the CSX sensors.
-     */
-    uint8  scanCsxISC;
 
     /**
      *  The current inactive sensor connection state for the sensors.
@@ -775,12 +765,6 @@ typedef struct
     uint8  wdgtType;
 
     /**
-     *  Specifies the widget sensing method that could be either 
-     *  WD_CSD_SENSE_METHOD or WD_CSX_SENSE_METHOD
-     */
-    uint8  senseMethod;
-
-    /**
      *  For CSD Button and Proximity Widgets, the number of sensors. 
      *  For CSD Slider Widget, the number of segments. 
      *  For CSD Touchpad and Matrix Button, the number of the 
@@ -789,14 +773,6 @@ typedef struct
      *  of the Rx electrodes.
      */
     uint8  numCols;
-
-    /**
-     *  For CSD Touchpad and Matrix Buttons, the number of the row 
-     *  sensors. For the CSX Button, the number of the Tx electrodes 
-     *  (constant 1u). For CSX Touchpad and Matrix Button, the 
-     *  number of the Tx electrodes.
-     */
-    uint8  numRows;
 
     /**
      *  Sliders: The Linear/Angular resolution. Touchpad: The X-Axis resolution.

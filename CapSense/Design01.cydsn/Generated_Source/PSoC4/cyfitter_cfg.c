@@ -228,9 +228,7 @@ static void ClockSetup(void)
 static void AnalogSetDefault(void);
 static void AnalogSetDefault(void)
 {
-	CY_SET_XTND_REG32((void CYFAR *)CYREG_HSIOM_AMUX_SPLIT_CTL1, 0x00000003u);
-	CY_SET_XTND_REG32((void CYFAR *)CYREG_CSD_SW_BYP_SEL, 0x00001000u);
-	CY_SET_XTND_REG32((void CYFAR *)CYREG_CSD_SW_DSI_SEL, 0x00000011u);
+	CY_SET_XTND_REG32((void CYFAR *)CYREG_HSIOM_AMUX_SPLIT_CTL0, 0x00000003u);
 	CY_SET_XTND_REG32((void CYFAR *)CYREG_CTBM0_DFT_CTRL, 0x00000003u);
 	CY_SET_XTND_REG32((void CYFAR *)CYREG_PASS_DSAB_DSAB_CTRL, 0x00000020u);
 	SetAnalogRoutingPumps(1);
@@ -304,24 +302,17 @@ void cyfitter_cfg(void)
 
 	{
 		/* HSIOM Starting address: CYDEV_HSIOM_BASE */
-		CY_SET_REG32((void *)(CYDEV_HSIOM_BASE), 0x00000600u);
-		CY_SET_REG32((void *)(CYREG_HSIOM_PORT_SEL2), 0x60000000u);
 		CY_SET_REG32((void *)(CYREG_HSIOM_PORT_SEL3), 0x8080EEEEu);
-		CY_SET_REG32((void *)(CYREG_HSIOM_PORT_SEL4), 0x00060000u);
-		CY_SET_REG32((void *)(CYREG_HSIOM_PORT_SEL6), 0x00660666u);
 
 	}
 
 	/* Perform second pass device configuration. These items must be configured in specific order after the regular configuration is done. */
-	/* IOPINS0_0 Starting address: CYDEV_GPIO_PRT0_BASE */
-	CY_SET_REG32((void *)(CYREG_GPIO_PRT0_PC2), 0x00000004u);
-
 	/* IOPINS0_1 Starting address: CYDEV_GPIO_PRT1_BASE */
 	CY_SET_REG32((void *)(CYDEV_GPIO_PRT1_BASE), 0x00000055u);
 	CY_SET_REG32((void *)(CYREG_GPIO_PRT1_PC), 0x00186186u);
 
 	/* IOPINS0_2 Starting address: CYDEV_GPIO_PRT2_BASE */
-	CY_SET_REG32((void *)(CYDEV_GPIO_PRT2_BASE), 0x00000005u);
+	CY_SET_REG32((void *)(CYDEV_GPIO_PRT2_BASE), 0x00000085u);
 	CY_SET_REG32((void *)(CYREG_GPIO_PRT2_PC), 0x00000186u);
 	CY_SET_REG32((void *)(CYREG_GPIO_PRT2_PC2), 0x00000080u);
 
@@ -330,7 +321,7 @@ void cyfitter_cfg(void)
 	CY_SET_REG32((void *)(CYREG_GPIO_PRT3_PC), 0x00006DA4u);
 
 	/* IOPINS0_4 Starting address: CYDEV_GPIO_PRT4_BASE */
-	CY_SET_REG32((void *)(CYREG_GPIO_PRT4_PC2), 0x0000001Eu);
+	CY_SET_REG32((void *)(CYREG_GPIO_PRT4_PC2), 0x00000012u);
 
 	/* IOPINS0_5 Starting address: CYDEV_GPIO_PRT5_BASE */
 	CY_SET_REG32((void *)(CYDEV_GPIO_PRT5_BASE), 0x00000080u);

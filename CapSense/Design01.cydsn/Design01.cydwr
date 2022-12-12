@@ -2044,21 +2044,24 @@
     </Group>
     <Group key="172f3910-d4d4-4a80-95c6-294317c85ef6/77715107-f8d5-47e5-a629-0fb83101ac6b">
       <Group key="0">
-        <Data key="Port Format" value="2,7" />
+        <Data key="Port Format" value="4,4" />
       </Group>
       <Group key="1">
-        <Data key="Port Format" value="6,0" />
+        <Data key="Port Format" value="2,7" />
       </Group>
       <Group key="2">
-        <Data key="Port Format" value="6,1" />
+        <Data key="Port Format" value="6,0" />
       </Group>
       <Group key="3">
-        <Data key="Port Format" value="6,2" />
+        <Data key="Port Format" value="6,1" />
       </Group>
       <Group key="4">
-        <Data key="Port Format" value="6,4" />
+        <Data key="Port Format" value="6,2" />
       </Group>
       <Group key="5">
+        <Data key="Port Format" value="6,4" />
+      </Group>
+      <Group key="6">
         <Data key="Port Format" value="6,5" />
       </Group>
     </Group>
@@ -2097,6 +2100,7 @@
         <Data key="Port Format" value="1,6" />
       </Group>
     </Group>
+    <Group key="UnAssigned Pins" />
   </Group>
   <Group key="PlaceDir">
     <Data key="count" value="0" />

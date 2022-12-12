@@ -122,7 +122,7 @@
 * Enabled Scan Methods
 *******************************************************************************/
 #define CapSense_1_CSD_EN                             (1u)
-#define CapSense_1_CSX_EN                             (1u)
+#define CapSense_1_CSX_EN                             (0u)
 #define CapSense_1_ISX_EN                             (0u)
 #define CapSense_1_CSD_CSX_EN                         (CapSense_1_CSD_EN && CapSense_1_CSX_EN)
 
@@ -142,11 +142,11 @@
 * Definitions for number of widgets and sensors
 *******************************************************************************/
 #define CapSense_1_TOTAL_WIDGETS                      (2u)
-#define CapSense_1_TOTAL_CSD_WIDGETS                  (1u)
-#define CapSense_1_TOTAL_CSD_SENSORS                  (6u)
-#define CapSense_1_TOTAL_CSX_WIDGETS                  (1u)
+#define CapSense_1_TOTAL_CSD_WIDGETS                  (2u)
+#define CapSense_1_TOTAL_CSD_SENSORS                  (7u)
+#define CapSense_1_TOTAL_CSX_WIDGETS                  (0u)
 #define CapSense_1_TOTAL_ISX_WIDGETS                  (0u)
-#define CapSense_1_TOTAL_CSX_NODES                    (1u)
+#define CapSense_1_TOTAL_CSX_NODES                    (0u)
 #define CapSense_1_TOTAL_ISX_NODES                    (0u)
 
 /*******************************************************************************
@@ -159,7 +159,7 @@
 /*******************************************************************************
 * Total number of scan slots (used only when dual-channel scan is enabled)
 *******************************************************************************/
-#define CapSense_1_TOTAL_SCAN_SLOTS         (8u)
+#define CapSense_1_TOTAL_SCAN_SLOTS         (7u)
 
 /*******************************************************************************
 * Defines widget IDs
@@ -173,13 +173,6 @@
 
 /* BTN2 sensor names */
 #define CapSense_1_BTN2_SNS0_ID                 (0u)
-
-/* BTN2 node names */
-#define CapSense_1_BTN2_RX0_TX0_ID              (0u)
-
-/* BTN2 sensor element IDs */
-#define CapSense_1_BTN2_RX0_ID                  (0u)
-#define CapSense_1_BTN2_TX0_ID                  (1u)
 
 /* SLD sensor names */
 #define CapSense_1_SLD_SNS0_ID                  (0u)
@@ -241,14 +234,14 @@
 /*******************************************************************************
 * Total number of all used electrodes (NOT unique)
 *******************************************************************************/
-#define CapSense_1_TOTAL_ELECTRODES         (8u)
+#define CapSense_1_TOTAL_ELECTRODES         (7u)
 /* Obsolete */
 #define CapSense_1_TOTAL_SENSOR_IOS         CapSense_1_TOTAL_ELECTRODES
 
 /*******************************************************************************
 * Total number of used physical IOs (unique)
 *******************************************************************************/
-#define CapSense_1_TOTAL_IO_CNT             (8u)
+#define CapSense_1_TOTAL_IO_CNT             (7u)
 
 /*******************************************************************************
 * Array length for widget status registers
@@ -599,7 +592,7 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
 #define CapSense_1_CSX_INACTIVE_SNS_CONNECTION  (CapSense_1_SNS_CONNECTION_GROUND)
 #define CapSense_1_CSX_MAX_FINGERS              (1u)
 #define CapSense_1_CSX_MAX_LOCAL_PEAKS          (5u)
-#define CapSense_1_CSX_IDAC_AUTOCAL_EN          (1u)
+#define CapSense_1_CSX_IDAC_AUTOCAL_EN          (0u)
 #define CapSense_1_CSX_IDAC_BITS_USED           (7u)
 #define CapSense_1_CSX_RAWCOUNT_CAL_LEVEL       (40u)
 #define CapSense_1_CSX_IDAC_GAIN                (CapSense_1_IDAC_GAIN_MEDIUM)
@@ -664,7 +657,7 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
                                        || (0u != CapSense_1_ISX_IDAC_AUTOCAL_EN)) \
                                        || (0u != CapSense_1_CSD_IDAC_AUTOCAL_EN))
 /* RAM Global Parameters Definitions */
-#define CapSense_1_CONFIG_ID                    (0x1232u)
+#define CapSense_1_CONFIG_ID                    (0xBBCCu)
 #define CapSense_1_DEVICE_ID                    (0x0900u)
 #define CapSense_1_HW_CLOCK                     (0x0BB8u)
 #define CapSense_1_CSD0_CONFIG                  (0x0008u)
@@ -678,16 +671,16 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
 /*******************************************************************************
 * BTN2 initialization values for RAM data structure
 *******************************************************************************/
-#define CapSense_1_BTN2_RESOLUTION              (100u)
-#define CapSense_1_BTN2_FINGER_TH               (500u)
+#define CapSense_1_BTN2_RESOLUTION              (CapSense_1_RES12BIT)
+#define CapSense_1_BTN2_FINGER_TH               (100u)
 #define CapSense_1_BTN2_NOISE_TH                (40u)
 #define CapSense_1_BTN2_NNOISE_TH               (40u)
 #define CapSense_1_BTN2_HYSTERESIS              (10u)
 #define CapSense_1_BTN2_ON_DEBOUNCE             (3u)
 #define CapSense_1_BTN2_LOW_BSLN_RST            (30u)
 #define CapSense_1_BTN2_IDAC_MOD0               (32u)
-#define CapSense_1_BTN2_IDAC_GAIN_INDEX         (2u)
-#define CapSense_1_BTN2_SNS_CLK                 (80u)
+#define CapSense_1_BTN2_IDAC_GAIN_INDEX         (5u)
+#define CapSense_1_BTN2_SNS_CLK                 (4u)
 #define CapSense_1_BTN2_SNS_CLK_SOURCE          (0u)
 #define CapSense_1_BTN2_FINGER_CAP              (160u)
 #define CapSense_1_BTN2_SIGPFC                  (0u)
@@ -721,7 +714,7 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
 #define CapSense_1_SLD_POSITION                 (0xFFFFu)
 
 /* RAM Sensor Parameters Definitions */
-#define CapSense_1_BTN2_RX0_IDAC_COMP0          (32u)
+#define CapSense_1_BTN2_SNS0_IDAC_COMP0         (32u)
 #define CapSense_1_SLD_SNS0_IDAC_COMP0          (32u)
 #define CapSense_1_SLD_SNS1_IDAC_COMP0          (32u)
 #define CapSense_1_SLD_SNS2_IDAC_COMP0          (32u)

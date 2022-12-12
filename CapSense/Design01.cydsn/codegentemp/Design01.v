@@ -1,6 +1,6 @@
 // ======================================================================
 // Design01.v generated from TopDesign.cysch
-// 12/12/2022 at 11:32
+// 12/12/2022 at 15:46
 // This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 // ======================================================================
 
@@ -523,7 +523,7 @@ endmodule
 `include "E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\or_v1_0\or_v1_0.v"
 `endif
 
-// CapSense_P4_v7_0(AdcAcqTime=13, AdcAcquisitionTime=-1, AdcAmuxbInputEnable=false, AdcAnalogStartupDelayUs=5, AdcAzEnable=true, AdcAzTime=5, AdcDedicatedChannels=1, AdcEnable=false, AdcMeasureMode=0, AdcPinAlias=Ch0, AdcResolution=10, AdcSelectAmuxBusChannel=0, AdcTotalChannels=1, AdcVref=-1, BallisticMultiplierEnable=false, BaselineType=0, BlockOffAfterScanEnable=false, Centroid4PtsEnable=false, ClickEnable=false, Csd0IdacGainV1=4, Csd0IdacGainV2=2, Csd0PinAlias=SLD_Sns0,SLD_Sns1,SLD_Sns2,SLD_Sns3,SLD_Sns4,SLD_Sns5, Csd0PinCount=6, Csd0ShieldDelayV1=0, Csd0ShieldDelayV1Ver1=0, Csd0ShieldDelayV2=0, Csd0ShieldEnable=false, Csd0ShieldPrechargeSource=0, Csd0ShieldTankEnable=false, Csd0TotalShieldCount=1, Csd1IdacGainV1=4, Csd1IdacGainV2=2, Csd1PinAlias=, Csd1PinCount=0, Csd1ShieldDelayV1=0, Csd1ShieldDelayV1Ver1=0, Csd1ShieldDelayV2=0, Csd1ShieldEnable=false, Csd1ShieldPrechargeSource=0, Csd1ShieldTankEnable=false, Csd1TotalShieldCount=1, Csd2xEnable=false, CsdAnalogStartupDelayUs=10, CsdAutoZeroEnable=false, CsdAutoZeroTime=15, CsdCalibrationError=10, CsdColRowIdacAlignmentEn=true, CsdCommonSenseClockEnable=false, CsdDedicatedIdacCompEnable=true, CsdDualIdacLevel=50, CsdEnable=true, CsdFineInitCycles=10, CsdGenerationVersion=2, CsdIdacAutoCalibrateEnable=true, CsdIdacAutoGainEnable=true, CsdIdacCompEnable=true, CsdIdacConfig=0, CsdIdacGainIndexDefault=-1, CsdIdacMin=-1, CsdInactiveSensorConnection=0, CsdInitSwitchRes=1, CsdMFSDividerOffsetF1=1, CsdMFSDividerOffsetF2=2, CsdModClockFreq=24000, CsdNoiseMetricEnable=false, CsdNoiseMetricThreshold=1, CsdPrescanSettlingTime=5, CsdRawCountCalibrationLevel=85, CsdSenseClockFreq=3000, CsdSenseClockSource=1, CsdSensingMethod=0, CsdShieldSwitchRes=1, CsdSnsClockConstantR=1000, CsdTuningMode=3, CsdV2AnalogWakeupDelayUs=0, CSDv2Version=2, CsdVrefV2=-1, Csx0IdacGainV1=4, Csx0IdacGainV2=1, Csx0PinAliasRx=, Csx0PinCountRx=0, Csx1IdacGainV1=4, Csx1IdacGainV2=1, Csx1PinAliasRx=, Csx1PinCountRx=0, Csx2xEnable=false, CsxAnalogStartupDelayUs=10, CsxAutoZeroEnable=false, CsxAutoZeroTime=15, CsxCalibrationError=20, CsxCommonTxClockEnable=false, CsxEnable=true, CsxFineInitCycles=4, CsxIdacAutoCalibrateEnable=true, CsxIdacBitsUsedV1=8, CsxIdacBitsUsedV2=7, CsxInactiveSensorConnection=0, CsxInitShieldSwitchRes=2, CsxInitSwitchRes=1, CsxMaxFingers=1, CsxMaxLocalPeaks=5, CsxMFSDividerOffsetF1=1, CsxMFSDividerOffsetF2=2, CsxModClockFreq=24000, CsxMultiphaseTxEnable=false, CsxNoiseMetricEnable=false, CsxNoiseMetricThreshold=1, CsxPinAliasMptx=, CsxPinAliasRx=BTN2_Rx0, CsxPinAliasTx=BTN2_Tx, CsxPinCountMptx=0, CsxPinCountRx=1, CsxPinCountTx=1, CsxRawCountCalibrationLevel=40, CsxScanShieldSwitchRes=0, CsxScanSwitchRes=0, CsxSkipAndOversampleNodes=false, CsxTxClockFreq=300, CsxTxClockSource=1, CustomDataStructSize=0, Dig1PinMaskText=, Dig2PinMaskText=, DoxygenMode=false, DummyStatus=1, GestureEnable=false, GestureGlobalEnable=false, ImoFreqOffsetF1=20, ImoFreqOffsetF2=20, IndSenseCount=0, IsAdcSupported=false, IsCapSenseSupported=true, IsCsdSupportedBySymbol=true, IsCSDv2=true, IsCsxSupportedBySymbol=true, IsGestureSupported=true, IsIsxSupportedBySymbol=false, Isx0IdacGainV2=1, IsxAutoZeroEnable=false, IsxAutoZeroTime=15, IsxControlFile=, IsxControlFileText=, IsxDisableRsv=true, IsxEnable=false, IsxFineInitCycles=20, IsxIdacAutoCalibrateEnable=true, IsxIdacBitsUsedV2=7, IsxInitShieldSwitchRes=2, IsxInitSwitchRes=1, IsxModClockFreq=24000, IsxNoiseMetricEnable=false, IsxNoiseMetricThreshold=1, IsxPinAliasLx1=, IsxPinAliasRx=, IsxPinCountLx1=0, IsxPinCountRx=0, IsxRawCountCalibrationLevel=30, IsxSamplePhase_Deg=30, IsxScanShieldSwitchRes=0, IsxScanSwitchRes=0, IsxSkipAndOversampleNodes=false, LowBaselineResetSize=8, ModeSupport=2, MultiFreqScanEnable=false, MultiFreqScanMethod=0, NumCentroids=1, OffDebounceEnable=false, OneFingerEdgeSwipeEnable=false, OneFingerEdgeSwipeTimeoutInterval=2000, OneFingerFlickEnable=false, OneFingerRotateEnable=false, OneFingerScrollEnable=false, P2PinCo=1, Port3Pin0= , Port3Pin1= , PosIirFilterCoeff=128, ProxAlpFilterCoeff=2, ProxAlpFilterEnable=false, ProxAverageFilterEnable=false, ProxAverageFilterSampleSize=4, ProxCustomFilterEnable=false, ProxIirFilterBaselineN=1, ProxIirFilterBaselineType=2, ProxIirFilterEnable=false, ProxIirFilterRawCountN=128, ProxIirFilterRawCountType=1, ProxMedianFilterEnable=false, RadialSliderPosIirResetThr=35, RegisterMapSelfTest=false, RegularAlpFilterCoeff=2, RegularAlpFilterEnable=false, RegularAverageFilterEnable=false, RegularAverageFilterSampleSize=4, RegularCustomFilterEnable=false, RegularIirFilterBaselineN=1, RegularIirFilterBaselineType=2, RegularIirFilterEnable=false, RegularIirFilterRawCountN=128, RegularIirFilterRawCountType=1, RegularMedianFilterEnable=false, SecondFinger5x5FilterEnable=false, SelfTestAnalogStartupDelayUs=23, SelfTestAutoGainEn=true, SelfTestBaselineDuplicationEnable=true, SelfTestBaselineRawCountRangeEnable=true, SelfTestEnable=false, SelfTestExtCapEnable=true, SelfTestExtCapModClkDivider=6, SelfTestExtCapResolution=10, SelfTestExtCapVref=-1, SelfTestFineInitCycles=10, SelfTestGlobalCrcEnable=true, SelfTestIdacGainIndexDefault=-1, SelfTestIntCapEnable=true, SelfTestRawCountTarget=85, SelfTestShCapEnable=true, SelfTestShieldCapInactiveState=0, SelfTestSns2SnsEnable=true, SelfTestSnsCapCsdInactiveState=0, SelfTestSnsCapCsxInactiveState=0, SelfTestSnsCapEnable=true, SelfTestSnsCapModClk=-1, SelfTestSnsCapModClkActual=24000, SelfTestSnsCapRawCountError=10, SelfTestSnsCapResolution=12, SelfTestSnsCapSnsClk=-1, SelfTestSnsCapSnsClkActual=375000, SelfTestSnsCapVref=-1, SelfTestSnsClkDividerDefault=-1, SelfTestSnsShortEnable=true, SelfTestSnsShortTime=2, SelfTestVddaEnable=true, SelfTestVddaModClkDivider=1, SelfTestVddaResolution=10, SelfTestVddaVref=-1, SelfTestVddaVrefVoltage=-1, SelfTestWidgetCrcEnable=true, SensorAutoResetEnable=false, SensorAutoResetMethod=0, SensorAutoResetSamplesCount=1000, SliderMultiplierMethod=0, ThresholdSize=16, TimestampInterval=1, TouchpadDisplaySettings=<?xml version="1.0" encoding="utf-16"?> <TouchpadDisplaySettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">   <NumberOfSamples>100</NumberOfSamples>   <ShowHeatMap>true</ShowHeatMap>   <ColorRangeMinValue>0</ColorRangeMinValue>   <ColorRangeMaxValue>300</ColorRangeMaxValue>   <Multicolor>false</Multicolor>   <CsxMaxXAxisPos>100</CsxMaxXAxisPos>   <CsxMaxYAxisPos>100</CsxMaxYAxisPos>   <CsdMaxXAxisPos>0</CsdMaxXAxisPos>   <CsdMaxYAxisPos>0</CsdMaxYAxisPos>   <TouchpadPositionDisplaying>DISPLAY_BOTH</TouchpadPositionDisplaying>   <CsxMaxFingers>0</CsxMaxFingers> </TouchpadDisplaySettings>, TouchpadMultiplierMethod=0, TouchProxThresholdCoeff=300, TunerLayoutPreferences=<?xml version="1.0" encoding="utf-16"?> <CyLayoutPreferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">   <WidgetViewSplitterDistance>537</WidgetViewSplitterDistance>   <FormLocation>     <X>346</X>     <Y>-905</Y>   </FormLocation>   <FormSize>     <Width>1205</Width>     <Height>682</Height>   </FormSize>   <WindowState>Normal</WindowState> </CyLayoutPreferences>, TunerOptionsPreferences=<?xml version="1.0" encoding="utf-16"?> <Options xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">   <SNR>     <NoiseCount>500</NoiseCount>     <SignalCount>500</SignalCount>     <SpikeLimit>0</SpikeLimit>     <NoiseMethod>PeakToPeak</NoiseMethod>     <SnrPass>5</SnrPass>   </SNR>   <Graph>     <SeriesThickness>1</SeriesThickness>   </Graph>   <Logging>     <LogAppend>false</LogAppend>     <LogDuration>100000</LogDuration>     <WidgetLogProps>       <Name>BTN2</Name>       <WdgtStatus>false</WdgtStatus>       <Position>false</Position>     </WidgetLogProps>     <WidgetLogProps>       <Name>SLD</Name>       <WdgtStatus>false</WdgtStatus>       <Position>false</Position>     </WidgetLogProps>     <SensorLogProps>       <Raw>false</Raw>       <Bsln>false</Bsln>       <Diff>false</Diff>       <SnsStatus>false</SnsStatus>       <Name>BTN2_Rx0</Name>     </SensorLogProps>     <SensorLogProps>       <Raw>false</Raw>       <Bsln>false</Bsln>       <Diff>false</Diff>       <SnsStatus>false</SnsStatus>       <Name>SLD_Sns0</Name>     </SensorLogProps>     <SensorLogProps>       <Raw>false</Raw>       <Bsln>false</Bsln>       <Diff>false</Diff>       <SnsStatus>false</SnsStatus>       <Name>SLD_Sns1</Name>     </SensorLogProps>     <SensorLogProps>       <Raw>false</Raw>       <Bsln>false</Bsln>       <Diff>false</Diff>       <SnsStatus>false</SnsStatus>       <Name>SLD_Sns2</Name>     </SensorLogProps>     <SensorLogProps>       <Raw>false</Raw>       <Bsln>false</Bsln>       <Diff>false</Diff>       <SnsStatus>false</SnsStatus>       <Name>SLD_Sns3</Name>     </SensorLogProps>     <SensorLogProps>       <Raw>false</Raw>       <Bsln>false</Bsln>       <Diff>false</Diff>       <SnsStatus>false</SnsStatus>       <Name>SLD_Sns4</Name>     </SensorLogProps>     <SensorLogProps>       <Raw>false</Raw>       <Bsln>false</Bsln>       <Diff>false</Diff>       <SnsStatus>false</SnsStatus>       <Name>SLD_Sns5</Name>     </SensorLogProps>   </Logging> </Options>, TunerViewPreferences=<?xml version="1.0" encoding="utf-16"?> <CyViewPreferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">   <LastConnectedPort>KitProg2/1A0D127E03010400 - I2C</LastConnectedPort>   <WidgetExplorer>     <UncheckedWidgets />     <CheckedSensors>       <SensorName>BTN2_Rx0</SensorName>       <SensorName>SLD_Sns0</SensorName>       <SensorName>SLD_Sns1</SensorName>       <SensorName>SLD_Sns2</SensorName>       <SensorName>SLD_Sns3</SensorName>       <SensorName>SLD_Sns4</SensorName>       <SensorName>SLD_Sns5</SensorName>     </CheckedSensors>     <CollapsedWidgets />   </WidgetExplorer>   <GraphSetup>     <DisplayTouchSignalGraph>true</DisplayTouchSignalGraph>     <ShowLegend>true</ShowLegend>     <ShowMarks>false</ShowMarks>     <SyncedRead>false</SyncedRead>     <CheckedThresholds />   </GraphSetup>   <GestureMonitor>     <DelayEnabled>true</DelayEnabled>     <DelayInterval>1000</DelayInterval>   </GestureMonitor> </CyViewPreferences>, TunerWidgetData=, TwoFingerScrollEnable=false, TwoFingerSettlingTime=3, TwoFingerZoomEnable=false, VddaValue=3.3, WidgetBaselineCoeffEnable=false, WidgetData=<?xml version="1.0" encoding="utf-16"?> <WidgetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">   <Widget id="BTN2" type="Button" mode="CSX" block="CSD0" slot="0">     <Angle>0</Angle>     <FlippedX>false</FlippedX>     <FlippedY>false</FlippedY>     <Flipped2D>false</Flipped2D>     <ScaleFactor>1</ScaleFactor>     <Properties>       <FingerCap>0.16</FingerCap>       <Diplexing>false</Diplexing>       <MaxPosition>100</MaxPosition>       <MaxXPosition>100</MaxXPosition>       <MaxYPosition>100</MaxYPosition>       <PositionFilter>None</PositionFilter>       <MultiphaseTx>false</MultiphaseTx>       <NumberOfTargets>4</NumberOfTargets>       <SenseClockFreq>3000</SenseClockFreq>       <RowSenseClockFreq>3000</RowSenseClockFreq>       <TxClockFreq>300</TxClockFreq>       <IsxTxClockFreq>1000</IsxTxClockFreq>       <ScanResolution>_12</ScanResolution>       <NumConversions>100</NumConversions>       <IdacMod>         <Idac0>32</Idac0>         <Idac1>32</Idac1>         <Idac2>32</Idac2>       </IdacMod>       <RowIdacMod>         <Idac0>32</Idac0>         <Idac1>32</Idac1>         <Idac2>32</Idac2>       </RowIdacMod>       <IdacGainV1>_1200</IdacGainV1>       <IdacGainCsdV2>_2400</IdacGainCsdV2>       <IdacGainCsxV2>_300</IdacGainCsxV2>       <FingerThreshold>500</FingerThreshold>       <ProxTouchThreshold>200</ProxTouchThreshold>       <NoiseThreshold>40</NoiseThreshold>       <NegNoiseThreshold>40</NegNoiseThreshold>       <LowBaselineReset>30</LowBaselineReset>       <BaselineReset>1000</BaselineReset>       <BaselineUpdateThreshold>100</BaselineUpdateThreshold>       <Hysteresis>10</Hysteresis>       <OnDebounce>3</OnDebounce>       <OffDebounce>3</OffDebounce>       <AlpOnThreshold>60</AlpOnThreshold>       <AlpOFFThreshold>20</AlpOFFThreshold>       <Velocity>2500</Velocity>       <MedianFilter>false</MedianFilter>       <IirFilter>false</IirFilter>       <IirFilterCoeff>128</IirFilterCoeff>       <AIirFilter>false</AIirFilter>       <AverageFilter>false</AverageFilter>       <JitterFilter>false</JitterFilter>       <BallisticMultiplier>false</BallisticMultiplier>       <AIirPositionMoveTh>3</AIirPositionMoveTh>       <AIirPositionSlowMoveTh>7</AIirPositionSlowMoveTh>       <AIirPositionFastMoveTh>12</AIirPositionFastMoveTh>       <AIirCoeffMaxLimit>60</AIirCoeffMaxLimit>       <AIirCoeffMinLimit>1</AIirCoeffMinLimit>       <AIirCoeffDivisor>64</AIirCoeffDivisor>       <CentroidType>Csd3x3</CentroidType>       <CrossCouplingPosTh>5</CrossCouplingPosTh>       <EdgeCorrectionEnable>true</EdgeCorrectionEnable>       <EdgeVirtualSensorTh>100</EdgeVirtualSensorTh>       <EdgePenultimateTh>100</EdgePenultimateTh>       <TwoFingerDetection>false</TwoFingerDetection>       <FastMovementMult>9</FastMovementMult>       <SlowMovementMult>2</SlowMovementMult>       <DivisorValue>4</DivisorValue>       <SpeedThresholdX>3</SpeedThresholdX>       <SpeedThresholdY>4</SpeedThresholdY>     </Properties>     <Gestures>       <Click>         <Enabled>false</Enabled>         <XMaxPosDisplacement>30</XMaxPosDisplacement>         <YMaxPosDisplacement>30</YMaxPosDisplacement>         <MaxPosDisplacement>30</MaxPosDisplacement>         <MaxRadius>20</MaxRadius>         <MaxDisplacement>20</MaxDisplacement>         <MinTouchInterval>10</MinTouchInterval>         <MaxTouchInterval>1000</MaxTouchInterval>         <OneFingerMinTouchDuration>10</OneFingerMinTouchDuration>         <OneFingerMaxTouchDuration>1000</OneFingerMaxTouchDuration>         <TwoFingerMinTouchDuration>100</TwoFingerMinTouchDuration>         <TwoFingerMaxTouchDuration>1000</TwoFingerMaxTouchDuration>       </Click>       <OneFingerScroll>         <Enabled>false</Enabled>         <Debounce>3</Debounce>         <XPosThreshold1>20</XPosThreshold1>         <YPosThreshold1>20</YPosThreshold1>         <PosThreshold1>20</PosThreshold1>         <ScrollStep1>3</ScrollStep1>         <XPosThreshold2>24</XPosThreshold2>         <YPosThreshold2>24</YPosThreshold2>         <F1_Scroll_PosThreshold2>20</F1_Scroll_PosThreshold2>         <ScrollStep2>5</ScrollStep2>         <XPosThreshold3>30</XPosThreshold3>         <YPosThreshold3>30</YPosThreshold3>         <PosThreshold3>20</PosThreshold3>         <ScrollStep3>7</ScrollStep3>         <XPosThreshold4>40</XPosThreshold4>         <YPosThreshold4>40</YPosThreshold4>         <PosThreshold4>20</PosThreshold4>         <ScrollStep4>9</ScrollStep4>         <XPosThreshold>50</XPosThreshold>         <YPosThreshold>50</YPosThreshold>         <PosThreshold>50</PosThreshold>         <CountLevel>Inert_Low</CountLevel>       </OneFingerScroll>       <TwoFingerScroll>         <Enabled>false</Enabled>         <Debounce>3</Debounce>         <XPosThreshold1>20</XPosThreshold1>         <YPosThreshold1>20</YPosThreshold1>         <PosThreshold1>20</PosThreshold1>         <ScrollStep1>3</ScrollStep1>         <XPosThreshold2>24</XPosThreshold2>         <YPosThreshold2>24</YPosThreshold2>         <PosThreshold2>24</PosThreshold2>         <ScrollStep2>5</ScrollStep2>         <XPosThreshold3>30</XPosThreshold3>         <YPosThreshold3>30</YPosThreshold3>         <PosThreshold3>30</PosThreshold3>         <ScrollStep3>7</ScrollStep3>         <XPosThreshold4>40</XPosThreshold4>         <YPosThreshold4>40</YPosThreshold4>         <PosThreshold4>40</PosThreshold4>         <ScrollStep4>9</ScrollStep4>         <XPosThreshold>50</XPosThreshold>         <YPosThreshold>50</YPosThreshold>         <PosThreshold>50</PosThreshold>         <CountLevel>Inert_Low</CountLevel>       </TwoFingerScroll>       <OneFingerFlick>         <Enabled>false</Enabled>         <XPosThreshold>20</XPosThreshold>         <YPosThreshold>20</YPosThreshold>         <PosThreshold>20</PosThreshold>         <MaxSampleInterval>80</MaxSampleInterval>       </OneFingerFlick>       <OneFingerEdgeSwipe>         <Enabled>false</Enabled>         <PosThreshold>100</PosThreshold>         <DetectionTime>100</DetectionTime>         <TimeoutInterval>2000</TimeoutInterval>         <TopAngleThreshold>45</TopAngleThreshold>         <BottomAngleThreshold>45</BottomAngleThreshold>         <DisamRegionWidth>5</DisamRegionWidth>       </OneFingerEdgeSwipe>       <TwoFingerZoom>         <Enabled>false</Enabled>         <XPosThreshold>8</XPosThreshold>         <YPosThreshold>8</YPosThreshold>         <PosThreshold>8</PosThreshold>         <Debounce>3</Debounce>         <ScrollZoomDebounce>5</ScrollZoomDebounce>       </TwoFingerZoom>       <OneFingerRotate>         <Enabled>false</Enabled>         <RotateDebounce>0</RotateDebounce>         <PosThreshold>8</PosThreshold>       </OneFingerRotate>     </Gestures>     <Sensors>       <Sensor id="Rx0">         <Properties>           <IdacComp>             <Idac0>32</Idac0>             <Idac1>32</Idac1>             <Idac2>32</Idac2>           </IdacComp>           <Idacs>             <Idac>               <Idac0>18</Idac0>               <Idac1>32</Idac1>               <Idac2>32</Idac2>             </Idac>           </Idacs>           <UseDedicatedPin>true</UseDedicatedPin>           <GangedPins />         </Properties>       </Sensor>       <Sensor id="Tx">         <Properties>           <IdacComp>             <Idac0>32</Idac0>             <Idac1>32</Idac1>             <Idac2>32</Idac2>           </IdacComp>           <Idacs />           <UseDedicatedPin>true</UseDedicatedPin>           <GangedPins />         </Properties>       </Sensor>     </Sensors>     <Columns>       <Sensor id="Rx0">         <Properties>           <IdacComp>             <Idac0>32</Idac0>             <Idac1>32</Idac1>             <Idac2>32</Idac2>           </IdacComp>           <Idacs>             <Idac>               <Idac0>18</Idac0>               <Idac1>32</Idac1>               <Idac2>32</Idac2>             </Idac>           </Idacs>           <UseDedicatedPin>true</UseDedicatedPin>           <GangedPins />         </Properties>       </Sensor>     </Columns>     <Rows>       <Sensor id="Tx">         <Properties>           <IdacComp>             <Idac0>32</Idac0>             <Idac1>32</Idac1>             <Idac2>32</Idac2>           </IdacComp>           <Idacs />           <UseDedicatedPin>true</UseDedicatedPin>           <GangedPins />         </Properties>       </Sensor>     </Rows>   </Widget>   <Widget id="SLD" type="LinearSlider" mode="CSD" block="CSD0" slot="0">     <Angle>0</Angle>     <FlippedX>false</FlippedX>     <FlippedY>false</FlippedY>     <Flipped2D>false</Flipped2D>     <ScaleFactor>1</ScaleFactor>     <Properties>       <FingerCap>0.16</FingerCap>       <Diplexing>false</Diplexing>       <MaxPosition>100</MaxPosition>       <MaxXPosition>100</MaxXPosition>       <MaxYPosition>100</MaxYPosition>       <PositionFilter>None</PositionFilter>       <MultiphaseTx>false</MultiphaseTx>       <NumberOfTargets>4</NumberOfTargets>       <SenseClockFreq>6000</SenseClockFreq>       <RowSenseClockFreq>3000</RowSenseClockFreq>       <TxClockFreq>300</TxClockFreq>       <IsxTxClockFreq>1000</IsxTxClockFreq>       <ScanResolution>_11</ScanResolution>       <NumConversions>100</NumConversions>       <IdacMod>         <Idac0>23</Idac0>         <Idac1>32</Idac1>         <Idac2>32</Idac2>       </IdacMod>       <RowIdacMod>         <Idac0>32</Idac0>         <Idac1>32</Idac1>         <Idac2>32</Idac2>       </RowIdacMod>       <IdacGainV1>_1200</IdacGainV1>       <IdacGainCsdV2>_2400</IdacGainCsdV2>       <IdacGainCsxV2>_300</IdacGainCsxV2>       <FingerThreshold>53</FingerThreshold>       <ProxTouchThreshold>200</ProxTouchThreshold>       <NoiseThreshold>26</NoiseThreshold>       <NegNoiseThreshold>26</NegNoiseThreshold>       <LowBaselineReset>30</LowBaselineReset>       <BaselineReset>1000</BaselineReset>       <BaselineUpdateThreshold>100</BaselineUpdateThreshold>       <Hysteresis>6</Hysteresis>       <OnDebounce>3</OnDebounce>       <OffDebounce>3</OffDebounce>       <AlpOnThreshold>60</AlpOnThreshold>       <AlpOFFThreshold>20</AlpOFFThreshold>       <Velocity>2500</Velocity>       <MedianFilter>false</MedianFilter>       <IirFilter>false</IirFilter>       <IirFilterCoeff>128</IirFilterCoeff>       <AIirFilter>false</AIirFilter>       <AverageFilter>false</AverageFilter>       <JitterFilter>false</JitterFilter>       <BallisticMultiplier>false</BallisticMultiplier>       <AIirPositionMoveTh>3</AIirPositionMoveTh>       <AIirPositionSlowMoveTh>7</AIirPositionSlowMoveTh>       <AIirPositionFastMoveTh>12</AIirPositionFastMoveTh>       <AIirCoeffMaxLimit>60</AIirCoeffMaxLimit>       <AIirCoeffMinLimit>1</AIirCoeffMinLimit>       <AIirCoeffDivisor>64</AIirCoeffDivisor>       <CentroidType>Csd3x3</CentroidType>       <CrossCouplingPosTh>5</CrossCouplingPosTh>       <EdgeCorrectionEnable>true</EdgeCorrectionEnable>       <EdgeVirtualSensorTh>100</EdgeVirtualSensorTh>       <EdgePenultimateTh>100</EdgePenultimateTh>       <TwoFingerDetection>false</TwoFingerDetection>       <FastMovementMult>9</FastMovementMult>       <SlowMovementMult>2</SlowMovementMult>       <DivisorValue>4</DivisorValue>       <SpeedThresholdX>3</SpeedThresholdX>       <SpeedThresholdY>4</SpeedThresholdY>     </Properties>     <Gestures>       <Click>         <Enabled>false</Enabled>         <XMaxPosDisplacement>30</XMaxPosDisplacement>         <YMaxPosDisplacement>30</YMaxPosDisplacement>         <MaxPosDisplacement>30</MaxPosDisplacement>         <MaxRadius>20</MaxRadius>         <MaxDisplacement>20</MaxDisplacement>         <MinTouchInterval>10</MinTouchInterval>         <MaxTouchInterval>1000</MaxTouchInterval>         <OneFingerMinTouchDuration>10</OneFingerMinTouchDuration>         <OneFingerMaxTouchDuration>1000</OneFingerMaxTouchDuration>         <TwoFingerMinTouchDuration>100</TwoFingerMinTouchDuration>         <TwoFingerMaxTouchDuration>1000</TwoFingerMaxTouchDuration>       </Click>       <OneFingerScroll>         <Enabled>false</Enabled>         <Debounce>3</Debounce>         <XPosThreshold1>20</XPosThreshold1>         <YPosThreshold1>20</YPosThreshold1>         <PosThreshold1>20</PosThreshold1>         <ScrollStep1>3</ScrollStep1>         <XPosThreshold2>24</XPosThreshold2>         <YPosThreshold2>24</YPosThreshold2>         <F1_Scroll_PosThreshold2>20</F1_Scroll_PosThreshold2>         <ScrollStep2>5</ScrollStep2>         <XPosThreshold3>30</XPosThreshold3>         <YPosThreshold3>30</YPosThreshold3>         <PosThreshold3>20</PosThreshold3>         <ScrollStep3>7</ScrollStep3>         <XPosThreshold4>40</XPosThreshold4>         <YPosThreshold4>40</YPosThreshold4>         <PosThreshold4>20</PosThreshold4>         <ScrollStep4>9</ScrollStep4>         <XPosThreshold>50</XPosThreshold>         <YPosThreshold>50</YPosThreshold>         <PosThreshold>50</PosThreshold>         <CountLevel>Inert_Low</CountLevel>       </OneFingerScroll>       <TwoFingerScroll>         <Enabled>false</Enabled>         <Debounce>3</Debounce>         <XPosThreshold1>20</XPosThreshold1>         <YPosThreshold1>20</YPosThreshold1>         <PosThreshold1>20</PosThreshold1>         <ScrollStep1>3</ScrollStep1>         <XPosThreshold2>24</XPosThreshold2>         <YPosThreshold2>24</YPosThreshold2>         <PosThreshold2>24</PosThreshold2>         <ScrollStep2>5</ScrollStep2>         <XPosThreshold3>30</XPosThreshold3>         <YPosThreshold3>30</YPosThreshold3>         <PosThreshold3>30</PosThreshold3>         <ScrollStep3>7</ScrollStep3>         <XPosThreshold4>40</XPosThreshold4>         <YPosThreshold4>40</YPosThreshold4>         <PosThreshold4>40</PosThreshold4>         <ScrollStep4>9</ScrollStep4>         <XPosThreshold>50</XPosThreshold>         <YPosThreshold>50</YPosThreshold>         <PosThreshold>50</PosThreshold>         <CountLevel>Inert_Low</CountLevel>       </TwoFingerScroll>       <OneFingerFlick>         <Enabled>false</Enabled>         <XPosThreshold>20</XPosThreshold>         <YPosThreshold>20</YPosThreshold>         <PosThreshold>20</PosThreshold>         <MaxSampleInterval>80</MaxSampleInterval>       </OneFingerFlick>       <OneFingerEdgeSwipe>         <Enabled>false</Enabled>         <PosThreshold>100</PosThreshold>         <DetectionTime>100</DetectionTime>         <TimeoutInterval>2000</TimeoutInterval>         <TopAngleThreshold>45</TopAngleThreshold>         <BottomAngleThreshold>45</BottomAngleThreshold>         <DisamRegionWidth>5</DisamRegionWidth>       </OneFingerEdgeSwipe>       <TwoFingerZoom>         <Enabled>false</Enabled>         <XPosThreshold>8</XPosThreshold>         <YPosThreshold>8</YPosThreshold>         <PosThreshold>8</PosThreshold>         <Debounce>3</Debounce>         <ScrollZoomDebounce>5</ScrollZoomDebounce>       </TwoFingerZoom>       <OneFingerRotate>         <Enabled>false</Enabled>         <RotateDebounce>0</RotateDebounce>         <PosThreshold>8</PosThreshold>       </OneFingerRotate>     </Gestures>     <Sensors>       <Sensor id="Sns0">         <Properties>           <IdacComp>             <Idac0>22</Idac0>             <Idac1>32</Idac1>             <Idac2>32</Idac2>           </IdacComp>           <Idacs />           <UseDedicatedPin>true</UseDedicatedPin>           <GangedPins />         </Properties>       </Sensor>       <Sensor id="Sns1">         <Properties>           <IdacComp>             <Idac0>22</Idac0>             <Idac1>32</Idac1>             <Idac2>32</Idac2>           </IdacComp>           <Idacs />           <UseDedicatedPin>true</UseDedicatedPin>           <GangedPins />         </Properties>       </Sensor>       <Sensor id="Sns2">         <Properties>           <IdacComp>             <Idac0>23</Idac0>             <Idac1>32</Idac1>             <Idac2>32</Idac2>           </IdacComp>           <Idacs />           <UseDedicatedPin>true</UseDedicatedPin>           <GangedPins />         </Properties>       </Sensor>       <Sensor id="Sns3">         <Properties>           <IdacComp>             <Idac0>23</Idac0>             <Idac1>32</Idac1>             <Idac2>32</Idac2>           </IdacComp>           <Idacs />           <UseDedicatedPin>true</UseDedicatedPin>           <GangedPins />         </Properties>       </Sensor>       <Sensor id="Sns4">         <Properties>           <IdacComp>             <Idac0>22</Idac0>             <Idac1>32</Idac1>             <Idac2>32</Idac2>           </IdacComp>           <Idacs />           <UseDedicatedPin>true</UseDedicatedPin>           <GangedPins />         </Properties>       </Sensor>       <Sensor id="Sns5">         <Properties>           <IdacComp>             <Idac0>22</Idac0>             <Idac1>32</Idac1>             <Idac2>32</Idac2>           </IdacComp>           <Idacs />           <UseDedicatedPin>true</UseDedicatedPin>           <GangedPins />         </Properties>       </Sensor>     </Sensors>     <Columns />     <Rows />   </Widget> </WidgetData>, CY_API_CALLBACK_HEADER_INCLUDE=#include "cyapicallbacks.h", CY_COMMENT=, CY_COMPONENT_NAME=CapSense_P4_v7_0, CY_CONFIG_TITLE=CapSense, CY_CONST_CONFIG=true, CY_CONTROL_FILE=<:default:>, CY_DATASHEET_FILE=CapSense_P4_v7_0.pdf, CY_FITTER_NAME=CapSense_1, CY_INSTANCE_SHORT_NAME=CapSense_1, CY_MAJOR_VERSION=7, CY_MINOR_VERSION=0, CY_PDL_DRIVER_NAME=, CY_PDL_DRIVER_REQ_VERSION=, CY_PDL_DRIVER_SUBGROUP=, CY_PDL_DRIVER_VARIANT=, CY_REMOVE=false, CY_SUPPRESS_API_GEN=false, CY_VERSION=PSoC Creator  4.4, INSTANCE_NAME=CapSense_1, )
+// CapSense_P4_v7_0(AdcAcqTime=13, AdcAcquisitionTime=-1, AdcAmuxbInputEnable=false, AdcAnalogStartupDelayUs=5, AdcAzEnable=true, AdcAzTime=5, AdcDedicatedChannels=1, AdcEnable=false, AdcMeasureMode=0, AdcPinAlias=Ch0, AdcResolution=10, AdcSelectAmuxBusChannel=0, AdcTotalChannels=1, AdcVref=-1, BallisticMultiplierEnable=false, BaselineType=0, BlockOffAfterScanEnable=false, Centroid4PtsEnable=false, ClickEnable=false, Csd0IdacGainV1=4, Csd0IdacGainV2=2, Csd0PinAlias=BTN2_Sns0,SLD_Sns0,SLD_Sns1,SLD_Sns2,SLD_Sns3,SLD_Sns4,SLD_Sns5, Csd0PinCount=7, Csd0ShieldDelayV1=0, Csd0ShieldDelayV1Ver1=0, Csd0ShieldDelayV2=0, Csd0ShieldEnable=false, Csd0ShieldPrechargeSource=0, Csd0ShieldTankEnable=false, Csd0TotalShieldCount=1, Csd1IdacGainV1=4, Csd1IdacGainV2=2, Csd1PinAlias=, Csd1PinCount=0, Csd1ShieldDelayV1=0, Csd1ShieldDelayV1Ver1=0, Csd1ShieldDelayV2=0, Csd1ShieldEnable=false, Csd1ShieldPrechargeSource=0, Csd1ShieldTankEnable=false, Csd1TotalShieldCount=1, Csd2xEnable=false, CsdAnalogStartupDelayUs=10, CsdAutoZeroEnable=false, CsdAutoZeroTime=15, CsdCalibrationError=10, CsdColRowIdacAlignmentEn=true, CsdCommonSenseClockEnable=false, CsdDedicatedIdacCompEnable=true, CsdDualIdacLevel=50, CsdEnable=true, CsdFineInitCycles=10, CsdGenerationVersion=2, CsdIdacAutoCalibrateEnable=true, CsdIdacAutoGainEnable=true, CsdIdacCompEnable=true, CsdIdacConfig=0, CsdIdacGainIndexDefault=-1, CsdIdacMin=-1, CsdInactiveSensorConnection=0, CsdInitSwitchRes=1, CsdMFSDividerOffsetF1=1, CsdMFSDividerOffsetF2=2, CsdModClockFreq=24000, CsdNoiseMetricEnable=false, CsdNoiseMetricThreshold=1, CsdPrescanSettlingTime=5, CsdRawCountCalibrationLevel=85, CsdSenseClockFreq=3000, CsdSenseClockSource=1, CsdSensingMethod=0, CsdShieldSwitchRes=1, CsdSnsClockConstantR=1000, CsdTuningMode=3, CsdV2AnalogWakeupDelayUs=0, CSDv2Version=2, CsdVrefV2=-1, Csx0IdacGainV1=4, Csx0IdacGainV2=1, Csx0PinAliasRx=, Csx0PinCountRx=0, Csx1IdacGainV1=4, Csx1IdacGainV2=1, Csx1PinAliasRx=, Csx1PinCountRx=0, Csx2xEnable=false, CsxAnalogStartupDelayUs=10, CsxAutoZeroEnable=false, CsxAutoZeroTime=15, CsxCalibrationError=20, CsxCommonTxClockEnable=false, CsxEnable=false, CsxFineInitCycles=4, CsxIdacAutoCalibrateEnable=true, CsxIdacBitsUsedV1=8, CsxIdacBitsUsedV2=7, CsxInactiveSensorConnection=0, CsxInitShieldSwitchRes=2, CsxInitSwitchRes=1, CsxMaxFingers=1, CsxMaxLocalPeaks=5, CsxMFSDividerOffsetF1=1, CsxMFSDividerOffsetF2=2, CsxModClockFreq=24000, CsxMultiphaseTxEnable=false, CsxNoiseMetricEnable=false, CsxNoiseMetricThreshold=1, CsxPinAliasMptx=, CsxPinAliasRx=, CsxPinAliasTx=, CsxPinCountMptx=0, CsxPinCountRx=0, CsxPinCountTx=0, CsxRawCountCalibrationLevel=40, CsxScanShieldSwitchRes=0, CsxScanSwitchRes=0, CsxSkipAndOversampleNodes=false, CsxTxClockFreq=300, CsxTxClockSource=1, CustomDataStructSize=0, Dig1PinMaskText=, Dig2PinMaskText=, DoxygenMode=false, DummyStatus=1, GestureEnable=false, GestureGlobalEnable=false, ImoFreqOffsetF1=20, ImoFreqOffsetF2=20, IndSenseCount=0, IsAdcSupported=false, IsCapSenseSupported=true, IsCsdSupportedBySymbol=true, IsCSDv2=true, IsCsxSupportedBySymbol=true, IsGestureSupported=true, IsIsxSupportedBySymbol=false, Isx0IdacGainV2=1, IsxAutoZeroEnable=false, IsxAutoZeroTime=15, IsxControlFile=, IsxControlFileText=, IsxDisableRsv=true, IsxEnable=false, IsxFineInitCycles=20, IsxIdacAutoCalibrateEnable=true, IsxIdacBitsUsedV2=7, IsxInitShieldSwitchRes=2, IsxInitSwitchRes=1, IsxModClockFreq=24000, IsxNoiseMetricEnable=false, IsxNoiseMetricThreshold=1, IsxPinAliasLx1=, IsxPinAliasRx=, IsxPinCountLx1=0, IsxPinCountRx=0, IsxRawCountCalibrationLevel=30, IsxSamplePhase_Deg=30, IsxScanShieldSwitchRes=0, IsxScanSwitchRes=0, IsxSkipAndOversampleNodes=false, LowBaselineResetSize=8, ModeSupport=2, MultiFreqScanEnable=false, MultiFreqScanMethod=0, NumCentroids=1, OffDebounceEnable=false, OneFingerEdgeSwipeEnable=false, OneFingerEdgeSwipeTimeoutInterval=2000, OneFingerFlickEnable=false, OneFingerRotateEnable=false, OneFingerScrollEnable=false, P2PinCo=1, Port3Pin0= , Port3Pin1= , PosIirFilterCoeff=128, ProxAlpFilterCoeff=2, ProxAlpFilterEnable=false, ProxAverageFilterEnable=false, ProxAverageFilterSampleSize=4, ProxCustomFilterEnable=false, ProxIirFilterBaselineN=1, ProxIirFilterBaselineType=2, ProxIirFilterEnable=false, ProxIirFilterRawCountN=128, ProxIirFilterRawCountType=1, ProxMedianFilterEnable=false, RadialSliderPosIirResetThr=35, RegisterMapSelfTest=false, RegularAlpFilterCoeff=2, RegularAlpFilterEnable=false, RegularAverageFilterEnable=false, RegularAverageFilterSampleSize=4, RegularCustomFilterEnable=false, RegularIirFilterBaselineN=1, RegularIirFilterBaselineType=2, RegularIirFilterEnable=false, RegularIirFilterRawCountN=128, RegularIirFilterRawCountType=1, RegularMedianFilterEnable=false, SecondFinger5x5FilterEnable=false, SelfTestAnalogStartupDelayUs=23, SelfTestAutoGainEn=true, SelfTestBaselineDuplicationEnable=true, SelfTestBaselineRawCountRangeEnable=true, SelfTestEnable=false, SelfTestExtCapEnable=true, SelfTestExtCapModClkDivider=6, SelfTestExtCapResolution=10, SelfTestExtCapVref=-1, SelfTestFineInitCycles=10, SelfTestGlobalCrcEnable=true, SelfTestIdacGainIndexDefault=-1, SelfTestIntCapEnable=true, SelfTestRawCountTarget=85, SelfTestShCapEnable=true, SelfTestShieldCapInactiveState=0, SelfTestSns2SnsEnable=true, SelfTestSnsCapCsdInactiveState=0, SelfTestSnsCapCsxInactiveState=0, SelfTestSnsCapEnable=true, SelfTestSnsCapModClk=-1, SelfTestSnsCapModClkActual=24000, SelfTestSnsCapRawCountError=10, SelfTestSnsCapResolution=12, SelfTestSnsCapSnsClk=-1, SelfTestSnsCapSnsClkActual=375000, SelfTestSnsCapVref=-1, SelfTestSnsClkDividerDefault=-1, SelfTestSnsShortEnable=true, SelfTestSnsShortTime=2, SelfTestVddaEnable=true, SelfTestVddaModClkDivider=1, SelfTestVddaResolution=10, SelfTestVddaVref=-1, SelfTestVddaVrefVoltage=-1, SelfTestWidgetCrcEnable=true, SensorAutoResetEnable=false, SensorAutoResetMethod=0, SensorAutoResetSamplesCount=1000, SliderMultiplierMethod=0, ThresholdSize=16, TimestampInterval=1, TouchpadDisplaySettings=<?xml version="1.0" encoding="utf-16"?> <TouchpadDisplaySettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">   <NumberOfSamples>100</NumberOfSamples>   <ShowHeatMap>true</ShowHeatMap>   <ColorRangeMinValue>0</ColorRangeMinValue>   <ColorRangeMaxValue>300</ColorRangeMaxValue>   <Multicolor>false</Multicolor>   <CsxMaxXAxisPos>100</CsxMaxXAxisPos>   <CsxMaxYAxisPos>100</CsxMaxYAxisPos>   <CsdMaxXAxisPos>0</CsdMaxXAxisPos>   <CsdMaxYAxisPos>0</CsdMaxYAxisPos>   <TouchpadPositionDisplaying>DISPLAY_BOTH</TouchpadPositionDisplaying>   <CsxMaxFingers>0</CsxMaxFingers> </TouchpadDisplaySettings>, TouchpadMultiplierMethod=0, TouchProxThresholdCoeff=300, TunerLayoutPreferences=<?xml version="1.0" encoding="utf-16"?> <CyLayoutPreferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">   <WidgetViewSplitterDistance>537</WidgetViewSplitterDistance>   <FormLocation>     <X>346</X>     <Y>-905</Y>   </FormLocation>   <FormSize>     <Width>1205</Width>     <Height>682</Height>   </FormSize>   <WindowState>Normal</WindowState> </CyLayoutPreferences>, TunerOptionsPreferences=<?xml version="1.0" encoding="utf-16"?> <Options xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">   <SNR>     <NoiseCount>500</NoiseCount>     <SignalCount>500</SignalCount>     <SpikeLimit>0</SpikeLimit>     <NoiseMethod>PeakToPeak</NoiseMethod>     <SnrPass>5</SnrPass>   </SNR>   <Graph>     <SeriesThickness>1</SeriesThickness>   </Graph>   <Logging>     <LogAppend>false</LogAppend>     <LogDuration>100000</LogDuration>     <WidgetLogProps>       <Name>BTN2</Name>       <WdgtStatus>false</WdgtStatus>       <Position>false</Position>     </WidgetLogProps>     <WidgetLogProps>       <Name>SLD</Name>       <WdgtStatus>false</WdgtStatus>       <Position>false</Position>     </WidgetLogProps>     <SensorLogProps>       <Raw>false</Raw>       <Bsln>false</Bsln>       <Diff>false</Diff>       <SnsStatus>false</SnsStatus>       <Name>BTN2_Rx0</Name>     </SensorLogProps>     <SensorLogProps>       <Raw>false</Raw>       <Bsln>false</Bsln>       <Diff>false</Diff>       <SnsStatus>false</SnsStatus>       <Name>SLD_Sns0</Name>     </SensorLogProps>     <SensorLogProps>       <Raw>false</Raw>       <Bsln>false</Bsln>       <Diff>false</Diff>       <SnsStatus>false</SnsStatus>       <Name>SLD_Sns1</Name>     </SensorLogProps>     <SensorLogProps>       <Raw>false</Raw>       <Bsln>false</Bsln>       <Diff>false</Diff>       <SnsStatus>false</SnsStatus>       <Name>SLD_Sns2</Name>     </SensorLogProps>     <SensorLogProps>       <Raw>false</Raw>       <Bsln>false</Bsln>       <Diff>false</Diff>       <SnsStatus>false</SnsStatus>       <Name>SLD_Sns3</Name>     </SensorLogProps>     <SensorLogProps>       <Raw>false</Raw>       <Bsln>false</Bsln>       <Diff>false</Diff>       <SnsStatus>false</SnsStatus>       <Name>SLD_Sns4</Name>     </SensorLogProps>     <SensorLogProps>       <Raw>false</Raw>       <Bsln>false</Bsln>       <Diff>false</Diff>       <SnsStatus>false</SnsStatus>       <Name>SLD_Sns5</Name>     </SensorLogProps>   </Logging> </Options>, TunerViewPreferences=<?xml version="1.0" encoding="utf-16"?> <CyViewPreferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">   <LastConnectedPort>KitProg2/1A0D127E03010400 - I2C</LastConnectedPort>   <WidgetExplorer>     <UncheckedWidgets />     <CheckedSensors>       <SensorName>BTN2_Rx0</SensorName>       <SensorName>SLD_Sns0</SensorName>       <SensorName>SLD_Sns1</SensorName>       <SensorName>SLD_Sns2</SensorName>       <SensorName>SLD_Sns3</SensorName>       <SensorName>SLD_Sns4</SensorName>       <SensorName>SLD_Sns5</SensorName>     </CheckedSensors>     <CollapsedWidgets />   </WidgetExplorer>   <GraphSetup>     <DisplayTouchSignalGraph>true</DisplayTouchSignalGraph>     <ShowLegend>true</ShowLegend>     <ShowMarks>false</ShowMarks>     <SyncedRead>false</SyncedRead>     <CheckedThresholds />   </GraphSetup>   <GestureMonitor>     <DelayEnabled>true</DelayEnabled>     <DelayInterval>1000</DelayInterval>   </GestureMonitor> </CyViewPreferences>, TunerWidgetData=, TwoFingerScrollEnable=false, TwoFingerSettlingTime=3, TwoFingerZoomEnable=false, VddaValue=3.3, WidgetBaselineCoeffEnable=false, WidgetData=<?xml version="1.0" encoding="utf-16"?> <WidgetData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">   <Widget id="BTN2" type="Button" mode="CSD" block="CSD0" slot="0">     <Angle>0</Angle>     <FlippedX>false</FlippedX>     <FlippedY>false</FlippedY>     <Flipped2D>false</Flipped2D>     <ScaleFactor>1</ScaleFactor>     <Properties>       <FingerCap>0.16</FingerCap>       <Diplexing>false</Diplexing>       <MaxPosition>100</MaxPosition>       <MaxXPosition>100</MaxXPosition>       <MaxYPosition>100</MaxYPosition>       <PositionFilter>None</PositionFilter>       <MultiphaseTx>false</MultiphaseTx>       <NumberOfTargets>4</NumberOfTargets>       <SenseClockFreq>3000</SenseClockFreq>       <RowSenseClockFreq>3000</RowSenseClockFreq>       <TxClockFreq>300</TxClockFreq>       <IsxTxClockFreq>1000</IsxTxClockFreq>       <ScanResolution>_12</ScanResolution>       <NumConversions>100</NumConversions>       <IdacMod>         <Idac0>32</Idac0>         <Idac1>32</Idac1>         <Idac2>32</Idac2>       </IdacMod>       <RowIdacMod>         <Idac0>32</Idac0>         <Idac1>32</Idac1>         <Idac2>32</Idac2>       </RowIdacMod>       <IdacGainV1>_1200</IdacGainV1>       <IdacGainCsdV2>_2400</IdacGainCsdV2>       <IdacGainCsxV2>_300</IdacGainCsxV2>       <FingerThreshold>500</FingerThreshold>       <ProxTouchThreshold>200</ProxTouchThreshold>       <NoiseThreshold>40</NoiseThreshold>       <NegNoiseThreshold>40</NegNoiseThreshold>       <LowBaselineReset>30</LowBaselineReset>       <BaselineReset>1000</BaselineReset>       <BaselineUpdateThreshold>100</BaselineUpdateThreshold>       <Hysteresis>10</Hysteresis>       <OnDebounce>3</OnDebounce>       <OffDebounce>3</OffDebounce>       <AlpOnThreshold>60</AlpOnThreshold>       <AlpOFFThreshold>20</AlpOFFThreshold>       <Velocity>2500</Velocity>       <MedianFilter>false</MedianFilter>       <IirFilter>false</IirFilter>       <IirFilterCoeff>128</IirFilterCoeff>       <AIirFilter>false</AIirFilter>       <AverageFilter>false</AverageFilter>       <JitterFilter>false</JitterFilter>       <BallisticMultiplier>false</BallisticMultiplier>       <AIirPositionMoveTh>3</AIirPositionMoveTh>       <AIirPositionSlowMoveTh>7</AIirPositionSlowMoveTh>       <AIirPositionFastMoveTh>12</AIirPositionFastMoveTh>       <AIirCoeffMaxLimit>60</AIirCoeffMaxLimit>       <AIirCoeffMinLimit>1</AIirCoeffMinLimit>       <AIirCoeffDivisor>64</AIirCoeffDivisor>       <CentroidType>Csd3x3</CentroidType>       <CrossCouplingPosTh>5</CrossCouplingPosTh>       <EdgeCorrectionEnable>true</EdgeCorrectionEnable>       <EdgeVirtualSensorTh>100</EdgeVirtualSensorTh>       <EdgePenultimateTh>100</EdgePenultimateTh>       <TwoFingerDetection>false</TwoFingerDetection>       <FastMovementMult>9</FastMovementMult>       <SlowMovementMult>2</SlowMovementMult>       <DivisorValue>4</DivisorValue>       <SpeedThresholdX>3</SpeedThresholdX>       <SpeedThresholdY>4</SpeedThresholdY>     </Properties>     <Gestures>       <Click>         <Enabled>false</Enabled>         <XMaxPosDisplacement>30</XMaxPosDisplacement>         <YMaxPosDisplacement>30</YMaxPosDisplacement>         <MaxPosDisplacement>30</MaxPosDisplacement>         <MaxRadius>20</MaxRadius>         <MaxDisplacement>20</MaxDisplacement>         <MinTouchInterval>10</MinTouchInterval>         <MaxTouchInterval>1000</MaxTouchInterval>         <OneFingerMinTouchDuration>10</OneFingerMinTouchDuration>         <OneFingerMaxTouchDuration>1000</OneFingerMaxTouchDuration>         <TwoFingerMinTouchDuration>100</TwoFingerMinTouchDuration>         <TwoFingerMaxTouchDuration>1000</TwoFingerMaxTouchDuration>       </Click>       <OneFingerScroll>         <Enabled>false</Enabled>         <Debounce>3</Debounce>         <XPosThreshold1>20</XPosThreshold1>         <YPosThreshold1>20</YPosThreshold1>         <PosThreshold1>20</PosThreshold1>         <ScrollStep1>3</ScrollStep1>         <XPosThreshold2>24</XPosThreshold2>         <YPosThreshold2>24</YPosThreshold2>         <F1_Scroll_PosThreshold2>20</F1_Scroll_PosThreshold2>         <ScrollStep2>5</ScrollStep2>         <XPosThreshold3>30</XPosThreshold3>         <YPosThreshold3>30</YPosThreshold3>         <PosThreshold3>20</PosThreshold3>         <ScrollStep3>7</ScrollStep3>         <XPosThreshold4>40</XPosThreshold4>         <YPosThreshold4>40</YPosThreshold4>         <PosThreshold4>20</PosThreshold4>         <ScrollStep4>9</ScrollStep4>         <XPosThreshold>50</XPosThreshold>         <YPosThreshold>50</YPosThreshold>         <PosThreshold>50</PosThreshold>         <CountLevel>Inert_Low</CountLevel>       </OneFingerScroll>       <TwoFingerScroll>         <Enabled>false</Enabled>         <Debounce>3</Debounce>         <XPosThreshold1>20</XPosThreshold1>         <YPosThreshold1>20</YPosThreshold1>         <PosThreshold1>20</PosThreshold1>         <ScrollStep1>3</ScrollStep1>         <XPosThreshold2>24</XPosThreshold2>         <YPosThreshold2>24</YPosThreshold2>         <PosThreshold2>24</PosThreshold2>         <ScrollStep2>5</ScrollStep2>         <XPosThreshold3>30</XPosThreshold3>         <YPosThreshold3>30</YPosThreshold3>         <PosThreshold3>30</PosThreshold3>         <ScrollStep3>7</ScrollStep3>         <XPosThreshold4>40</XPosThreshold4>         <YPosThreshold4>40</YPosThreshold4>         <PosThreshold4>40</PosThreshold4>         <ScrollStep4>9</ScrollStep4>         <XPosThreshold>50</XPosThreshold>         <YPosThreshold>50</YPosThreshold>         <PosThreshold>50</PosThreshold>         <CountLevel>Inert_Low</CountLevel>       </TwoFingerScroll>       <OneFingerFlick>         <Enabled>false</Enabled>         <XPosThreshold>20</XPosThreshold>         <YPosThreshold>20</YPosThreshold>         <PosThreshold>20</PosThreshold>         <MaxSampleInterval>80</MaxSampleInterval>       </OneFingerFlick>       <OneFingerEdgeSwipe>         <Enabled>false</Enabled>         <PosThreshold>100</PosThreshold>         <DetectionTime>100</DetectionTime>         <TimeoutInterval>2000</TimeoutInterval>         <TopAngleThreshold>45</TopAngleThreshold>         <BottomAngleThreshold>45</BottomAngleThreshold>         <DisamRegionWidth>5</DisamRegionWidth>       </OneFingerEdgeSwipe>       <TwoFingerZoom>         <Enabled>false</Enabled>         <XPosThreshold>8</XPosThreshold>         <YPosThreshold>8</YPosThreshold>         <PosThreshold>8</PosThreshold>         <Debounce>3</Debounce>         <ScrollZoomDebounce>5</ScrollZoomDebounce>       </TwoFingerZoom>       <OneFingerRotate>         <Enabled>false</Enabled>         <RotateDebounce>0</RotateDebounce>         <PosThreshold>8</PosThreshold>       </OneFingerRotate>     </Gestures>     <Sensors>       <Sensor id="Sns0">         <Properties>           <IdacComp>             <Idac0>32</Idac0>             <Idac1>32</Idac1>             <Idac2>32</Idac2>           </IdacComp>           <Idacs>             <Idac>               <Idac0>18</Idac0>               <Idac1>32</Idac1>               <Idac2>32</Idac2>             </Idac>           </Idacs>           <UseDedicatedPin>true</UseDedicatedPin>           <GangedPins />         </Properties>       </Sensor>     </Sensors>     <Columns />     <Rows />   </Widget>   <Widget id="SLD" type="LinearSlider" mode="CSD" block="CSD0" slot="0">     <Angle>0</Angle>     <FlippedX>false</FlippedX>     <FlippedY>false</FlippedY>     <Flipped2D>false</Flipped2D>     <ScaleFactor>1</ScaleFactor>     <Properties>       <FingerCap>0.16</FingerCap>       <Diplexing>false</Diplexing>       <MaxPosition>100</MaxPosition>       <MaxXPosition>100</MaxXPosition>       <MaxYPosition>100</MaxYPosition>       <PositionFilter>None</PositionFilter>       <MultiphaseTx>false</MultiphaseTx>       <NumberOfTargets>4</NumberOfTargets>       <SenseClockFreq>6000</SenseClockFreq>       <RowSenseClockFreq>3000</RowSenseClockFreq>       <TxClockFreq>300</TxClockFreq>       <IsxTxClockFreq>1000</IsxTxClockFreq>       <ScanResolution>_11</ScanResolution>       <NumConversions>100</NumConversions>       <IdacMod>         <Idac0>23</Idac0>         <Idac1>32</Idac1>         <Idac2>32</Idac2>       </IdacMod>       <RowIdacMod>         <Idac0>32</Idac0>         <Idac1>32</Idac1>         <Idac2>32</Idac2>       </RowIdacMod>       <IdacGainV1>_1200</IdacGainV1>       <IdacGainCsdV2>_2400</IdacGainCsdV2>       <IdacGainCsxV2>_300</IdacGainCsxV2>       <FingerThreshold>53</FingerThreshold>       <ProxTouchThreshold>200</ProxTouchThreshold>       <NoiseThreshold>26</NoiseThreshold>       <NegNoiseThreshold>26</NegNoiseThreshold>       <LowBaselineReset>30</LowBaselineReset>       <BaselineReset>1000</BaselineReset>       <BaselineUpdateThreshold>100</BaselineUpdateThreshold>       <Hysteresis>6</Hysteresis>       <OnDebounce>3</OnDebounce>       <OffDebounce>3</OffDebounce>       <AlpOnThreshold>60</AlpOnThreshold>       <AlpOFFThreshold>20</AlpOFFThreshold>       <Velocity>2500</Velocity>       <MedianFilter>false</MedianFilter>       <IirFilter>false</IirFilter>       <IirFilterCoeff>128</IirFilterCoeff>       <AIirFilter>false</AIirFilter>       <AverageFilter>false</AverageFilter>       <JitterFilter>false</JitterFilter>       <BallisticMultiplier>false</BallisticMultiplier>       <AIirPositionMoveTh>3</AIirPositionMoveTh>       <AIirPositionSlowMoveTh>7</AIirPositionSlowMoveTh>       <AIirPositionFastMoveTh>12</AIirPositionFastMoveTh>       <AIirCoeffMaxLimit>60</AIirCoeffMaxLimit>       <AIirCoeffMinLimit>1</AIirCoeffMinLimit>       <AIirCoeffDivisor>64</AIirCoeffDivisor>       <CentroidType>Csd3x3</CentroidType>       <CrossCouplingPosTh>5</CrossCouplingPosTh>       <EdgeCorrectionEnable>true</EdgeCorrectionEnable>       <EdgeVirtualSensorTh>100</EdgeVirtualSensorTh>       <EdgePenultimateTh>100</EdgePenultimateTh>       <TwoFingerDetection>false</TwoFingerDetection>       <FastMovementMult>9</FastMovementMult>       <SlowMovementMult>2</SlowMovementMult>       <DivisorValue>4</DivisorValue>       <SpeedThresholdX>3</SpeedThresholdX>       <SpeedThresholdY>4</SpeedThresholdY>     </Properties>     <Gestures>       <Click>         <Enabled>false</Enabled>         <XMaxPosDisplacement>30</XMaxPosDisplacement>         <YMaxPosDisplacement>30</YMaxPosDisplacement>         <MaxPosDisplacement>30</MaxPosDisplacement>         <MaxRadius>20</MaxRadius>         <MaxDisplacement>20</MaxDisplacement>         <MinTouchInterval>10</MinTouchInterval>         <MaxTouchInterval>1000</MaxTouchInterval>         <OneFingerMinTouchDuration>10</OneFingerMinTouchDuration>         <OneFingerMaxTouchDuration>1000</OneFingerMaxTouchDuration>         <TwoFingerMinTouchDuration>100</TwoFingerMinTouchDuration>         <TwoFingerMaxTouchDuration>1000</TwoFingerMaxTouchDuration>       </Click>       <OneFingerScroll>         <Enabled>false</Enabled>         <Debounce>3</Debounce>         <XPosThreshold1>20</XPosThreshold1>         <YPosThreshold1>20</YPosThreshold1>         <PosThreshold1>20</PosThreshold1>         <ScrollStep1>3</ScrollStep1>         <XPosThreshold2>24</XPosThreshold2>         <YPosThreshold2>24</YPosThreshold2>         <F1_Scroll_PosThreshold2>20</F1_Scroll_PosThreshold2>         <ScrollStep2>5</ScrollStep2>         <XPosThreshold3>30</XPosThreshold3>         <YPosThreshold3>30</YPosThreshold3>         <PosThreshold3>20</PosThreshold3>         <ScrollStep3>7</ScrollStep3>         <XPosThreshold4>40</XPosThreshold4>         <YPosThreshold4>40</YPosThreshold4>         <PosThreshold4>20</PosThreshold4>         <ScrollStep4>9</ScrollStep4>         <XPosThreshold>50</XPosThreshold>         <YPosThreshold>50</YPosThreshold>         <PosThreshold>50</PosThreshold>         <CountLevel>Inert_Low</CountLevel>       </OneFingerScroll>       <TwoFingerScroll>         <Enabled>false</Enabled>         <Debounce>3</Debounce>         <XPosThreshold1>20</XPosThreshold1>         <YPosThreshold1>20</YPosThreshold1>         <PosThreshold1>20</PosThreshold1>         <ScrollStep1>3</ScrollStep1>         <XPosThreshold2>24</XPosThreshold2>         <YPosThreshold2>24</YPosThreshold2>         <PosThreshold2>24</PosThreshold2>         <ScrollStep2>5</ScrollStep2>         <XPosThreshold3>30</XPosThreshold3>         <YPosThreshold3>30</YPosThreshold3>         <PosThreshold3>30</PosThreshold3>         <ScrollStep3>7</ScrollStep3>         <XPosThreshold4>40</XPosThreshold4>         <YPosThreshold4>40</YPosThreshold4>         <PosThreshold4>40</PosThreshold4>         <ScrollStep4>9</ScrollStep4>         <XPosThreshold>50</XPosThreshold>         <YPosThreshold>50</YPosThreshold>         <PosThreshold>50</PosThreshold>         <CountLevel>Inert_Low</CountLevel>       </TwoFingerScroll>       <OneFingerFlick>         <Enabled>false</Enabled>         <XPosThreshold>20</XPosThreshold>         <YPosThreshold>20</YPosThreshold>         <PosThreshold>20</PosThreshold>         <MaxSampleInterval>80</MaxSampleInterval>       </OneFingerFlick>       <OneFingerEdgeSwipe>         <Enabled>false</Enabled>         <PosThreshold>100</PosThreshold>         <DetectionTime>100</DetectionTime>         <TimeoutInterval>2000</TimeoutInterval>         <TopAngleThreshold>45</TopAngleThreshold>         <BottomAngleThreshold>45</BottomAngleThreshold>         <DisamRegionWidth>5</DisamRegionWidth>       </OneFingerEdgeSwipe>       <TwoFingerZoom>         <Enabled>false</Enabled>         <XPosThreshold>8</XPosThreshold>         <YPosThreshold>8</YPosThreshold>         <PosThreshold>8</PosThreshold>         <Debounce>3</Debounce>         <ScrollZoomDebounce>5</ScrollZoomDebounce>       </TwoFingerZoom>       <OneFingerRotate>         <Enabled>false</Enabled>         <RotateDebounce>0</RotateDebounce>         <PosThreshold>8</PosThreshold>       </OneFingerRotate>     </Gestures>     <Sensors>       <Sensor id="Sns0">         <Properties>           <IdacComp>             <Idac0>22</Idac0>             <Idac1>32</Idac1>             <Idac2>32</Idac2>           </IdacComp>           <Idacs />           <UseDedicatedPin>true</UseDedicatedPin>           <GangedPins />         </Properties>       </Sensor>       <Sensor id="Sns1">         <Properties>           <IdacComp>             <Idac0>22</Idac0>             <Idac1>32</Idac1>             <Idac2>32</Idac2>           </IdacComp>           <Idacs />           <UseDedicatedPin>true</UseDedicatedPin>           <GangedPins />         </Properties>       </Sensor>       <Sensor id="Sns2">         <Properties>           <IdacComp>             <Idac0>23</Idac0>             <Idac1>32</Idac1>             <Idac2>32</Idac2>           </IdacComp>           <Idacs />           <UseDedicatedPin>true</UseDedicatedPin>           <GangedPins />         </Properties>       </Sensor>       <Sensor id="Sns3">         <Properties>           <IdacComp>             <Idac0>23</Idac0>             <Idac1>32</Idac1>             <Idac2>32</Idac2>           </IdacComp>           <Idacs />           <UseDedicatedPin>true</UseDedicatedPin>           <GangedPins />         </Properties>       </Sensor>       <Sensor id="Sns4">         <Properties>           <IdacComp>             <Idac0>22</Idac0>             <Idac1>32</Idac1>             <Idac2>32</Idac2>           </IdacComp>           <Idacs />           <UseDedicatedPin>true</UseDedicatedPin>           <GangedPins />         </Properties>       </Sensor>       <Sensor id="Sns5">         <Properties>           <IdacComp>             <Idac0>22</Idac0>             <Idac1>32</Idac1>             <Idac2>32</Idac2>           </IdacComp>           <Idacs />           <UseDedicatedPin>true</UseDedicatedPin>           <GangedPins />         </Properties>       </Sensor>     </Sensors>     <Columns />     <Rows />   </Widget> </WidgetData>, CY_API_CALLBACK_HEADER_INCLUDE=#include "cyapicallbacks.h", CY_COMMENT=, CY_COMPONENT_NAME=CapSense_P4_v7_0, CY_CONFIG_TITLE=CapSense, CY_CONST_CONFIG=true, CY_CONTROL_FILE=<:default:>, CY_DATASHEET_FILE=CapSense_P4_v7_0.pdf, CY_FITTER_NAME=CapSense_1, CY_INSTANCE_SHORT_NAME=CapSense_1, CY_MAJOR_VERSION=7, CY_MINOR_VERSION=0, CY_PDL_DRIVER_NAME=, CY_PDL_DRIVER_REQ_VERSION=, CY_PDL_DRIVER_SUBGROUP=, CY_PDL_DRIVER_VARIANT=, CY_REMOVE=false, CY_SUPPRESS_API_GEN=false, CY_VERSION=PSoC Creator  4.4, INSTANCE_NAME=CapSense_1, )
 module CapSense_P4_v7_0_3 ;
 
 
@@ -558,7 +558,7 @@ module CapSense_P4_v7_0_3 ;
     electrical  Net_341;
     electrical  Net_314;
     electrical  Net_15;
-    electrical [5:0] Net_2;
+    electrical [6:0] Net_2;
     electrical  Net_13;
     electrical  Net_132;
     electrical  Net_84;
@@ -594,7 +594,7 @@ module CapSense_P4_v7_0_3 ;
         .sample_in(Net_94),
         .sample_out(Net_316),
         .sampling(Net_318),
-        .sense(Net_2[5:0]),
+        .sense(Net_2[6:0]),
         .sense_in(Net_95),
         .sense_out(Net_317),
         .shield(Net_122),
@@ -605,80 +605,80 @@ module CapSense_P4_v7_0_3 ;
         .vref_ext(Net_150));
     defparam CSD.adc_channel_count = 1;
     defparam CSD.dedicated_io_count = 2;
-    defparam CSD.ganged_csx = 1;
+    defparam CSD.ganged_csx = 0;
     defparam CSD.is_capsense = 1;
     defparam CSD.rx_count = 1;
     defparam CSD.sense_as_shield = 0;
-    defparam CSD.sensors_count = 6;
+    defparam CSD.sensors_count = 7;
     defparam CSD.shield_as_sense = 0;
     defparam CSD.shield_count = 1;
     defparam CSD.tx_count = 1;
 
-	wire [5:0] tmpOE__Sns_net;
-	wire [5:0] tmpFB_5__Sns_net;
-	wire [5:0] tmpIO_5__Sns_net;
+	wire [6:0] tmpOE__Sns_net;
+	wire [6:0] tmpFB_6__Sns_net;
+	wire [6:0] tmpIO_6__Sns_net;
 	wire [0:0] tmpINTERRUPT_0__Sns_net;
 	electrical [0:0] tmpSIOVREF__Sns_net;
 
 	cy_psoc3_pins_v1_10
 		#(.id("172f3910-d4d4-4a80-95c6-294317c85ef6/77715107-f8d5-47e5-a629-0fb83101ac6b"),
-		  .drive_mode(18'b000_000_000_000_000_000),
-		  .ibuf_enabled(6'b0_0_0_0_0_0),
-		  .init_dr_st(6'b0_1_1_1_1_1),
+		  .drive_mode(21'b000_000_000_000_000_000_000),
+		  .ibuf_enabled(7'b0_0_0_0_0_0_0),
+		  .init_dr_st(7'b0_1_1_1_1_1_1),
 		  .input_clk_en(0),
-		  .input_sync(6'b0_0_0_0_0_0),
-		  .input_sync_mode(6'b0_0_0_0_0_0),
-		  .intr_mode(12'b00_00_00_00_00_00),
+		  .input_sync(7'b0_0_0_0_0_0_0),
+		  .input_sync_mode(7'b0_0_0_0_0_0_0),
+		  .intr_mode(14'b00_00_00_00_00_00_00),
 		  .invert_in_clock(0),
 		  .invert_in_clock_en(0),
 		  .invert_in_reset(0),
 		  .invert_out_clock(0),
 		  .invert_out_clock_en(0),
 		  .invert_out_reset(0),
-		  .io_voltage(",,,,,"),
+		  .io_voltage(",,,,,,"),
 		  .layout_mode("NONCONTIGUOUS"),
-		  .oe_conn(6'b0_0_0_0_0_0),
+		  .oe_conn(7'b0_0_0_0_0_0_0),
 		  .oe_reset(0),
-		  .oe_sync(6'b0_0_0_0_0_0),
+		  .oe_sync(7'b0_0_0_0_0_0_0),
 		  .output_clk_en(0),
-		  .output_clock_mode(6'b0_0_0_0_0_0),
-		  .output_conn(6'b0_0_0_0_0_0),
-		  .output_mode(6'b0_0_0_0_0_0),
+		  .output_clock_mode(7'b0_0_0_0_0_0_0),
+		  .output_conn(7'b0_0_0_0_0_0_0),
+		  .output_mode(7'b0_0_0_0_0_0_0),
 		  .output_reset(0),
-		  .output_sync(6'b0_0_0_0_0_0),
+		  .output_sync(7'b0_0_0_0_0_0_0),
 		  .pa_in_clock(-1),
 		  .pa_in_clock_en(-1),
 		  .pa_in_reset(-1),
 		  .pa_out_clock(-1),
 		  .pa_out_clock_en(-1),
 		  .pa_out_reset(-1),
-		  .pin_aliases("SLD_Sns0,SLD_Sns1,SLD_Sns2,SLD_Sns3,SLD_Sns4,SLD_Sns5"),
-		  .pin_mode("AAAAAA"),
+		  .pin_aliases("BTN2_Sns0,SLD_Sns0,SLD_Sns1,SLD_Sns2,SLD_Sns3,SLD_Sns4,SLD_Sns5"),
+		  .pin_mode("AAAAAAA"),
 		  .por_state(4),
 		  .sio_group_cnt(0),
-		  .sio_hyst(6'b1_1_1_1_1_1),
+		  .sio_hyst(7'b1_1_1_1_1_1_1),
 		  .sio_ibuf(""),
-		  .sio_info(12'b00_00_00_00_00_00),
+		  .sio_info(14'b00_00_00_00_00_00_00),
 		  .sio_obuf(""),
 		  .sio_refsel(""),
 		  .sio_vtrip(""),
 		  .sio_hifreq(""),
 		  .sio_vohsel(""),
-		  .slew_rate(6'b0_0_0_0_0_0),
+		  .slew_rate(7'b0_0_0_0_0_0_0),
 		  .spanning(1),
-		  .use_annotation(6'b0_0_0_0_0_0),
-		  .vtrip(12'b10_10_10_10_10_10),
-		  .width(6),
-		  .ovt_hyst_trim(6'b0_0_0_0_0_0),
-		  .ovt_needed(6'b0_0_0_0_0_0),
-		  .ovt_slew_control(12'b00_00_00_00_00_00),
-		  .input_buffer_sel(12'b00_00_00_00_00_00))
+		  .use_annotation(7'b0_0_0_0_0_0_0),
+		  .vtrip(14'b10_10_10_10_10_10_10),
+		  .width(7),
+		  .ovt_hyst_trim(7'b0_0_0_0_0_0_0),
+		  .ovt_needed(7'b0_0_0_0_0_0_0),
+		  .ovt_slew_control(14'b00_00_00_00_00_00_00),
+		  .input_buffer_sel(14'b00_00_00_00_00_00_00))
 		Sns
 		 (.oe(tmpOE__Sns_net),
-		  .y({6'b0}),
-		  .fb({tmpFB_5__Sns_net[5:0]}),
-		  .analog({Net_2[5:0]}),
-		  .io({tmpIO_5__Sns_net[5:0]}),
+		  .y({7'b0}),
+		  .fb({tmpFB_6__Sns_net[6:0]}),
+		  .analog({Net_2[6:0]}),
+		  .io({tmpIO_6__Sns_net[6:0]}),
 		  .siovref(tmpSIOVREF__Sns_net),
 		  .interrupt({tmpINTERRUPT_0__Sns_net[0:0]}),
 		  .in_clock({1'b0}),
@@ -688,239 +688,11 @@ module CapSense_P4_v7_0_3 ;
 		  .out_clock_en({1'b1}),
 		  .out_reset({1'b0}));
 
-	assign tmpOE__Sns_net = (`CYDEV_CHIP_MEMBER_USED == `CYDEV_CHIP_MEMBER_3A && `CYDEV_CHIP_REVISION_USED < `CYDEV_CHIP_REVISION_3A_ES3) ? ~{6'b111111} : {6'b111111};
-
-	wire [0:0] tmpOE__Rx_net;
-	wire [0:0] tmpFB_0__Rx_net;
-	wire [0:0] tmpIO_0__Rx_net;
-	wire [0:0] tmpINTERRUPT_0__Rx_net;
-	electrical [0:0] tmpSIOVREF__Rx_net;
-
-	cy_psoc3_pins_v1_10
-		#(.id("172f3910-d4d4-4a80-95c6-294317c85ef6/ea884bc0-86af-40f9-b67b-efbe1ecd0ccd"),
-		  .drive_mode(3'b000),
-		  .ibuf_enabled(1'b0),
-		  .init_dr_st(1'b0),
-		  .input_clk_en(0),
-		  .input_sync(1'b0),
-		  .input_sync_mode(1'b0),
-		  .intr_mode(2'b00),
-		  .invert_in_clock(0),
-		  .invert_in_clock_en(0),
-		  .invert_in_reset(0),
-		  .invert_out_clock(0),
-		  .invert_out_clock_en(0),
-		  .invert_out_reset(0),
-		  .io_voltage(""),
-		  .layout_mode("NONCONTIGUOUS"),
-		  .oe_conn(1'b0),
-		  .oe_reset(0),
-		  .oe_sync(1'b0),
-		  .output_clk_en(0),
-		  .output_clock_mode(1'b0),
-		  .output_conn(1'b0),
-		  .output_mode(1'b0),
-		  .output_reset(0),
-		  .output_sync(1'b0),
-		  .pa_in_clock(-1),
-		  .pa_in_clock_en(-1),
-		  .pa_in_reset(-1),
-		  .pa_out_clock(-1),
-		  .pa_out_clock_en(-1),
-		  .pa_out_reset(-1),
-		  .pin_aliases("BTN2_Rx0"),
-		  .pin_mode("A"),
-		  .por_state(4),
-		  .sio_group_cnt(0),
-		  .sio_hyst(1'b1),
-		  .sio_ibuf(""),
-		  .sio_info(2'b00),
-		  .sio_obuf(""),
-		  .sio_refsel(""),
-		  .sio_vtrip(""),
-		  .sio_hifreq(""),
-		  .sio_vohsel(""),
-		  .slew_rate(1'b0),
-		  .spanning(1),
-		  .use_annotation(1'b0),
-		  .vtrip(2'b10),
-		  .width(1),
-		  .ovt_hyst_trim(1'b0),
-		  .ovt_needed(1'b0),
-		  .ovt_slew_control(2'b00),
-		  .input_buffer_sel(2'b00))
-		Rx
-		 (.oe(tmpOE__Rx_net),
-		  .y({1'b0}),
-		  .fb({tmpFB_0__Rx_net[0:0]}),
-		  .analog({Net_13}),
-		  .io({tmpIO_0__Rx_net[0:0]}),
-		  .siovref(tmpSIOVREF__Rx_net),
-		  .interrupt({tmpINTERRUPT_0__Rx_net[0:0]}),
-		  .in_clock({1'b0}),
-		  .in_clock_en({1'b1}),
-		  .in_reset({1'b0}),
-		  .out_clock({1'b0}),
-		  .out_clock_en({1'b1}),
-		  .out_reset({1'b0}));
-
-	assign tmpOE__Rx_net = (`CYDEV_CHIP_MEMBER_USED == `CYDEV_CHIP_MEMBER_3A && `CYDEV_CHIP_REVISION_USED < `CYDEV_CHIP_REVISION_3A_ES3) ? ~{1'b1} : {1'b1};
-
-	wire [0:0] tmpOE__CintA_net;
-	wire [0:0] tmpFB_0__CintA_net;
-	wire [0:0] tmpIO_0__CintA_net;
-	wire [0:0] tmpINTERRUPT_0__CintA_net;
-	electrical [0:0] tmpSIOVREF__CintA_net;
-
-	cy_psoc3_pins_v1_10
-		#(.id("172f3910-d4d4-4a80-95c6-294317c85ef6/a0d51a89-431d-48d5-b6fc-22184503fde4"),
-		  .drive_mode(3'b000),
-		  .ibuf_enabled(1'b0),
-		  .init_dr_st(1'b0),
-		  .input_clk_en(0),
-		  .input_sync(1'b0),
-		  .input_sync_mode(1'b0),
-		  .intr_mode(2'b00),
-		  .invert_in_clock(0),
-		  .invert_in_clock_en(0),
-		  .invert_in_reset(0),
-		  .invert_out_clock(0),
-		  .invert_out_clock_en(0),
-		  .invert_out_reset(0),
-		  .io_voltage(""),
-		  .layout_mode("NONCONTIGUOUS"),
-		  .oe_conn(1'b0),
-		  .oe_reset(0),
-		  .oe_sync(1'b0),
-		  .output_clk_en(0),
-		  .output_clock_mode(1'b0),
-		  .output_conn(1'b0),
-		  .output_mode(1'b0),
-		  .output_reset(0),
-		  .output_sync(1'b0),
-		  .pa_in_clock(-1),
-		  .pa_in_clock_en(-1),
-		  .pa_in_reset(-1),
-		  .pa_out_clock(-1),
-		  .pa_out_clock_en(-1),
-		  .pa_out_reset(-1),
-		  .pin_aliases(""),
-		  .pin_mode("A"),
-		  .por_state(4),
-		  .sio_group_cnt(0),
-		  .sio_hyst(1'b1),
-		  .sio_ibuf(""),
-		  .sio_info(2'b00),
-		  .sio_obuf(""),
-		  .sio_refsel(""),
-		  .sio_vtrip(""),
-		  .sio_hifreq(""),
-		  .sio_vohsel(""),
-		  .slew_rate(1'b0),
-		  .spanning(1),
-		  .use_annotation(1'b0),
-		  .vtrip(2'b10),
-		  .width(1),
-		  .ovt_hyst_trim(1'b0),
-		  .ovt_needed(1'b0),
-		  .ovt_slew_control(2'b00),
-		  .input_buffer_sel(2'b00))
-		CintA
-		 (.oe(tmpOE__CintA_net),
-		  .y({1'b0}),
-		  .fb({tmpFB_0__CintA_net[0:0]}),
-		  .analog({Net_86}),
-		  .io({tmpIO_0__CintA_net[0:0]}),
-		  .siovref(tmpSIOVREF__CintA_net),
-		  .interrupt({tmpINTERRUPT_0__CintA_net[0:0]}),
-		  .in_clock({1'b0}),
-		  .in_clock_en({1'b1}),
-		  .in_reset({1'b0}),
-		  .out_clock({1'b0}),
-		  .out_clock_en({1'b1}),
-		  .out_reset({1'b0}));
-
-	assign tmpOE__CintA_net = (`CYDEV_CHIP_MEMBER_USED == `CYDEV_CHIP_MEMBER_3A && `CYDEV_CHIP_REVISION_USED < `CYDEV_CHIP_REVISION_3A_ES3) ? ~{1'b1} : {1'b1};
+	assign tmpOE__Sns_net = (`CYDEV_CHIP_MEMBER_USED == `CYDEV_CHIP_MEMBER_3A && `CYDEV_CHIP_REVISION_USED < `CYDEV_CHIP_REVISION_3A_ES3) ? ~{7'b1111111} : {7'b1111111};
 
 	// cy_analog_virtualmux_1 (cy_analog_virtualmux_v1_0)
-	cy_connect_v1_0 cy_analog_virtualmux_1_connect(Net_314, Net_15);
+	cy_connect_v1_0 cy_analog_virtualmux_1_connect(Net_314, dedicated_io_bus[0]);
 	defparam cy_analog_virtualmux_1_connect.sig_width = 1;
-
-	wire [0:0] tmpOE__CintB_net;
-	wire [0:0] tmpFB_0__CintB_net;
-	wire [0:0] tmpIO_0__CintB_net;
-	wire [0:0] tmpINTERRUPT_0__CintB_net;
-	electrical [0:0] tmpSIOVREF__CintB_net;
-
-	cy_psoc3_pins_v1_10
-		#(.id("172f3910-d4d4-4a80-95c6-294317c85ef6/458c2b64-f6c8-403c-9883-825f70cb5346"),
-		  .drive_mode(3'b000),
-		  .ibuf_enabled(1'b0),
-		  .init_dr_st(1'b0),
-		  .input_clk_en(0),
-		  .input_sync(1'b0),
-		  .input_sync_mode(1'b0),
-		  .intr_mode(2'b00),
-		  .invert_in_clock(0),
-		  .invert_in_clock_en(0),
-		  .invert_in_reset(0),
-		  .invert_out_clock(0),
-		  .invert_out_clock_en(0),
-		  .invert_out_reset(0),
-		  .io_voltage(""),
-		  .layout_mode("NONCONTIGUOUS"),
-		  .oe_conn(1'b0),
-		  .oe_reset(0),
-		  .oe_sync(1'b0),
-		  .output_clk_en(0),
-		  .output_clock_mode(1'b0),
-		  .output_conn(1'b0),
-		  .output_mode(1'b0),
-		  .output_reset(0),
-		  .output_sync(1'b0),
-		  .pa_in_clock(-1),
-		  .pa_in_clock_en(-1),
-		  .pa_in_reset(-1),
-		  .pa_out_clock(-1),
-		  .pa_out_clock_en(-1),
-		  .pa_out_reset(-1),
-		  .pin_aliases(""),
-		  .pin_mode("A"),
-		  .por_state(4),
-		  .sio_group_cnt(0),
-		  .sio_hyst(1'b1),
-		  .sio_ibuf(""),
-		  .sio_info(2'b00),
-		  .sio_obuf(""),
-		  .sio_refsel(""),
-		  .sio_vtrip(""),
-		  .sio_hifreq(""),
-		  .sio_vohsel(""),
-		  .slew_rate(1'b0),
-		  .spanning(1),
-		  .use_annotation(1'b0),
-		  .vtrip(2'b10),
-		  .width(1),
-		  .ovt_hyst_trim(1'b0),
-		  .ovt_needed(1'b0),
-		  .ovt_slew_control(2'b00),
-		  .input_buffer_sel(2'b00))
-		CintB
-		 (.oe(tmpOE__CintB_net),
-		  .y({1'b0}),
-		  .fb({tmpFB_0__CintB_net[0:0]}),
-		  .analog({Net_84}),
-		  .io({tmpIO_0__CintB_net[0:0]}),
-		  .siovref(tmpSIOVREF__CintB_net),
-		  .interrupt({tmpINTERRUPT_0__CintB_net[0:0]}),
-		  .in_clock({1'b0}),
-		  .in_clock_en({1'b1}),
-		  .in_reset({1'b0}),
-		  .out_clock({1'b0}),
-		  .out_clock_en({1'b1}),
-		  .out_reset({1'b0}));
-
-	assign tmpOE__CintB_net = (`CYDEV_CHIP_MEMBER_USED == `CYDEV_CHIP_MEMBER_3A && `CYDEV_CHIP_REVISION_USED < `CYDEV_CHIP_REVISION_3A_ES3) ? ~{1'b1} : {1'b1};
 
     cy_psoc4_csidac2_v1_0 IDACMod (
         .en_a(Net_57),
@@ -961,82 +733,6 @@ module CapSense_P4_v7_0_3 ;
 
     ZeroTerminal ZeroTerminal_8 (
         .z(Net_48));
-
-	wire [0:0] tmpOE__Tx_net;
-	wire [0:0] tmpFB_0__Tx_net;
-	wire [0:0] tmpIO_0__Tx_net;
-	wire [0:0] tmpINTERRUPT_0__Tx_net;
-	electrical [0:0] tmpSIOVREF__Tx_net;
-
-	cy_psoc3_pins_v1_10
-		#(.id("172f3910-d4d4-4a80-95c6-294317c85ef6/9696e4af-6170-4a72-adbc-8a1b5950a8a9"),
-		  .drive_mode(3'b000),
-		  .ibuf_enabled(1'b0),
-		  .init_dr_st(1'b0),
-		  .input_clk_en(0),
-		  .input_sync(1'b0),
-		  .input_sync_mode(1'b0),
-		  .intr_mode(2'b00),
-		  .invert_in_clock(0),
-		  .invert_in_clock_en(0),
-		  .invert_in_reset(0),
-		  .invert_out_clock(0),
-		  .invert_out_clock_en(0),
-		  .invert_out_reset(0),
-		  .io_voltage(""),
-		  .layout_mode("NONCONTIGUOUS"),
-		  .oe_conn(1'b0),
-		  .oe_reset(0),
-		  .oe_sync(1'b0),
-		  .output_clk_en(0),
-		  .output_clock_mode(1'b0),
-		  .output_conn(1'b0),
-		  .output_mode(1'b0),
-		  .output_reset(0),
-		  .output_sync(1'b0),
-		  .pa_in_clock(-1),
-		  .pa_in_clock_en(-1),
-		  .pa_in_reset(-1),
-		  .pa_out_clock(-1),
-		  .pa_out_clock_en(-1),
-		  .pa_out_reset(-1),
-		  .pin_aliases("BTN2_Tx"),
-		  .pin_mode("A"),
-		  .por_state(4),
-		  .sio_group_cnt(0),
-		  .sio_hyst(1'b1),
-		  .sio_ibuf(""),
-		  .sio_info(2'b00),
-		  .sio_obuf(""),
-		  .sio_refsel(""),
-		  .sio_vtrip(""),
-		  .sio_hifreq(""),
-		  .sio_vohsel(""),
-		  .slew_rate(1'b0),
-		  .spanning(1),
-		  .use_annotation(1'b0),
-		  .vtrip(2'b10),
-		  .width(1),
-		  .ovt_hyst_trim(1'b0),
-		  .ovt_needed(1'b0),
-		  .ovt_slew_control(2'b00),
-		  .input_buffer_sel(2'b00))
-		Tx
-		 (.oe(tmpOE__Tx_net),
-		  .y({1'b0}),
-		  .fb({tmpFB_0__Tx_net[0:0]}),
-		  .analog({Net_121}),
-		  .io({tmpIO_0__Tx_net[0:0]}),
-		  .siovref(tmpSIOVREF__Tx_net),
-		  .interrupt({tmpINTERRUPT_0__Tx_net[0:0]}),
-		  .in_clock({1'b0}),
-		  .in_clock_en({1'b1}),
-		  .in_reset({1'b0}),
-		  .out_clock({1'b0}),
-		  .out_clock_en({1'b1}),
-		  .out_reset({1'b0}));
-
-	assign tmpOE__Tx_net = (`CYDEV_CHIP_MEMBER_USED == `CYDEV_CHIP_MEMBER_3A && `CYDEV_CHIP_REVISION_USED < `CYDEV_CHIP_REVISION_3A_ES3) ? ~{1'b1} : {1'b1};
 
 	wire [0:0] tmpOE__Cmod_net;
 	wire [0:0] tmpFB_0__Cmod_net;

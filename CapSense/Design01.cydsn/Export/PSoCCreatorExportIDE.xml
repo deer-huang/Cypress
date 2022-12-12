@@ -119,8 +119,6 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_1_Structure.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_1_Tuner.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_1_Configuration.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_1_SensingCSX_LL.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_1_SensingCSX_LL.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_1_RegisterMap.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_1_INT.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_1_SensingCSD_LL.c</File>

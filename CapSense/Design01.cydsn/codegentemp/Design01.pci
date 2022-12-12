@@ -1,5 +1,5 @@
 # Design01
-# 2022-12-12 03:32:32Z
+# 2022-12-12 07:46:35Z
 
 # IO_2@[IOP=(3)][IoId=(2)] is reserved: SWDDebugEnabled
 dont_use_io iocell 3 2
@@ -12,16 +12,13 @@ dont_use_io iocell 3 7
 set_location "ClockGenBlock" m0s8clockgenblockcell -1 -1 0
 set_io "Pin_13(0)" iocell 5 7
 set_io "LED_1(0)" iocell 3 4
-set_io "\CapSense_1:Sns(0)\" iocell 2 7
-set_io "\CapSense_1:Sns(1)\" iocell 6 0
-set_io "\CapSense_1:Sns(2)\" iocell 6 1
-set_io "\CapSense_1:Sns(3)\" iocell 6 2
-set_io "\CapSense_1:Sns(4)\" iocell 6 4
-set_io "\CapSense_1:Sns(5)\" iocell 6 5
-set_io "\CapSense_1:Rx(0)\" iocell 4 4
-set_io "\CapSense_1:CintA(0)\" iocell 4 2
-set_io "\CapSense_1:CintB(0)\" iocell 4 3
-set_io "\CapSense_1:Tx(0)\" iocell 0 2
+set_io "\CapSense_1:Sns(0)\" iocell 4 4
+set_io "\CapSense_1:Sns(1)\" iocell 2 7
+set_io "\CapSense_1:Sns(2)\" iocell 6 0
+set_io "\CapSense_1:Sns(3)\" iocell 6 1
+set_io "\CapSense_1:Sns(4)\" iocell 6 2
+set_io "\CapSense_1:Sns(5)\" iocell 6 4
+set_io "\CapSense_1:Sns(6)\" iocell 6 5
 set_io "\CapSense_1:Cmod(0)\" iocell 4 1
 set_io "\EZI2C_1:sda(0)\" iocell 3 1
 set_io "\EZI2C_1:scl(0)\" iocell 3 0
