@@ -16,6 +16,8 @@
 /* Boolean constants */
 #define LED_ON						(0u)
 #define LED_OFF						(1u)
+/*Defining step size for LED control based on centroid position of slider*/
+#define STEP_SIZE (CapSense_1_SLD_X_RESOLUTION/CapSense_1_SLD_NUM_SENSORS) 
 
 
 /* Finite state machine for device operating states 
@@ -99,8 +101,30 @@ int main(void)
                 /* Process data on all the enabled widgets */
                 CapSense_1_ProcessAllWidgets();
                 Pin_13_Write(CapSense_1_IsWidgetActive(CapSense_1_BTN2_WDGT_ID)?LED_ON:LED_OFF);
-                Pin_5_Write(CapSense_1_IsWidgetActive(CapSense_1_SLD_WDGT_ID)?LED_ON:LED_OFF);
                 
+                
+                if(CapSense_1_IsWidgetActive(CapSense_1_SLD_WDGT_ID))
+                {
+                    uint32 centroid = CapSense_1_GetCentroidPos(CapSense_1_SLD_WDGT_ID);
+                    
+                    Pin_5_Write( LED_ON );
+                    //Pin_5_Write(CapSense_1_IsWidgetActive(CapSense_1_SLD_WDGT_ID)?LED_ON:LED_OFF);
+                    Pin_6_Write( ( centroid > ( 1 * STEP_SIZE ) ) ? LED_ON : LED_OFF);
+                    Pin_7_Write( ( centroid > ( 2 * STEP_SIZE ) ) ? LED_ON : LED_OFF);
+                    Pin_8_Write( ( centroid > ( 3 * STEP_SIZE ) ) ? LED_ON : LED_OFF);
+                    Pin_9_Write( ( centroid > ( 4 * STEP_SIZE ) ) ? LED_ON : LED_OFF);
+                    Pin_10_Write( ( centroid > ( 5 * STEP_SIZE ) ) ? LED_ON : LED_OFF);
+                }
+                else
+                {
+                    Pin_5_Write(LED_OFF);
+                    Pin_6_Write(LED_OFF);
+                    Pin_7_Write(LED_OFF);
+                    Pin_8_Write(LED_OFF);
+                    Pin_9_Write(LED_OFF);
+                    Pin_10_Write(LED_OFF);
+                }
+                CapSense_1_Sleep();
                 /* Controls LEDs Status based on the result of Widget processing. */
              
                 /* Set the device state to SENSOR_SCAN */
