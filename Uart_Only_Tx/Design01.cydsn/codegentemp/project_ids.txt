@@ -1,0 +1,7 @@
+D:\Learn\Cypress\Light\Cypress\Uart\Design01.cydsn\Design01.cyprj|9fa6fa78-12c0-4296-bc3d-a6a68ee46eee
+E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|59bde276-07b4-46ef-b8fe-a509dbc938ea
+C:\Users\yq21900\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|8714625f-eaad-45d1-baa9-2e3920c19702
+C:\Users\yq21900\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|3eb0df71-73f3-4613-8ab3-d7d5b39a6081
+E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|b9dd6ca5-6793-42e3-913e-41f25b84b2ab
+E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|87b3e751-61c5-41b4-9978-eea08f92deb9
+E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|1b6f272d-7fa3-4488-9b26-11678b096e38
