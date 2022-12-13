@@ -10,7 +10,7 @@
  * ========================================
 */
 #include "project.h"
-
+#include <stdio.h>
 #define ENABLE_TUNER (1u)
 
 /* Boolean constants */
@@ -42,10 +42,13 @@ int main(void)
     EZI2C_1_Start();
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
     //Pin_13_Write(0x00);
-    
+/****************************************************** PWM *****************************************************/
     PWM_1_Start();
     PWM_2_Start();
     
+    SmartIO_1_Start();
+    
+/*************************************************** CapSense ***************************************************/
 #if ENABLE_TUNER
     
     EZI2C_1_EzI2CSetBuffer1(sizeof(CapSense_1_dsRam),\
@@ -56,7 +59,12 @@ int main(void)
     
     CapSense_1_ScanAllWidgets();
     
-    SmartIO_1_Start();
+/***************************************************** Uart *****************************************************/
+    
+    
+    /* Start the SW_Tx_UART Component */
+    SW_Tx_UART_Start();
+    
     for(;;)
     {
         
@@ -114,6 +122,11 @@ int main(void)
                     Pin_8_Write( ( centroid > ( 3 * STEP_SIZE ) ) ? LED_ON : LED_OFF);
                     Pin_9_Write( ( centroid > ( 4 * STEP_SIZE ) ) ? LED_ON : LED_OFF);
                     Pin_10_Write( ( centroid > ( 5 * STEP_SIZE ) ) ? LED_ON : LED_OFF);
+                    
+                    char8 test_str[50];
+                    sprintf((char *)test_str, "centroid: %ld", centroid);
+                    SW_Tx_UART_PutString(test_str);
+                    SW_Tx_UART_PutCRLF();
                 }
                 else
                 {
@@ -125,6 +138,7 @@ int main(void)
                     Pin_10_Write(LED_OFF);
                 }
                 CapSense_1_Sleep();
+                
                 /* Controls LEDs Status based on the result of Widget processing. */
              
                 /* Set the device state to SENSOR_SCAN */
