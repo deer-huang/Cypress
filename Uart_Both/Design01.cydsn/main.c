@@ -62,8 +62,9 @@ int main(void)
 /***************************************************** Uart *****************************************************/
     
     
-    /* Start the SW_Tx_UART Component */
-    SW_Tx_UART_Start();
+    UART_1_Init();
+    UART_1_Enable();
+    UART_1_Start();
     
     for(;;)
     {
@@ -124,9 +125,14 @@ int main(void)
                     Pin_10_Write( ( centroid > ( 5 * STEP_SIZE ) ) ? LED_ON : LED_OFF);
                     
                     char8 test_str[50];
+                    char8 * str_pointer = test_str;
                     sprintf((char *)test_str, "centroid: %ld", centroid);
-                    SW_Tx_UART_PutString(test_str);
-                    SW_Tx_UART_PutCRLF();
+                    while( *(str_pointer) != '\0' )
+                    {
+                        UART_1_tx_Write(*(str_pointer));
+                        str_pointer++;
+                    }
+                    UART_1_tx_Write('\n');
                 }
                 else
                 {

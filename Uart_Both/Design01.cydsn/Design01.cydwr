@@ -20,6 +20,8 @@
       <Data key="0a187ee9-5a69-4a62-b1fe-6671d82d5646" value="LED_1" />
       <Data key="7c22e3c5-da93-4267-9ea2-622856a53add/5382e105-1382-4a2e-b9f4-3bb2feba71e0" value="EZI2C_1_sda" />
       <Data key="7c22e3c5-da93-4267-9ea2-622856a53add/22863ebe-a37b-476f-b252-6e49a8c00b12" value="EZI2C_1_scl" />
+      <Data key="43ec2fa1-bf22-4b71-9477-b6ca7b97f0b0/23b8206d-1c77-4e61-be4a-b4037d5de5fc" value="UART_1_tx" />
+      <Data key="43ec2fa1-bf22-4b71-9477-b6ca7b97f0b0/78e33e5d-45ea-4b75-88d5-73274e8a7ce4" value="UART_1_rx" />
       <Data key="69c18b52-e6c0-484c-8525-c8b55fe0be2c" value="Pin_10" />
       <Data key="75a0b55a-b2bc-4d0e-9ef6-5fbff4f4a953" value="Pin_9" />
       <Data key="172f3910-d4d4-4a80-95c6-294317c85ef6/458c2b64-f6c8-403c-9883-825f70cb5346" value="CapSense_1_CintB" />
@@ -2016,6 +2018,16 @@
     <Group key="7c22e3c5-da93-4267-9ea2-622856a53add/22863ebe-a37b-476f-b252-6e49a8c00b12">
       <Group key="0">
         <Data key="Port Format" value="3,0" />
+      </Group>
+    </Group>
+    <Group key="43ec2fa1-bf22-4b71-9477-b6ca7b97f0b0/23b8206d-1c77-4e61-be4a-b4037d5de5fc">
+      <Group key="0">
+        <Data key="Port Format" value="7,1" />
+      </Group>
+    </Group>
+    <Group key="43ec2fa1-bf22-4b71-9477-b6ca7b97f0b0/78e33e5d-45ea-4b75-88d5-73274e8a7ce4">
+      <Group key="0">
+        <Data key="Port Format" value="7,0" />
       </Group>
     </Group>
     <Group key="69c18b52-e6c0-484c-8525-c8b55fe0be2c">
