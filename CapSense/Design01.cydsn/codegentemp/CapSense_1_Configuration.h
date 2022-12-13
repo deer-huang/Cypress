@@ -259,7 +259,7 @@
 #define CapSense_1_CSD_SS_HWTH_EN     (CapSense_1_CSD_SS_HW_EN | \
                                              CapSense_1_CSD_SS_TH_EN)
 
-#define CapSense_1_CSD_AUTOTUNE       CapSense_1_CSD_SS_HWTH_EN
+#define CapSense_1_CSD_AUTOTUNE       CapSense_1_CSD_SS_HW_EN
 
 
 /*******************************************************************************
@@ -657,7 +657,7 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
                                        || (0u != CapSense_1_ISX_IDAC_AUTOCAL_EN)) \
                                        || (0u != CapSense_1_CSD_IDAC_AUTOCAL_EN))
 /* RAM Global Parameters Definitions */
-#define CapSense_1_CONFIG_ID                    (0xBBCCu)
+#define CapSense_1_CONFIG_ID                    (0xE934u)
 #define CapSense_1_DEVICE_ID                    (0x0900u)
 #define CapSense_1_HW_CLOCK                     (0x0BB8u)
 #define CapSense_1_CSD0_CONFIG                  (0x0008u)
@@ -672,9 +672,9 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
 * BTN2 initialization values for RAM data structure
 *******************************************************************************/
 #define CapSense_1_BTN2_RESOLUTION              (CapSense_1_RES12BIT)
-#define CapSense_1_BTN2_FINGER_TH               (100u)
-#define CapSense_1_BTN2_NOISE_TH                (40u)
-#define CapSense_1_BTN2_NNOISE_TH               (40u)
+#define CapSense_1_BTN2_FINGER_TH               (33u)
+#define CapSense_1_BTN2_NOISE_TH                (10u)
+#define CapSense_1_BTN2_NNOISE_TH               (10u)
 #define CapSense_1_BTN2_HYSTERESIS              (10u)
 #define CapSense_1_BTN2_ON_DEBOUNCE             (3u)
 #define CapSense_1_BTN2_LOW_BSLN_RST            (30u)
@@ -699,10 +699,10 @@ typedef uint16 CapSense_1_THRESHOLD_TYPE;
 * SLD initialization values for RAM data structure
 *******************************************************************************/
 #define CapSense_1_SLD_RESOLUTION               (CapSense_1_RES11BIT)
-#define CapSense_1_SLD_FINGER_TH                (100u)
-#define CapSense_1_SLD_NOISE_TH                 (40u)
-#define CapSense_1_SLD_NNOISE_TH                (40u)
-#define CapSense_1_SLD_HYSTERESIS               (10u)
+#define CapSense_1_SLD_FINGER_TH                (53u)
+#define CapSense_1_SLD_NOISE_TH                 (26u)
+#define CapSense_1_SLD_NNOISE_TH                (26u)
+#define CapSense_1_SLD_HYSTERESIS               (6u)
 #define CapSense_1_SLD_ON_DEBOUNCE              (3u)
 #define CapSense_1_SLD_LOW_BSLN_RST             (30u)
 #define CapSense_1_SLD_IDAC_MOD0                (32u)

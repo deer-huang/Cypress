@@ -82,12 +82,6 @@ static uint8 CapSense_1_debounceBTN2[CapSense_1_BTN2_NUM_SENSORS];
 static uint8 CapSense_1_debounceSLD[1u];
 
 
-/***************************************************************************//**
-* Declares Noise Envelope data structures
-*******************************************************************************/
-static SMARTSENSE_CSD_NOISE_ENVELOPE_STRUCT CapSense_1_noiseEnvlpBTN2[CapSense_1_BTN2_NUM_SENSORS];
-static SMARTSENSE_CSD_NOISE_ENVELOPE_STRUCT CapSense_1_noiseEnvlpSLD[CapSense_1_SLD_NUM_SENSORS];
-
 /*******************************************************************************
 * Defines and initializes the Flash Data Structure
 *******************************************************************************/
@@ -118,7 +112,6 @@ const CapSense_1_FLASH_STRUCT CapSense_1_dsFlash =
             CapSense_1_BTN2_NUM_SENSORS,
             0u,
             0u,
-            CapSense_1_noiseEnvlpBTN2,
             0u,
         },
         { /* SLD */
@@ -133,7 +126,6 @@ const CapSense_1_FLASH_STRUCT CapSense_1_dsFlash =
             CapSense_1_SLD_NUM_SENSORS,
             CapSense_1_SLD_X_RESOLUTION,
             CapSense_1_SLD_X_CENT_MULT,
-            CapSense_1_noiseEnvlpSLD,
             CapSense_1_SLD_IIR_FILTER_COEFF,
         },
     },

@@ -789,14 +789,6 @@ typedef struct
     uint32 xCentroidMultiplier;
 
     /**
-     *  The pointer to the array with the sensor noise envelope data. 
-     *  Set to the valid value only for the CSD widgets. For the CSX 
-     *  widgets this pointer is set to NULL. The pointed array is not 
-     *  part of the data structure.
-     */
-    SMARTSENSE_CSD_NOISE_ENVELOPE_STRUCT * ptr2NoiseEnvlp;
-
-    /**
      *  The position IIR filter coefficient.
      */
     uint8  iirFilterCoeff;
