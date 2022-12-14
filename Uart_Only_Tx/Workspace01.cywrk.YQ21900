@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Workspace01\Design01\Generated_Source\PSoC4\SW_Tx_UART">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Workspace01\Design01\TopDesign">
 <ExpandedNodeIds>
 <v>Workspace01</v>
 <v>Workspace01\Design01</v>
@@ -70,18 +70,6 @@
 <v>Workspace01\Design01\Generated_Source\PSoC4\Pin_5</v>
 <v>Workspace01\Design01\Generated_Source\PSoC4\Pin_6</v>
 <v>Workspace01\Design01\Generated_Source\PSoC4\Pin_7</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\Pin_8</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\Pin_9</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\PWM_1</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\PWM_2</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\SmartIO_1</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\SW_Tx_UART</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\SW_Tx_UART\SW_Tx_UART.c</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\SW_Tx_UART\SW_Tx_UART.h</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\SW_Tx_UART\SW_Tx_UART_AsmGnu.s</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\SW_Tx_UART\SW_Tx_UART_AsmIar.s</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\SW_Tx_UART\SW_Tx_UART_AsmRv.s</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\SW_Tx_UART\SW_Tx_UART_PVT.h</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -207,18 +195,6 @@
 <v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_1_EZI2C_INT.lst</v>
 <v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_1_PM.lst</v>
 <v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_1_SCB_IRQ.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_1_SCBCLK.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_1_scl.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_1_scl_PM.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_1_sda.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_1_sda_PM.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\LED_1.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\LED_1_PM.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\main.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\Pin_10.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\Pin_10_PM.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\Pin_13.lst</v>
-<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\Pin_13_PM.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>

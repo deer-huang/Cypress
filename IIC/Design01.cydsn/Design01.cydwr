@@ -32,6 +32,7 @@
       <Data key="172f3910-d4d4-4a80-95c6-294317c85ef6/ea884bc0-86af-40f9-b67b-efbe1ecd0ccd" value="CapSense_1_Rx" />
       <Data key="a68dcaa4-6535-4fbe-907a-55435173f880" value="Pin_5" />
       <Data key="b55c3f8b-e171-4596-aae3-915cc9961177" value="Pin_6" />
+      <Data key="d3dd9b20-0bd0-4245-8acc-2bce1a0ace41/52f31aa9-2f0a-497d-9a1f-1424095e13e6" value="SW_Tx_UART_tx" />
       <Data key="e0b5ceee-b675-4b60-a6a9-4fe1fd608c10" value="Pin_7" />
       <Data key="e851a3b9-efb8-48be-bbb8-b303b216c393" value="Pin_13" />
       <Data key="ed127e0b-e401-4121-8575-abd57a0884c8" value="Pin_8" />
@@ -2095,6 +2096,11 @@
     <Group key="b55c3f8b-e171-4596-aae3-915cc9961177">
       <Group key="0">
         <Data key="Port Format" value="1,2" />
+      </Group>
+    </Group>
+    <Group key="d3dd9b20-0bd0-4245-8acc-2bce1a0ace41/52f31aa9-2f0a-497d-9a1f-1424095e13e6">
+      <Group key="0">
+        <Data key="Port Format" value="7,1" />
       </Group>
     </Group>
     <Group key="e0b5ceee-b675-4b60-a6a9-4fe1fd608c10">

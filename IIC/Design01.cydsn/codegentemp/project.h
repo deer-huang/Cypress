@@ -62,6 +62,8 @@
 #include "I2C_1_I2C_PVT.h"
 #include "I2C_1_PVT.h"
 #include "I2C_1_BOOT.h"
+#include "SW_Tx_UART.h"
+#include "SW_Tx_UART_PVT.h"
 #include "CapSense_1_ISR.h"
 #include "EZI2C_1_SCBCLK.h"
 #include "EZI2C_1_sda.h"

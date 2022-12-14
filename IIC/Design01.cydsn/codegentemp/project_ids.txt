@@ -1,9 +1,7 @@
-D:\Learn\Cypress\Light\Cypress\IIC\Design01.cydsn\Design01.cyprj|6520da4d-2442-4be3-9c63-a8f97bcaffeb
-E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|b38a5de2-0b48-4ec7-856f-82b909b5e474
-C:\Users\yq21900\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|037dd80a-f858-47b6-a76e-f12680193662
-C:\Users\yq21900\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|39755484-c1cc-4da5-97c9-d6ef223bc489
-E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|7b191705-6945-4e5e-b881-bc5daca30187
-E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|55d80c81-c213-455b-acd2-65dbb6a56194
-E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|5c728b82-82ed-46a1-af10-308fcf8352bb
-E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\dev\psoc4\PSoC4AnalogDevice\psoc4arch.cydsn\psoc4arch.cyprj|33efc861-011d-421b-a008-ba4107a0743d
-E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|8ae7bace-776e-43f7-82e0-14f18adc7f69
+D:\Learn\Cypress\Light\Cypress\IIC\Design01.cydsn\Design01.cyprj|33e6452e-c0eb-448b-b110-e0d5e533ff87
+E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|5e6436fa-8ea6-44e8-aa9a-0306de9b46b8
+C:\Users\yq21900\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|c61f226a-a1a2-421f-b281-18c8d17a8b27
+C:\Users\yq21900\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|ed53b4ac-a8bf-44af-8a39-919027fef92f
+E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|49661caa-7a21-4d54-8c21-146959d6421d
+E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|c66a1d24-735a-41a8-9809-b8b2ddce95f3
+E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|fcc54870-8f8a-4ef4-8850-98c042c482ec
