@@ -62,8 +62,6 @@ int main(void)
 /***************************************************** Uart *****************************************************/
     
     
-    UART_1_Init();
-    UART_1_Enable();
     UART_1_Start();
     
     for(;;)
@@ -132,6 +130,7 @@ int main(void)
                         UART_1_tx_Write(*(str_pointer));
                         str_pointer++;
                     }
+                    UART_1_tx_Write('\r');
                     UART_1_tx_Write('\n');
                 }
                 else

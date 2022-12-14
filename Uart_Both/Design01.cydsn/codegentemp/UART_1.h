@@ -74,7 +74,7 @@
 #define UART_1_SCB_INTR_MODE_EXTERNAL (2u)
 
 /* Internal clock remove option */
-#define UART_1_REMOVE_SCB_CLK     (0u)
+#define UART_1_REMOVE_SCB_CLK     (1u)
 #define UART_1_SCB_CLK_INTERNAL   (0u == UART_1_REMOVE_SCB_CLK)
 
 

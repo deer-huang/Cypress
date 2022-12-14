@@ -12,25 +12,14 @@
 <v>Off-Chip</v>
 </tree_states_tab_names>
 <tree_states>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Cypress Component Catalog\Communications\UART (SCB mode) [v4.0]">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Cypress Component Catalog\System\Clock [v2.20]">
 <ExpandedNodeIds>
 <v>Cypress Component Catalog</v>
-<v>Cypress Component Catalog\CapSense</v>
 <v>Cypress Component Catalog\Communications</v>
 <v>Cypress Component Catalog\Communications\I2C</v>
+<v>Cypress Component Catalog\System</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
-<v>Cypress Component Catalog</v>
-<v>Cypress Component Catalog\Analog</v>
-<v>Cypress Component Catalog\CapSense</v>
-<v>Cypress Component Catalog\CapSense\CapSense [v7.0]</v>
-<v>Cypress Component Catalog\CapSense\CapSense_ADC [v7.0]</v>
-<v>Cypress Component Catalog\Communications</v>
-<v>Cypress Component Catalog\Communications\CAN Controller Macro [v3.0]</v>
-<v>Cypress Component Catalog\Communications\I2C</v>
-<v>Cypress Component Catalog\Communications\I2C\EZI2C Slave (SCB mode) [v4.0]</v>
-<v>Cypress Component Catalog\Communications\I2C\I2C (SCB mode) [v4.0]</v>
-<v>Cypress Component Catalog\Communications\LIN [v5.0]</v>
 <v>Cypress Component Catalog\Communications\SENT TX [v1.0]</v>
 <v>Cypress Component Catalog\Communications\Serial Communication Block (SCB) [v4.0]</v>
 <v>Cypress Component Catalog\Communications\SMBus/PMBus Slave</v>
@@ -42,22 +31,49 @@
 <v>Cypress Component Catalog\Ports and Pins</v>
 <v>Cypress Component Catalog\Power Supervision</v>
 <v>Cypress Component Catalog\System</v>
+<v>Cypress Component Catalog\System\Bootloadable [v1.60]</v>
+<v>Cypress Component Catalog\System\Bootloader [v1.60]</v>
+<v>Cypress Component Catalog\System\Clock [v2.20]</v>
+<v>Cypress Component Catalog\System\Die Temperature [v1.0]</v>
+<v>Cypress Component Catalog\System\DMA Channel [v1.0]</v>
+<v>Cypress Component Catalog\System\Emulated EEPROM [v2.20]</v>
+<v>Cypress Component Catalog\System\External Memory Interface</v>
+<v>Cypress Component Catalog\System\Global Signal Reference [v2.10]</v>
+<v>Cypress Component Catalog\System\Interrupt [v1.70]</v>
+<v>Cypress Component Catalog\System\Real-time clock (RTC) [v1.30]</v>
 <v>Cypress Component Catalog\Thermal Management</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Off-Chip Component Catalog">
 <ExpandedNodeIds>
 <v>Off-Chip Component Catalog</v>
+<v>Off-Chip Component Catalog\Active</v>
+<v>Off-Chip Component Catalog\Diodes</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>Off-Chip Component Catalog</v>
 <v>Off-Chip Component Catalog\Active</v>
+<v>Off-Chip Component Catalog\Active\Buffer [v1.0]</v>
+<v>Off-Chip Component Catalog\Active\Comparator [v1.0]</v>
+<v>Off-Chip Component Catalog\Active\Current Source [v1.0]</v>
+<v>Off-Chip Component Catalog\Active\Inverter [v1.0]</v>
+<v>Off-Chip Component Catalog\Active\OpAmp [v1.0]</v>
+<v>Off-Chip Component Catalog\Active\Voltage Regulator [v1.0]</v>
+<v>Off-Chip Component Catalog\Active\Voltage Source [v1.0]</v>
 <v>Off-Chip Component Catalog\Diodes</v>
+<v>Off-Chip Component Catalog\Diodes\Bridge Rectifier [v1.0]</v>
+<v>Off-Chip Component Catalog\Diodes\Diode [v1.0]</v>
+<v>Off-Chip Component Catalog\Diodes\LED [v1.0]</v>
+<v>Off-Chip Component Catalog\Diodes\Photo Diode [v1.0]</v>
+<v>Off-Chip Component Catalog\Diodes\Schottky Diode [v1.0]</v>
+<v>Off-Chip Component Catalog\Diodes\SCR [v1.0]</v>
+<v>Off-Chip Component Catalog\Diodes\Triac [v1.0]</v>
+<v>Off-Chip Component Catalog\Diodes\Varactor Diode [v1.0]</v>
+<v>Off-Chip Component Catalog\Diodes\Zener Diode [v1.0]</v>
 <v>Off-Chip Component Catalog\Electro-Mechanical</v>
 <v>Off-Chip Component Catalog\Passive</v>
 <v>Off-Chip Component Catalog\Power</v>
 <v>Off-Chip Component Catalog\Sensors</v>
-<v>Off-Chip Component Catalog\Transistors</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </tree_states>
@@ -85,6 +101,7 @@
 <dep name=".\Generated_Source\PSoC4\CapSense_1_Structure.h" />
 <dep name=".\Generated_Source\PSoC4\CapSense_1_Tuner.h" />
 <dep name=".\Generated_Source\PSoC4\Clock_1.h" />
+<dep name=".\Generated_Source\PSoC4\Clock_2.h" />
 <dep name=".\Generated_Source\PSoC4\CyDMA.h" />
 <dep name=".\Generated_Source\PSoC4\CyFlash.h" />
 <dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
@@ -129,6 +146,8 @@
 <dep name=".\Generated_Source\PSoC4\UART_1_SPI_UART_PVT.h" />
 <dep name=".\Generated_Source\PSoC4\UART_1_rx.h" />
 <dep name=".\Generated_Source\PSoC4\UART_1_rx_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\UART_1_rx_wake.h" />
+<dep name=".\Generated_Source\PSoC4\UART_1_rx_wake_aliases.h" />
 <dep name=".\Generated_Source\PSoC4\UART_1_tx.h" />
 <dep name=".\Generated_Source\PSoC4\UART_1_tx_aliases.h" />
 <dep name=".\Generated_Source\PSoC4\cmsis_armcc.h" />
@@ -162,6 +181,7 @@
 <file name=".\Generated_Source\PSoC4\CapSense_1_Structure.h" />
 <file name=".\Generated_Source\PSoC4\CapSense_1_Tuner.h" />
 <file name=".\Generated_Source\PSoC4\Clock_1.h" />
+<file name=".\Generated_Source\PSoC4\Clock_2.h" />
 <file name=".\Generated_Source\PSoC4\CyDMA.h" />
 <file name=".\Generated_Source\PSoC4\CyFlash.h" />
 <file name=".\Generated_Source\PSoC4\CyLFClk.h" />
@@ -206,6 +226,8 @@
 <file name=".\Generated_Source\PSoC4\UART_1_SPI_UART_PVT.h" />
 <file name=".\Generated_Source\PSoC4\UART_1_rx.h" />
 <file name=".\Generated_Source\PSoC4\UART_1_rx_aliases.h" />
+<file name=".\Generated_Source\PSoC4\UART_1_rx_wake.h" />
+<file name=".\Generated_Source\PSoC4\UART_1_rx_wake_aliases.h" />
 <file name=".\Generated_Source\PSoC4\UART_1_tx.h" />
 <file name=".\Generated_Source\PSoC4\UART_1_tx_aliases.h" />
 <file name=".\Generated_Source\PSoC4\cmsis_armcc.h" />
@@ -382,6 +404,14 @@
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\Clock_1.c" />
+<file name=".\CortexM0p\ARM_GCC_541\Debug\Clock_2.o">
+<dep name=".\Generated_Source\PSoC4\Clock_2.c" />
+<dep name=".\Generated_Source\PSoC4\Clock_2.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\Clock_2.c" />
 <file name=".\CortexM0p\ARM_GCC_541\Debug\Cm0plusStart.o">
 <dep name=".\Generated_Source\PSoC4\Cm0plusStart.c" />
 <dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
@@ -833,6 +863,8 @@
 <dep name=".\Generated_Source\PSoC4\UART_1_SPI_UART_PVT.h" />
 <dep name=".\Generated_Source\PSoC4\UART_1_rx.h" />
 <dep name=".\Generated_Source\PSoC4\UART_1_rx_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\UART_1_rx_wake.h" />
+<dep name=".\Generated_Source\PSoC4\UART_1_rx_wake_aliases.h" />
 <dep name=".\Generated_Source\PSoC4\UART_1_tx.h" />
 <dep name=".\Generated_Source\PSoC4\UART_1_tx_aliases.h" />
 <dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
@@ -853,6 +885,8 @@
 <dep name=".\Generated_Source\PSoC4\UART_1_SPI_UART.h" />
 <dep name=".\Generated_Source\PSoC4\UART_1_rx.h" />
 <dep name=".\Generated_Source\PSoC4\UART_1_rx_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\UART_1_rx_wake.h" />
+<dep name=".\Generated_Source\PSoC4\UART_1_rx_wake_aliases.h" />
 <dep name=".\Generated_Source\PSoC4\UART_1_tx.h" />
 <dep name=".\Generated_Source\PSoC4\UART_1_tx_aliases.h" />
 <dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
@@ -873,6 +907,8 @@
 <dep name=".\Generated_Source\PSoC4\UART_1_SPI_UART_PVT.h" />
 <dep name=".\Generated_Source\PSoC4\UART_1_rx.h" />
 <dep name=".\Generated_Source\PSoC4\UART_1_rx_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\UART_1_rx_wake.h" />
+<dep name=".\Generated_Source\PSoC4\UART_1_rx_wake_aliases.h" />
 <dep name=".\Generated_Source\PSoC4\UART_1_tx.h" />
 <dep name=".\Generated_Source\PSoC4\UART_1_tx_aliases.h" />
 <dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
@@ -881,14 +917,6 @@
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\UART_1_PM.c" />
-<file name=".\CortexM0p\ARM_GCC_541\Debug\UART_1_SCBCLK.o">
-<dep name=".\Generated_Source\PSoC4\UART_1_SCBCLK.c" />
-<dep name=".\Generated_Source\PSoC4\UART_1_SCBCLK.h" />
-<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cytypes.h" />
-</file>
-<file name=".\Generated_Source\PSoC4\UART_1_SCBCLK.c" />
 <file name=".\CortexM0p\ARM_GCC_541\Debug\UART_1_SPI_UART.o">
 <dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
 <dep name=".\Generated_Source\PSoC4\CyLib.h" />
@@ -901,6 +929,8 @@
 <dep name=".\Generated_Source\PSoC4\UART_1_SPI_UART_PVT.h" />
 <dep name=".\Generated_Source\PSoC4\UART_1_rx.h" />
 <dep name=".\Generated_Source\PSoC4\UART_1_rx_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\UART_1_rx_wake.h" />
+<dep name=".\Generated_Source\PSoC4\UART_1_rx_wake_aliases.h" />
 <dep name=".\Generated_Source\PSoC4\UART_1_tx.h" />
 <dep name=".\Generated_Source\PSoC4\UART_1_tx_aliases.h" />
 <dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
@@ -921,6 +951,8 @@
 <dep name=".\Generated_Source\PSoC4\UART_1_SPI_UART_PVT.h" />
 <dep name=".\Generated_Source\PSoC4\UART_1_rx.h" />
 <dep name=".\Generated_Source\PSoC4\UART_1_rx_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\UART_1_rx_wake.h" />
+<dep name=".\Generated_Source\PSoC4\UART_1_rx_wake_aliases.h" />
 <dep name=".\Generated_Source\PSoC4\UART_1_tx.h" />
 <dep name=".\Generated_Source\PSoC4\UART_1_tx_aliases.h" />
 <dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
@@ -942,6 +974,8 @@
 <dep name=".\Generated_Source\PSoC4\UART_1_UART.c" />
 <dep name=".\Generated_Source\PSoC4\UART_1_rx.h" />
 <dep name=".\Generated_Source\PSoC4\UART_1_rx_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\UART_1_rx_wake.h" />
+<dep name=".\Generated_Source\PSoC4\UART_1_rx_wake_aliases.h" />
 <dep name=".\Generated_Source\PSoC4\UART_1_tx.h" />
 <dep name=".\Generated_Source\PSoC4\UART_1_tx_aliases.h" />
 <dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
@@ -963,6 +997,8 @@
 <dep name=".\Generated_Source\PSoC4\UART_1_UART_BOOT.c" />
 <dep name=".\Generated_Source\PSoC4\UART_1_rx.h" />
 <dep name=".\Generated_Source\PSoC4\UART_1_rx_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\UART_1_rx_wake.h" />
+<dep name=".\Generated_Source\PSoC4\UART_1_rx_wake_aliases.h" />
 <dep name=".\Generated_Source\PSoC4\UART_1_tx.h" />
 <dep name=".\Generated_Source\PSoC4\UART_1_tx_aliases.h" />
 <dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
@@ -1060,6 +1096,46 @@
 <file name=".\Generated_Source\PSoC4\CyBootAsmGnu.s" />
 <file name=".\Generated_Source\PSoC4\cydevicegnu_trm.inc" />
 <file name=".\Generated_Source\PSoC4\cyfittergnu.inc" />
+<file name=".\CortexM0p\ARM_GCC_541\Debug\UART_1_SCBCLK.o">
+<dep name=".\Generated_Source\PSoC4\UART_1_SCBCLK.c" />
+<dep name=".\Generated_Source\PSoC4\UART_1_SCBCLK.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\UART_1_SCBCLK.c" />
+<file name=".\CortexM0p\ARM_GCC_541\Debug\UART_1_RX_WAKEUP_IRQ.o">
+<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\UART_1_RX_WAKEUP_IRQ.c" />
+<dep name=".\Generated_Source\PSoC4\UART_1_RX_WAKEUP_IRQ.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+<dep name=".\cyapicallbacks.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\UART_1_RX_WAKEUP_IRQ.c" />
+<file name=".\Generated_Source\PSoC4\UART_1_RX_WAKEUP_IRQ.h" />
+<file name=".\CortexM0p\ARM_GCC_541\Debug\UART_1_rx_wake.o">
+<dep name=".\Generated_Source\PSoC4\UART_1_rx_wake.c" />
+<dep name=".\Generated_Source\PSoC4\UART_1_rx_wake.h" />
+<dep name=".\Generated_Source\PSoC4\UART_1_rx_wake_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cypins.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\UART_1_rx_wake.c" />
+<file name=".\CortexM0p\ARM_GCC_541\Debug\UART_1_rx_wake_PM.o">
+<dep name=".\Generated_Source\PSoC4\UART_1_rx_wake.h" />
+<dep name=".\Generated_Source\PSoC4\UART_1_rx_wake_PM.c" />
+<dep name=".\Generated_Source\PSoC4\UART_1_rx_wake_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cypins.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\UART_1_rx_wake_PM.c" />
 <file name=".\Generated_Source\PSoC4\SW_Tx_UART.h" />
 <file name=".\Generated_Source\PSoC4\SW_Tx_UART_PVT.h" />
 <file name=".\CortexM0p\ARM_GCC_541\Debug\SW_Tx_UART.o">
@@ -1171,11 +1247,11 @@
 <dep name=".\CortexM0p\ARM_GCC_541\Debug\UART_1_UART.o" />
 <dep name=".\CortexM0p\ARM_GCC_541\Debug\UART_1_BOOT.o" />
 <dep name=".\CortexM0p\ARM_GCC_541\Debug\UART_1_UART_BOOT.o" />
-<dep name=".\CortexM0p\ARM_GCC_541\Debug\UART_1_SCBCLK.o" />
 <dep name=".\CortexM0p\ARM_GCC_541\Debug\UART_1_tx.o" />
 <dep name=".\CortexM0p\ARM_GCC_541\Debug\UART_1_tx_PM.o" />
 <dep name=".\CortexM0p\ARM_GCC_541\Debug\UART_1_rx.o" />
 <dep name=".\CortexM0p\ARM_GCC_541\Debug\UART_1_rx_PM.o" />
+<dep name=".\CortexM0p\ARM_GCC_541\Debug\Clock_2.o" />
 <dep name=".\CortexM0p\ARM_GCC_541\Debug\Design01.a" />
 </file>
 </CyGuid_1173175f-1b9b-4ad4-a065-754a48a27021>
@@ -1262,6 +1338,10 @@
 <name_val_pair name="Generated_Source\PSoC4\UART_1_rx.c" v="-mcpu=cortex-m0plus -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
 <name_val_pair name="Generated_Source\PSoC4\UART_1_rx_PM.c" v="-mcpu=cortex-m0plus -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
 <name_val_pair name="D:\Learn\Cypress\Light\Cypress\Uart_Both\Design01.cydsn\CortexM0p\ARM_GCC_541\Debug\Design01.hex" v="-mcpu=cortex-m0plus -mthumb -L Generated_Source\PSoC4 -Wl,-Map,${OutputDir}/${ProjectShortName}.map -T Generated_Source\PSoC4\cm0plusgcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects" />
+<name_val_pair name="Generated_Source\PSoC4\UART_1_rx_wake.c" v="-mcpu=cortex-m0plus -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
+<name_val_pair name="Generated_Source\PSoC4\UART_1_rx_wake_PM.c" v="-mcpu=cortex-m0plus -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
+<name_val_pair name="Generated_Source\PSoC4\UART_1_RX_WAKEUP_IRQ.c" v="-mcpu=cortex-m0plus -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
+<name_val_pair name="Generated_Source\PSoC4\Clock_2.c" v="-mcpu=cortex-m0plus -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
 </name>
 </genericCmdLineData>
 <codeGenCmdLineTag v="-.appdatapath &quot;C:\Users\yq21900\AppData\Local\Cypress Semiconductor\PSoC Creator\4.4&quot; -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p D:\Learn\Cypress\Light\Cypress\Uart_Both\Design01.cydsn\Design01.cyprj -d CY8C4147AZI-S475 -s D:\Learn\Cypress\Light\Cypress\Uart_Both\Design01.cydsn\Generated_Source\PSoC4 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE" />
@@ -1751,13 +1831,21 @@
 <v>Generated_Source\PSoC4\UART_1_rx.h</v>
 <v>Generated_Source\PSoC4\UART_1_rx_aliases.h</v>
 <v>Generated_Source\PSoC4\UART_1_rx_PM.c</v>
+<v>Generated_Source\PSoC4\UART_1_rx_wake.c</v>
+<v>Generated_Source\PSoC4\UART_1_rx_wake.h</v>
+<v>Generated_Source\PSoC4\UART_1_rx_wake_aliases.h</v>
+<v>Generated_Source\PSoC4\UART_1_rx_wake_PM.c</v>
+<v>Generated_Source\PSoC4\UART_1_RX_WAKEUP_IRQ.c</v>
+<v>Generated_Source\PSoC4\UART_1_RX_WAKEUP_IRQ.h</v>
+<v>Generated_Source\PSoC4\Clock_2.c</v>
+<v>Generated_Source\PSoC4\Clock_2.h</v>
 </gen_list>
 <warp_dep>
 <v>E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\ieee\work\stdlogic.vif</v>
 <v>E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif</v>
 <v>E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif</v>
 </warp_dep>
-<deps_time v="133153914461800670" />
+<deps_time v="133153957846775214" />
 <top_block v="TopDesign" />
 <last_generation v="2" />
 <pdl_path v="" />
@@ -1767,12 +1855,12 @@
 <dataGuid v="769d31ea-68b1-4f0c-b90a-7c10a43ee563">
 <CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563 type_name="CyDesigner.Common.ProjMgmt.Model.CyLinkCustomData" version="1">
 <link_deps_times>
-<name_val_pair name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM0p" v="133153918082919104" />
+<name_val_pair name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM0p" v="133153958335115314" />
 </link_deps_times>
 </CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563>
 </dataGuid>
 <dataGuid v="237c8ed1-e161-4c9d-af97-582eda6d6952">
-<CyGuid_d442b0b8-dd66-4eee-b5be-1cb213792b31 type_name="CyDesigner.Device.FitterPSoC.Common.DesignWideResources.DeviceEditor.CyCustomAnalogDevData" version="1" ZoomToPage="True" ZoomScale="0.839239657" ScrollX="196" ScrollY="176">
+<CyGuid_d442b0b8-dd66-4eee-b5be-1cb213792b31 type_name="CyDesigner.Device.FitterPSoC.Common.DesignWideResources.DeviceEditor.CyCustomAnalogDevData" version="1" ZoomToPage="True" ZoomScale="0.8444767" ScrollX="67" ScrollY="177">
 <ComponentStates>
 <CyGuid_50eb6c77-9735-4e57-8808-b714f60fbc0d type_name="CyDesigner.Device.FitterPSoC.Common.DesignWideResources.DeviceEditor.CyItemState" version="1" Name="\CapSense_1:Net_150\" Color="-9580801" />
 <CyGuid_50eb6c77-9735-4e57-8808-b714f60fbc0d type_name="CyDesigner.Device.FitterPSoC.Common.DesignWideResources.DeviceEditor.CyItemState" version="1" Name="\CapSense_1:Net_15\" Color="-8213505" />

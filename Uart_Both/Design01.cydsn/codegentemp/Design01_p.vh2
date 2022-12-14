@@ -1,5 +1,5 @@
 -- Project:   Design01
--- Generated: 12/13/2022 15:50:42
+-- Generated: 12/13/2022 17:03:01
 -- PSoC Creator  4.4
 
 ENTITY Design01 IS
@@ -43,6 +43,8 @@ ARCHITECTURE __DEFAULT__ OF Design01 IS
     SIGNAL Net_121 : bit;
     SIGNAL Net_13 : bit;
     SIGNAL Net_14 : bit;
+    SIGNAL Net_147_ff0 : bit;
+    ATTRIBUTE global_signal OF Net_147_ff0 : SIGNAL IS true;
     SIGNAL Net_149 : bit;
     SIGNAL Net_158 : bit;
     SIGNAL Net_167 : bit;
@@ -101,8 +103,8 @@ ARCHITECTURE __DEFAULT__ OF Design01 IS
     SIGNAL \\\CapSense_1:Sns(4)\\__PA\ : bit;
     SIGNAL \\\CapSense_1:Sns(5)\\__PA\ : bit;
     SIGNAL \\\CapSense_1:Sns(6)\\__PA\ : bit;
-    SIGNAL \EZI2C_1:Net_847_ff0\ : bit;
-    ATTRIBUTE global_signal OF \EZI2C_1:Net_847_ff0\ : SIGNAL IS true;
+    SIGNAL \EZI2C_1:Net_847_ff1\ : bit;
+    ATTRIBUTE global_signal OF \EZI2C_1:Net_847_ff1\ : SIGNAL IS true;
     SIGNAL \EZI2C_1:miso_s_wire\ : bit;
     SIGNAL \EZI2C_1:mosi_m_wire\ : bit;
     SIGNAL \EZI2C_1:rts_wire\ : bit;
@@ -114,8 +116,6 @@ ARCHITECTURE __DEFAULT__ OF Design01 IS
     SIGNAL \EZI2C_1:select_m_wire_2\ : bit;
     SIGNAL \EZI2C_1:select_m_wire_3\ : bit;
     SIGNAL \EZI2C_1:tx_wire\ : bit;
-    SIGNAL \UART_1:Net_847_ff1\ : bit;
-    ATTRIBUTE global_signal OF \UART_1:Net_847_ff1\ : SIGNAL IS true;
     SIGNAL \UART_1:miso_s_wire\ : bit;
     SIGNAL \UART_1:mosi_m_wire\ : bit;
     SIGNAL \UART_1:rts_wire\ : bit;
@@ -452,10 +452,10 @@ BEGIN
             lfclk => ClockBlock_LFClk,
             wco => ClockBlock_WCO,
             ff_div_5 => \CapSense_1:Net_1423_ff5\,
-            ff_div_0 => \EZI2C_1:Net_847_ff0\,
+            ff_div_0 => Net_147_ff0,
+            ff_div_1 => \EZI2C_1:Net_847_ff1\,
             ff_div_6 => Net_9_ff6,
-            ff_div_7 => Net_9_ff7,
-            ff_div_1 => \UART_1:Net_847_ff1\);
+            ff_div_7 => Net_9_ff7);
 
     Pin_13:logicalport
         GENERIC MAP(
@@ -1964,7 +1964,7 @@ BEGIN
             cy_registers => "",
             scb_mode => 0)
         PORT MAP(
-            clock => \EZI2C_1:Net_847_ff0\,
+            clock => \EZI2C_1:Net_847_ff1\,
             interrupt => Net_103,
             uart_rx => open,
             uart_tx => \EZI2C_1:tx_wire\,
@@ -1991,7 +1991,7 @@ BEGIN
             cy_registers => "",
             scb_mode => 2)
         PORT MAP(
-            clock => \UART_1:Net_847_ff1\,
+            clock => Net_147_ff0,
             interrupt => Net_149,
             uart_rx => \UART_1:rx_wire\,
             uart_tx => \UART_1:tx_wire\,

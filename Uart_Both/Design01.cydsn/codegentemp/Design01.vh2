@@ -2,7 +2,7 @@
 --	Conversion of Design01.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Tue Dec 13 15:50:42 2022
+--	Tue Dec 13 17:03:01 2022
 --
 
 USE cypress.cypress.all;
@@ -275,13 +275,13 @@ SIGNAL tmpFB_0__Pin_5_net_0 : bit;
 SIGNAL tmpIO_0__Pin_5_net_0 : bit;
 TERMINAL tmpSIOVREF__Pin_5_net_0 : bit;
 SIGNAL tmpINTERRUPT_0__Pin_5_net_0 : bit;
-SIGNAL \UART_1:Net_847\ : bit;
 SIGNAL \UART_1:select_s_wire\ : bit;
 SIGNAL \UART_1:rx_wire\ : bit;
 SIGNAL \UART_1:Net_1268\ : bit;
 SIGNAL \UART_1:Net_1257\ : bit;
 SIGNAL \UART_1:uncfg_rx_irq\ : bit;
 SIGNAL \UART_1:Net_1170\ : bit;
+SIGNAL Net_147 : bit;
 SIGNAL \UART_1:sclk_s_wire\ : bit;
 SIGNAL \UART_1:mosi_s_wire\ : bit;
 SIGNAL \UART_1:miso_m_wire\ : bit;
@@ -293,6 +293,7 @@ TERMINAL \UART_1:tmpSIOVREF__tx_net_0\ : bit;
 SIGNAL \UART_1:tmpINTERRUPT_0__tx_net_0\ : bit;
 SIGNAL \UART_1:Net_1099\ : bit;
 SIGNAL \UART_1:Net_1258\ : bit;
+SIGNAL \UART_1:Net_847\ : bit;
 SIGNAL \UART_1:tmpOE__rx_net_0\ : bit;
 SIGNAL \UART_1:tmpIO_0__rx_net_0\ : bit;
 TERMINAL \UART_1:tmpSIOVREF__rx_net_0\ : bit;
@@ -1478,16 +1479,6 @@ Pin_5:cy_psoc3_pins_v1_10
 		out_clock_en=>tmpOE__Pin_13_net_0,
 		out_reset=>zero,
 		interrupt=>tmpINTERRUPT_0__Pin_5_net_0);
-\UART_1:SCBCLK\:cy_clock_v1_0
-	GENERIC MAP(cy_registers=>"",
-		id=>"43ec2fa1-bf22-4b71-9477-b6ca7b97f0b0/2dc2d7a8-ce2b-43c7-af4a-821c8cd73ccf",
-		source_clock_id=>"",
-		divisor=>0,
-		period=>"723379629.62963",
-		is_direct=>'0',
-		is_digital=>'0')
-	PORT MAP(clock_out=>\UART_1:Net_847\,
-		dig_domain_out=>open);
 \UART_1:tx\:cy_psoc3_pins_v1_10
 	GENERIC MAP(id=>"43ec2fa1-bf22-4b71-9477-b6ca7b97f0b0/23b8206d-1c77-4e61-be4a-b4037d5de5fc",
 		drive_mode=>"110",
@@ -1631,7 +1622,7 @@ Pin_5:cy_psoc3_pins_v1_10
 \UART_1:SCB\:cy_m0s8_scb_v2_0
 	GENERIC MAP(cy_registers=>"",
 		scb_mode=>2)
-	PORT MAP(clock=>\UART_1:Net_847\,
+	PORT MAP(clock=>Net_147,
 		interrupt=>Net_149,
 		rx=>\UART_1:rx_wire\,
 		tx=>\UART_1:tx_wire\,
@@ -1649,5 +1640,15 @@ Pin_5:cy_psoc3_pins_v1_10
 		sda=>Net_166,
 		tx_req=>Net_167,
 		rx_req=>Net_158);
+Clock_2:cy_clock_v1_0
+	GENERIC MAP(cy_registers=>"",
+		id=>"333dea22-5745-4ecc-93cc-2b62cdfb5294",
+		source_clock_id=>"",
+		divisor=>0,
+		period=>"83333333.3333333",
+		is_direct=>'0',
+		is_digital=>'0')
+	PORT MAP(clock_out=>Net_147,
+		dig_domain_out=>open);
 
 END R_T_L;

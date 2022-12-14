@@ -101,6 +101,8 @@
   <file name="D:\Learn\Cypress\Light\Cypress\Uart_Both\Design01.cydsn\codegentemp\UART_1_SPI_UART_PVT.h" value="HEADER;;;;;UART_1" />
   <file name="D:\Learn\Cypress\Light\Cypress\Uart_Both\Design01.cydsn\codegentemp\UART_1_PVT.h" value="HEADER;;;;;UART_1" />
   <file name="D:\Learn\Cypress\Light\Cypress\Uart_Both\Design01.cydsn\codegentemp\UART_1_BOOT.h" value="HEADER;;;;;UART_1" />
+  <file name="D:\Learn\Cypress\Light\Cypress\Uart_Both\Design01.cydsn\codegentemp\Clock_2.c" value="SOURCE_C;CortexM0p;;;;Clock_2" />
+  <file name="D:\Learn\Cypress\Light\Cypress\Uart_Both\Design01.cydsn\codegentemp\Clock_2.h" value="HEADER;;;;;Clock_2" />
   <file name="D:\Learn\Cypress\Light\Cypress\Uart_Both\Design01.cydsn\codegentemp\CapSense_1_ISR.c" value="SOURCE_C;CortexM0p;;;;CapSense_1_ISR" />
   <file name="D:\Learn\Cypress\Light\Cypress\Uart_Both\Design01.cydsn\codegentemp\CapSense_1_ISR.h" value="HEADER;;;;;CapSense_1_ISR" />
   <file name="D:\Learn\Cypress\Light\Cypress\Uart_Both\Design01.cydsn\codegentemp\EZI2C_1_SCBCLK.c" value="SOURCE_C;CortexM0p;;;;EZI2C_1_SCBCLK" />
@@ -115,8 +117,6 @@
   <file name="D:\Learn\Cypress\Light\Cypress\Uart_Both\Design01.cydsn\codegentemp\EZI2C_1_scl_PM.c" value="SOURCE_C;CortexM0p;;;;EZI2C_1_scl" />
   <file name="D:\Learn\Cypress\Light\Cypress\Uart_Both\Design01.cydsn\codegentemp\EZI2C_1_SCB_IRQ.c" value="SOURCE_C;CortexM0p;;;;EZI2C_1_SCB_IRQ" />
   <file name="D:\Learn\Cypress\Light\Cypress\Uart_Both\Design01.cydsn\codegentemp\EZI2C_1_SCB_IRQ.h" value="HEADER;;;;;EZI2C_1_SCB_IRQ" />
-  <file name="D:\Learn\Cypress\Light\Cypress\Uart_Both\Design01.cydsn\codegentemp\UART_1_SCBCLK.c" value="SOURCE_C;CortexM0p;;;;UART_1_SCBCLK" />
-  <file name="D:\Learn\Cypress\Light\Cypress\Uart_Both\Design01.cydsn\codegentemp\UART_1_SCBCLK.h" value="HEADER;;;;;UART_1_SCBCLK" />
   <file name="D:\Learn\Cypress\Light\Cypress\Uart_Both\Design01.cydsn\codegentemp\UART_1_tx.c" value="SOURCE_C;CortexM0p;;;;UART_1_tx" />
   <file name="D:\Learn\Cypress\Light\Cypress\Uart_Both\Design01.cydsn\codegentemp\UART_1_tx.h" value="HEADER;;;;;UART_1_tx" />
   <file name="D:\Learn\Cypress\Light\Cypress\Uart_Both\Design01.cydsn\codegentemp\UART_1_tx_aliases.h" value="HEADER;;;;;UART_1_tx" />
