@@ -118,9 +118,17 @@ int main(void)
                     Pin_9_Write( ( centroid > ( 4 * STEP_SIZE ) ) ? LED_ON : LED_OFF);
                     Pin_10_Write( ( centroid > ( 5 * STEP_SIZE ) ) ? LED_ON : LED_OFF);
                     
+#if 0
                     uint8_t data[1] = {0x67};
                     I2C_1_I2CMasterWriteBuf(0x03, data, 1, I2C_1_I2C_MODE_COMPLETE_XFER);
                     I2C_1_I2CMasterSendStart(8u, I2C_1_I2C_MODE_COMPLETE_XFER, 1000);
+#else
+                    uint8_t data[10] = {};
+                    I2C_1_I2CMasterReadBuf(0x68, data, 1, I2C_1_I2C_MODE_COMPLETE_XFER);
+                    I2C_1_I2CMasterReadByte(I2C_1_I2C_ACK_DATA, &data[0], 100u);
+                    data[0]++;
+                    
+#endif
                 }
                 else
                 {

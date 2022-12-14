@@ -20,6 +20,15 @@
 <v>Cypress Component Catalog\System</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
+<v>Cypress Component Catalog</v>
+<v>Cypress Component Catalog\Analog</v>
+<v>Cypress Component Catalog\CapSense</v>
+<v>Cypress Component Catalog\Communications</v>
+<v>Cypress Component Catalog\Communications\CAN Controller Macro [v3.0]</v>
+<v>Cypress Component Catalog\Communications\I2C</v>
+<v>Cypress Component Catalog\Communications\I2C\EZI2C Slave (SCB mode) [v4.0]</v>
+<v>Cypress Component Catalog\Communications\I2C\I2C (SCB mode) [v4.0]</v>
+<v>Cypress Component Catalog\Communications\LIN [v5.0]</v>
 <v>Cypress Component Catalog\Communications\SENT TX [v1.0]</v>
 <v>Cypress Component Catalog\Communications\Serial Communication Block (SCB) [v4.0]</v>
 <v>Cypress Component Catalog\Communications\SMBus/PMBus Slave</v>
@@ -74,6 +83,7 @@
 <v>Off-Chip Component Catalog\Passive</v>
 <v>Off-Chip Component Catalog\Power</v>
 <v>Off-Chip Component Catalog\Sensors</v>
+<v>Off-Chip Component Catalog\Transistors</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </tree_states>
