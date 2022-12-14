@@ -57,6 +57,9 @@ int main(void)
     CapSense_1_ScanAllWidgets();
     
     SmartIO_1_Start();
+    
+    I2C_1_Start();
+    
     for(;;)
     {
         
@@ -114,6 +117,10 @@ int main(void)
                     Pin_8_Write( ( centroid > ( 3 * STEP_SIZE ) ) ? LED_ON : LED_OFF);
                     Pin_9_Write( ( centroid > ( 4 * STEP_SIZE ) ) ? LED_ON : LED_OFF);
                     Pin_10_Write( ( centroid > ( 5 * STEP_SIZE ) ) ? LED_ON : LED_OFF);
+                    
+                    uint8_t data[1] = {0x67};
+                    I2C_1_I2CMasterWriteBuf(0x03, data, 1, I2C_1_I2C_MODE_COMPLETE_XFER);
+                    I2C_1_I2CMasterSendStart(8u, I2C_1_I2C_MODE_COMPLETE_XFER, 1000);
                 }
                 else
                 {

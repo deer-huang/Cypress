@@ -1,4 +1,4 @@
-D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\TopDesign\TopDesign.cysch
+D:\Learn\Cypress\Light\Cypress\IIC\Design01.cydsn\TopDesign\TopDesign.cysch
 E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\cy_pins_v2_20.cysym
 E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\cy_pins_v2_20.pdf
 E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_pins_v2_20\cy_pins_v2_20.cystate
@@ -280,7 +280,7 @@ E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary
 E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\SCB_P4_v4_0\PSoC4\API\SCB_BOOT.h
 E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_m0s8_scb_v2_0\cy_m0s8_scb_v2_0.cysym
 E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_m0s8_scb_v2_0\PSoC4\cy_m0s8_scb_v2_0.cyprimitive
-D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\Design01.cydwr
+D:\Learn\Cypress\Light\Cypress\IIC\Design01.cydsn\Design01.cydwr
 E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v6_0\PSoC4\API\cm0gcc.ld
 E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v6_0\PSoC4\API\Cm0RealView.scat
 E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v6_0\PSoC4\API\Cm0Start.c
