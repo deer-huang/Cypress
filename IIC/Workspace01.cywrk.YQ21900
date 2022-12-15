@@ -70,18 +70,6 @@
 <v>Workspace01\Design01\Generated_Source\PSoC4\I2C_1\I2C_1_BOOT.c</v>
 <v>Workspace01\Design01\Generated_Source\PSoC4\I2C_1\I2C_1_BOOT.h</v>
 <v>Workspace01\Design01\Generated_Source\PSoC4\I2C_1\I2C_1_I2C.c</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\I2C_1\I2C_1_I2C.h</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\I2C_1\I2C_1_I2C_BOOT.c</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\I2C_1\I2C_1_I2C_INT.c</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\I2C_1\I2C_1_I2C_MASTER.c</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\I2C_1\I2C_1_I2C_PVT.h</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\I2C_1\I2C_1_PINS.h</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\I2C_1\I2C_1_PM.c</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\I2C_1\I2C_1_PVT.h</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\I2C_1_SCB_IRQ</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\I2C_1_SCBCLK</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\I2C_1_scl</v>
-<v>Workspace01\Design01\Generated_Source\PSoC4\I2C_1_sda</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -187,6 +175,39 @@
 <VisibleNodeIds>
 <v>Workspace01</v>
 <v>Workspace01\Design01</v>
+<v>Workspace01\Design01\CortexM0p</v>
+<v>Workspace01\Design01\CortexM0p\ARM_GCC_541</v>
+<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug</v>
+<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files</v>
+<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_1_Centroid_LL.lst</v>
+<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_1_Control.lst</v>
+<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_1_Filter.lst</v>
+<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_1_INT.lst</v>
+<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_1_ISR.lst</v>
+<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_1_Processing.lst</v>
+<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_1_Sensing.lst</v>
+<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_1_SensingCSD_LL.lst</v>
+<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_1_Structure.lst</v>
+<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\CapSense_1_Tuner.lst</v>
+<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
+<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\Cm0plusStart.lst</v>
+<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\CyDMA.lst</v>
+<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_1.lst</v>
+<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_1_BOOT.lst</v>
+<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_1_EZI2C.lst</v>
+<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_1_EZI2C_BOOT.lst</v>
+<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_1_EZI2C_INT.lst</v>
+<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_1_PM.lst</v>
+<v>Workspace01\Design01\CortexM0p\ARM_GCC_541\Debug\Listing Files\EZI2C_1_SCB_IRQ.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -251,7 +272,7 @@
 <CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
 <indicators>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="36" DocumentName=".\Design01.cydsn\main.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="37" DocumentName=".\Design01.cydsn\main.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 </indicators>
 </CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
@@ -262,7 +283,8 @@
 <OpenDocs>
 <name v=".\Design01.cydsn\TopDesign\TopDesign.cysch" />
 <name v=".\Design01.cydsn\main.c" />
-<name v=".\Design01.cydsn\Generated_Source\PSoC4\CapSense_1_Configuration.h" />
+<name v=".\Design01.cydsn\Generated_Source\PSoC4\I2C_1_I2C.h" />
+<name v=".\Design01.cydsn\Generated_Source\PSoC4\I2C_1_I2C_MASTER.c" />
 <name v=".\Design01.cydsn\Design01.cydwr" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
@@ -271,7 +293,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1245, 699" SelectedTabbedMdiWindow="8e148036-870b-44db-beef-67b0114e4401"><DocumentWindow Key="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\TopDesign\TopDesign.cysch" Guid="8e148036-870b-44db-beef-67b0114e4401" /><DocumentWindow Key="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\main.c" Guid="ff3c1ced-c5c3-4ac0-b6b2-0ffef5f9a85f" /><DocumentWindow Key="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\Generated_Source\PSoC4\CapSense_1_Configuration.h" Guid="461f135c-9aef-49d1-9810-62c91ae9c0ff" /><DocumentWindow Key="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\Design01.cydwr" Guid="449960fa-34b2-4897-b099-ee7e6781758c" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1320, 699" SelectedTabbedMdiWindow="c3512f99-e4e4-4a02-847a-b87ceb4c33d4"><DocumentWindow Key="D:\Learn\Cypress\Light\Cypress\IIC\Design01.cydsn\TopDesign\TopDesign.cysch" Guid="ede014f9-a5a9-49f7-8be6-d2e1a8292040" /><DocumentWindow Key="D:\Learn\Cypress\Light\Cypress\IIC\Design01.cydsn\main.c" Guid="c3512f99-e4e4-4a02-847a-b87ceb4c33d4" /><DocumentWindow Key="D:\Learn\Cypress\Light\Cypress\IIC\Design01.cydsn\Generated_Source\PSoC4\I2C_1_I2C.h" Guid="8484dfdc-5e47-47e1-8549-cbcfe072ba30" /><DocumentWindow Key="D:\Learn\Cypress\Light\Cypress\IIC\Design01.cydsn\Generated_Source\PSoC4\I2C_1_I2C_MASTER.c" Guid="fb7b3733-1cd3-46fd-ad5d-5143d24908a0" /><DocumentWindow Key="D:\Learn\Cypress\Light\Cypress\IIC\Design01.cydsn\Design01.cydwr" Guid="f202ea9d-9ca0-4ede-ba98-6a246c8e42d9" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

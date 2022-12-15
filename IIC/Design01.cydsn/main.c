@@ -10,6 +10,7 @@
  * ========================================
 */
 #include "project.h"
+#include <stdio.h>
 
 #define ENABLE_TUNER (1u)
 
@@ -59,6 +60,9 @@ int main(void)
     SmartIO_1_Start();
     
     I2C_1_Start();
+    
+    /* Start the SW_Tx_UART Component */
+    SW_Tx_UART_Start();
     
     for(;;)
     {
@@ -123,10 +127,21 @@ int main(void)
                     I2C_1_I2CMasterWriteBuf(0x03, data, 1, I2C_1_I2C_MODE_COMPLETE_XFER);
                     I2C_1_I2CMasterSendStart(8u, I2C_1_I2C_MODE_COMPLETE_XFER, 1000);
 #else
-                    uint8_t data[10] = {};
+                    uint8_t seconds, ten_seconds, write_data, data[5] = {};
+                    write_data = 0x00;
                     I2C_1_I2CMasterReadBuf(0x68, data, 1, I2C_1_I2C_MODE_COMPLETE_XFER);
+                    I2C_1_I2CMasterWriteBuf(0x68, &write_data, 1, I2C_1_I2C_MODE_COMPLETE_XFER);
+                    I2C_1_I2CMasterSendStart(8u, I2C_1_I2C_MODE_COMPLETE_XFER, 1000);
+                    
                     I2C_1_I2CMasterReadByte(I2C_1_I2C_ACK_DATA, &data[0], 100u);
-                    data[0]++;
+                    
+                    seconds = data[0] & 0x0F;
+                    ten_seconds = ( (data[0] & 0x70)>>4);
+                    
+                    char8 test_str[50];
+                    sprintf((char *)test_str, "data[0]: %x \t seconds: %d \t ten_seconds: %d", data[0], seconds, ten_seconds);
+                    SW_Tx_UART_PutString(test_str);
+                    SW_Tx_UART_PutCRLF();
                     
 #endif
                 }

@@ -50,10 +50,10 @@ net Net_165
 	term   ":m0s8scbcell_2.i2c_scl"
 end Net_165
 net Net_166
-	term   ":ioport1:pin3.fb"
-	switch ":ioport1:pin3.fb==>:ioport1:smartio_mux_out3.direct_in"
-	switch ":ioport1:smartio_mux_out3.smartio_mux_out==>:ioport1:hsiom_in3.hsiom3_in"
-	switch ":ioport1:hsiom_in3.fixed_DPSLP_2==>:m0s8scbcell_2__i2c_sda__hsiom_permute.ioport1__fixed_out_p3_DPSLP_2"
+	term   ":ioport0:pin1.fb"
+	switch ":ioport0:pin1.fb==>:ioport0:smartio_mux_out1.direct_in"
+	switch ":ioport0:smartio_mux_out1.smartio_mux_out==>:ioport0:hsiom_in1.hsiom1_in"
+	switch ":ioport0:hsiom_in1.fixed_DPSLP_2==>:m0s8scbcell_2__i2c_sda__hsiom_permute.ioport0__fixed_out_p1_DPSLP_2"
 	switch ":m0s8scbcell_2__i2c_sda__hsiom_permute.m0s8scbcell_2__i2c_sda==>:m0s8scbcell_2.i2c_sda"
 	term   ":m0s8scbcell_2.i2c_sda"
 end Net_166

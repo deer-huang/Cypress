@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Workspace01\Design01\TopDesign">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Workspace01\Design01\Source Files\main.c">
 <ExpandedNodeIds>
 <v>Workspace01</v>
 <v>Workspace01\Design01</v>
@@ -258,9 +258,8 @@
 <Unloaded />
 <OpenDocs>
 <name v=".\Design01.cydsn\TopDesign\TopDesign.cysch" />
-<name v=".\Design01.cydsn\main.c" />
-<name v=".\Design01.cydsn\Generated_Source\PSoC4\CapSense_1_Configuration.h" />
 <name v=".\Design01.cydsn\Design01.cydwr" />
+<name v=".\Design01.cydsn\main.c" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -268,7 +267,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1301, 695" SelectedTabbedMdiWindow="8e148036-870b-44db-beef-67b0114e4401"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="ec1777ab-da4a-4f0a-9506-04ee8cbc09f6" /><DocumentWindow Key="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\TopDesign\TopDesign.cysch" Guid="8e148036-870b-44db-beef-67b0114e4401" /><DocumentWindow Key="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\main.c" Guid="ff3c1ced-c5c3-4ac0-b6b2-0ffef5f9a85f" /><DocumentWindow Key="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\Generated_Source\PSoC4\CapSense_1_Configuration.h" Guid="461f135c-9aef-49d1-9810-62c91ae9c0ff" /><DocumentWindow Key="D:\Learn\Cypress\Light\Cypress\CapSense\Design01.cydsn\Design01.cydwr" Guid="449960fa-34b2-4897-b099-ee7e6781758c" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="936, 483" SelectedTabbedMdiWindow="7ac4eb8c-abae-4b7e-a84b-e946611369c4"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="ec1777ab-da4a-4f0a-9506-04ee8cbc09f6" /><DocumentWindow Key="D:\Learn\Cypress\Light\Cypress\Uart_Only_Tx\Design01.cydsn\TopDesign\TopDesign.cysch" Guid="ac397e73-c797-4391-94cc-961902a32cbd" /><DocumentWindow Key="D:\Learn\Cypress\Light\Cypress\Uart_Only_Tx\Design01.cydsn\Design01.cydwr" Guid="38cc010e-d751-470a-93e7-c54d14a67354" /><DocumentWindow Key="D:\Learn\Cypress\Light\Cypress\Uart_Only_Tx\Design01.cydsn\main.c" Guid="7ac4eb8c-abae-4b7e-a84b-e946611369c4" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
