@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Workspace01\Design01\Design01.cydwr\Pins">
 <ExpandedNodeIds>
 <v>Workspace01</v>
 <v>Workspace01\Design01</v>
@@ -286,6 +286,7 @@
 <name v=".\Design01.cydsn\Generated_Source\PSoC4\I2C_1_I2C.h" />
 <name v=".\Design01.cydsn\Generated_Source\PSoC4\I2C_1_I2C_MASTER.c" />
 <name v=".\Design01.cydsn\Design01.cydwr" />
+<name v=".\Design01.cydsn\Generated_Source\PSoC4\I2C_1_I2C_PVT.h" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -293,7 +294,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1320, 699" SelectedTabbedMdiWindow="c3512f99-e4e4-4a02-847a-b87ceb4c33d4"><DocumentWindow Key="D:\Learn\Cypress\Light\Cypress\IIC\Design01.cydsn\TopDesign\TopDesign.cysch" Guid="ede014f9-a5a9-49f7-8be6-d2e1a8292040" /><DocumentWindow Key="D:\Learn\Cypress\Light\Cypress\IIC\Design01.cydsn\main.c" Guid="c3512f99-e4e4-4a02-847a-b87ceb4c33d4" /><DocumentWindow Key="D:\Learn\Cypress\Light\Cypress\IIC\Design01.cydsn\Generated_Source\PSoC4\I2C_1_I2C.h" Guid="8484dfdc-5e47-47e1-8549-cbcfe072ba30" /><DocumentWindow Key="D:\Learn\Cypress\Light\Cypress\IIC\Design01.cydsn\Generated_Source\PSoC4\I2C_1_I2C_MASTER.c" Guid="fb7b3733-1cd3-46fd-ad5d-5143d24908a0" /><DocumentWindow Key="D:\Learn\Cypress\Light\Cypress\IIC\Design01.cydsn\Design01.cydwr" Guid="f202ea9d-9ca0-4ede-ba98-6a246c8e42d9" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="936, 483" SelectedTabbedMdiWindow="fb7b3733-1cd3-46fd-ad5d-5143d24908a0"><DocumentWindow Key="D:\Learn\Cypress\Light\Cypress\IIC\Design01.cydsn\TopDesign\TopDesign.cysch" Guid="ede014f9-a5a9-49f7-8be6-d2e1a8292040" /><DocumentWindow Key="D:\Learn\Cypress\Light\Cypress\IIC\Design01.cydsn\main.c" Guid="c3512f99-e4e4-4a02-847a-b87ceb4c33d4" /><DocumentWindow Key="D:\Learn\Cypress\Light\Cypress\IIC\Design01.cydsn\Generated_Source\PSoC4\I2C_1_I2C.h" Guid="8484dfdc-5e47-47e1-8549-cbcfe072ba30" /><DocumentWindow Key="D:\Learn\Cypress\Light\Cypress\IIC\Design01.cydsn\Generated_Source\PSoC4\I2C_1_I2C_MASTER.c" Guid="fb7b3733-1cd3-46fd-ad5d-5143d24908a0" /><DocumentWindow Key="D:\Learn\Cypress\Light\Cypress\IIC\Design01.cydsn\Design01.cydwr" Guid="f202ea9d-9ca0-4ede-ba98-6a246c8e42d9" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="ec1777ab-da4a-4f0a-9506-04ee8cbc09f6" /><DocumentWindow Key="D:\Learn\Cypress\Light\Cypress\IIC\Design01.cydsn\Generated_Source\PSoC4\I2C_1_I2C_PVT.h" Guid="6ddce23a-6353-4690-aa80-5c5e4eec2acc" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

@@ -1,5 +1,5 @@
 -- Project:   Design01
--- Generated: 12/14/2022 20:39:49
+-- Generated: 12/15/2022 15:52:54
 -- PSoC Creator  4.4
 
 ENTITY Design01 IS
@@ -158,7 +158,7 @@ ARCHITECTURE __DEFAULT__ OF Design01 IS
     ATTRIBUTE Location OF Pin_7(0) : LABEL IS "P1[4]";
     ATTRIBUTE Location OF Pin_6(0) : LABEL IS "P1[2]";
     ATTRIBUTE Location OF Pin_5(0) : LABEL IS "P1[0]";
-    ATTRIBUTE Location OF \I2C_1:sda(0)\ : LABEL IS "P0[1]";
+    ATTRIBUTE Location OF \I2C_1:sda(0)\ : LABEL IS "P1[3]";
     ATTRIBUTE Location OF \I2C_1:scl(0)\ : LABEL IS "P0[0]";
     ATTRIBUTE Location OF \SW_Tx_UART:tx(0)\ : LABEL IS "P7[1]";
     ATTRIBUTE Location OF \SmartIO_1:cy_m0s8_prgio\ : LABEL IS "F(SmartIO,3)";

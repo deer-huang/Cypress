@@ -127,14 +127,20 @@ int main(void)
                     I2C_1_I2CMasterWriteBuf(0x03, data, 1, I2C_1_I2C_MODE_COMPLETE_XFER);
                     I2C_1_I2CMasterSendStart(8u, I2C_1_I2C_MODE_COMPLETE_XFER, 1000);
 #else
-                    uint8_t seconds, ten_seconds, write_data, data[5] = {};
-                    write_data = 0x00;
-                    I2C_1_I2CMasterReadBuf(0x68, data, 1, I2C_1_I2C_MODE_COMPLETE_XFER);
+                    uint8_t seconds, ten_seconds,  data[5] = {};
+                    volatile uint8_t write_data[2] = {0x02, 0x00};
+                    // write
+                    I2C_1_I2CMasterWriteBuf(0x68, (uint8_t*)write_data, 1, I2C_1_I2C_MODE_COMPLETE_XFER);
+                    // read
+                    //I2C_1_I2CMasterReadByte(I2C_1_I2C_ACK_DATA, &data[0], 100u);
+                    //I2C_1_I2CMasterReadBuf(0x68, data, 1, I2C_1_I2C_MODE_COMPLETE_XFER);
+                    
+                    /*
                     I2C_1_I2CMasterWriteBuf(0x68, &write_data, 1, I2C_1_I2C_MODE_COMPLETE_XFER);
                     I2C_1_I2CMasterSendStart(8u, I2C_1_I2C_MODE_COMPLETE_XFER, 1000);
                     
                     I2C_1_I2CMasterReadByte(I2C_1_I2C_ACK_DATA, &data[0], 100u);
-                    
+                    */
                     seconds = data[0] & 0x0F;
                     ten_seconds = ( (data[0] & 0x70)>>4);
                     
