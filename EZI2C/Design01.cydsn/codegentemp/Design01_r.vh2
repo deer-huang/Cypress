@@ -1,5 +1,5 @@
 -- Project:   Design01
--- Generated: 12/15/2022 18:39:22
+-- Generated: 12/15/2022 19:24:37
 -- PSoC Creator  4.4
 
 ENTITY Design01 IS
@@ -151,16 +151,16 @@ ARCHITECTURE __DEFAULT__ OF Design01 IS
     ATTRIBUTE Location OF \CapSense_1:Sns(5)\ : LABEL IS "P6[4]";
     ATTRIBUTE Location OF \CapSense_1:Sns(6)\ : LABEL IS "P6[5]";
     ATTRIBUTE Location OF \CapSense_1:Cmod(0)\ : LABEL IS "P4[1]";
-    ATTRIBUTE Location OF \EZI2C_1:sda(0)\ : LABEL IS "P3[1]";
-    ATTRIBUTE Location OF \EZI2C_1:scl(0)\ : LABEL IS "P3[0]";
+    ATTRIBUTE Location OF \EZI2C_1:sda(0)\ : LABEL IS "P1[1]";
+    ATTRIBUTE Location OF \EZI2C_1:scl(0)\ : LABEL IS "P4[0]";
     ATTRIBUTE Location OF Pin_10(0) : LABEL IS "P2[2]";
     ATTRIBUTE Location OF Pin_9(0) : LABEL IS "P2[0]";
     ATTRIBUTE Location OF Pin_8(0) : LABEL IS "P1[6]";
     ATTRIBUTE Location OF Pin_7(0) : LABEL IS "P1[4]";
     ATTRIBUTE Location OF Pin_6(0) : LABEL IS "P1[2]";
     ATTRIBUTE Location OF Pin_5(0) : LABEL IS "P1[0]";
-    ATTRIBUTE Location OF \EZI2C:sda(0)\ : LABEL IS "P1[3]";
-    ATTRIBUTE Location OF \EZI2C:scl(0)\ : LABEL IS "P0[0]";
+    ATTRIBUTE Location OF \EZI2C:sda(0)\ : LABEL IS "P3[1]";
+    ATTRIBUTE Location OF \EZI2C:scl(0)\ : LABEL IS "P3[0]";
     ATTRIBUTE Location OF \SW_Tx_UART:tx(0)\ : LABEL IS "P7[1]";
     ATTRIBUTE Location OF \PWM_1:cy_m0s8_tcpwm_1\ : LABEL IS "F(TCPWM,2)";
     ATTRIBUTE Location OF \SmartIO_1:cy_m0s8_prgio\ : LABEL IS "F(SmartIO,3)";
@@ -169,10 +169,10 @@ ARCHITECTURE __DEFAULT__ OF Design01 IS
     ATTRIBUTE Location OF \CapSense_1:CSD\ : LABEL IS "F(CSD,0)";
     ATTRIBUTE Location OF \CapSense_1:IDACMod\ : LABEL IS "F(CSIDAC7,0)";
     ATTRIBUTE Location OF \CapSense_1:IDACComp\ : LABEL IS "F(CSIDAC7,1)";
-    ATTRIBUTE Location OF \EZI2C_1:SCB_IRQ\ : LABEL IS "[IntrContainer=(0)][IntrId=(8)]";
-    ATTRIBUTE Location OF \EZI2C_1:SCB\ : LABEL IS "F(SCB,1)";
-    ATTRIBUTE Location OF \EZI2C:SCB_IRQ\ : LABEL IS "[IntrContainer=(0)][IntrId=(9)]";
-    ATTRIBUTE Location OF \EZI2C:SCB\ : LABEL IS "F(SCB,2)";
+    ATTRIBUTE Location OF \EZI2C_1:SCB_IRQ\ : LABEL IS "[IntrContainer=(0)][IntrId=(7)]";
+    ATTRIBUTE Location OF \EZI2C_1:SCB\ : LABEL IS "F(SCB,0)";
+    ATTRIBUTE Location OF \EZI2C:SCB_IRQ\ : LABEL IS "[IntrContainer=(0)][IntrId=(8)]";
+    ATTRIBUTE Location OF \EZI2C:SCB\ : LABEL IS "F(SCB,1)";
     COMPONENT interrupt
         PORT (
             interrupt : IN std_ulogic;
@@ -464,11 +464,10 @@ BEGIN
             lfclk => ClockBlock_LFClk,
             wco => ClockBlock_WCO,
             ff_div_5 => \CapSense_1:Net_1423_ff5\,
-            ff_div_0 => open,
+            ff_div_0 => \EZI2C_1:Net_847_ff0\,
+            ff_div_1 => \EZI2C:Net_847_ff1\,
             ff_div_6 => open,
             ff_div_7 => open,
-            ff_div_1 => \EZI2C_1:Net_847_ff0\,
-            ff_div_2 => \EZI2C:Net_847_ff1\,
             ff_div_8 => Net_9_ff6,
             ff_div_9 => Net_9_ff7);
 

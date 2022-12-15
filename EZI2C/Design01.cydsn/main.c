@@ -1,12 +1,8 @@
 /* ========================================
- *
- * Copyright YOUR COMPANY, THE YEAR
- * All Rights Reserved
- * UNPUBLISHED, LICENSED SOFTWARE.
- *
- * CONFIDENTIAL AND PROPRIETARY INFORMATION
- * WHICH IS THE PROPERTY OF your company.
- *
+    connect with Cypress Board
+I2C:
+    SCL:3.0
+    SDA:3.1
  * ========================================
 */
 #include "project.h"
@@ -130,7 +126,7 @@ int main(void)
                     Pin_10_Write( ( centroid > ( 5 * STEP_SIZE ) ) ? LED_ON : LED_OFF);
                     
 #if 1
-                    
+                    Data_buf[0] = centroid;
 #endif
                 }
                 else
