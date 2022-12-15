@@ -1,0 +1,7 @@
+D:\Learn\Cypress\Light\Cypress\EZI2C\Design01.cydsn\Design01.cyprj|de53b5bb-9a7d-4a43-89e6-3b09a02ac30b
+E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|7022cda4-246c-46cd-847d-7c74b033a78c
+C:\Users\yq21900\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|2d0e87da-030d-45ad-a761-ff9dcca7c668
+C:\Users\yq21900\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|32c0cb9d-00e9-45f3-a4e2-151cd0a12d36
+E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|8c903df9-ab39-4470-85f8-2a28f4a17756
+E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|e89cd99d-7dff-4586-ac0a-82cdbaac1b31
+E:\SoftLoc\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|66ff6ffe-95ca-4afe-912c-e41c266fea72
